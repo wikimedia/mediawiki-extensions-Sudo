@@ -132,11 +132,10 @@ class SpecialSudo extends SpecialPage {
 	}
 	
 	function showError( $error ) {
-		$wgOut->addHTML(
-			Xml::openElement('div', array( 'class' => 'sudo-error' )).
-			wfMsgHtml('sudo-error',wfMsg($error)).
-			Xml::closeElement('div')
-		);
+		global $wgOut;
+		$wgOut->addHTML( Xml::openElement('div', array( 'class' => 'sudo-error' )) );
+		$wgOut->addWikiText( wfMsg('sudo-error',wfMsg($error)) );
+		$wgOut->addHTML( Xml::closeElement('div') );
 	}
 	
 	function showErrors() {
