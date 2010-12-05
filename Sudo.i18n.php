@@ -2,7 +2,7 @@
 /**
  * Sudo
  * @package Sudo
- * @author Daniel Friesen (http://www.wikia.com/wiki/User:Dantman) <wiki@danielfriesen.name>
+ * @author Daniel Friesen (http://mediawiki.org/wiki/User:Dantman) <mediawiki@danielfriesen.name>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * 
  * This program is free software; you can redistribute it and/or
@@ -47,4 +47,5 @@ $messages['en'] = array(
 	'sudo-logpagename'            => 'Sudo log',
 	'sudo-logpagetext'            => 'This is a log of all uses of sudo.',
 	'sudo-logentry'               => 'sudoed into $2',
+	'right-sudo'                  => "Login to another user's account",
 );

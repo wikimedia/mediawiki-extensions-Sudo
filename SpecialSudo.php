@@ -2,7 +2,7 @@
 /**
  * Sudo
  * @package Sudo
- * @author Daniel Friesen (http://www.wikia.com/wiki/User:Dantman) <wiki@danielfriesen.name>
+ * @author Daniel Friesen (http://mediawiki.org/wiki/User:Dantman) <mediawiki@danielfriesen.name>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * 
  * This program is free software; you can redistribute it and/or
@@ -26,7 +26,7 @@ class SpecialSudo extends SpecialPage {
 	protected $mMode, $mSkin, $mTarget, $mReason, $mErrors;
 	
 	function __construct() {
-		SpecialPage::SpecialPage( 'Sudo', 'sudo' );
+		parent::__construct( 'Sudo', 'sudo' );
 		wfLoadExtensionMessages('Sudo');
 	}
 	 
@@ -150,7 +150,7 @@ class SpecialSudo extends SpecialPage {
 		global $wgOut, $wgUser;
 		$u = User::newFromName( $this->mTarget );
 		if( is_null($u) ) return $this->addError('sudo-error-sudo-invaliduser');
-		if( User::isIP($u->getName()) || User::isIPv6($u->getName()) ) return $this->addError('sudo-error-ip');
+		if( User::isIP($u->getName()) ) return $this->addError('sudo-error-ip');
 		if( $u->isAnon() ) return $this->addError('sudo-error-sudo-nonexistant');
 		if( $u->getName() === $wgUser->getName() ) return $this->addError('sudo-error-sudo-self');
 		

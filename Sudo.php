@@ -2,7 +2,7 @@
 /**
  * Sudo
  * @package Sudo
- * @author Daniel Friesen (http://mediawiki.org/wiki/User:Dantman) <wiki@danielfriesen.name>
+ * @author Daniel Friesen (http://mediawiki.org/wiki/User:Dantman) <mediawiki@danielfriesen.name>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * 
  * This program is free software; you can redistribute it and/or
@@ -22,11 +22,11 @@
 
 if( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
 
-$wgExtensionCredits['otjher'][] = array (
+$wgExtensionCredits['other'][] = array (
 	'name' => 'Sudo',
-	'url' => 'http://wiki-tools.com/wiki/Sudo',
-	'version' => '0.1a',
-	'author' => "[http://mediawiki.org/wiki/User:Dantman Daniel Friesen] [mailto:Daniel%20Friesen%20%3Cwiki@danielfriesen.name%3E <dan_the_man@telus.net>]",
+	'url' => 'http://mediawiki.org/wiki/Extension:Sudo',
+	'version' => '0.2',
+	'author' => "[http://mediawiki.org/wiki/User:Dantman Daniel Friesen] [mailto:Daniel%20Friesen%20%3Cmediawiki@danielfriesen.name%3E <mediawiki@danielfriesen.name>]",
 	'description' => "Allows sudoers to login as other users."
 );
 
