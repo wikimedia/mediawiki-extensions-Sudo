@@ -30,16 +30,18 @@ if( !defined( 'MEDIAWIKI' ) ) {
 
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['other'][] = array(
+	'path' => __FILE__,
 	'name' => 'Sudo',
-	'version' => '0.2',
+	'version' => '0.2.1',
 	'author' => '[http://www.mediawiki.org/wiki/User:Dantman Daniel Friesen] [mailto:Daniel%20Friesen%20%3Cmediawiki@danielfriesen.name%3E <mediawiki@danielfriesen.name>]',
-	'description' => 'Allows sudoers to login as other users.',
+	'descriptionmsg' => 'sudo-desc',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:Sudo',
 );
 
 // Set up i18n and the new special page
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['Sudo'] = $dir . 'Sudo.i18n.php';
+$wgExtensionAliasesFiles['Sudo'] = $dir . 'Sudo.alias.php';
 $wgAutoloadClasses['SpecialSudo'] = $dir . 'SpecialSudo.php';
 $wgSpecialPages['Sudo']           = 'SpecialSudo';
 $wgSpecialPageGroups['Sudo']      = 'users';
