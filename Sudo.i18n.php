@@ -52,10 +52,29 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author EugeneZelenko
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
 	'sudo-desc' => '{{desc}}',
+	'sudo-user' => '{{Identical|Username}}',
+	'sudo-reason' => '{{Identical|Reason}}',
+	'sudo-submit' => '{{Identical|Login}}',
+);
+
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'sudo' => 'Увайсьці ў рахунак іншага удзельніка',
+	'unsudo' => 'Вярнуцца ў Ваш рахунак',
+	'sudo-desc' => 'Дазваляе выбраным удзельнікам уваходзіць ў сыстэму як іншыя ўдзельнікі',
+	'sudo-personal-unsudo' => 'Вярнуцца ў Ваш рахунак',
+	'sudo-form' => 'Увайсьці ў:',
+	'sudo-user' => 'Імя ўдзельніка:',
+	'sudo-reason' => 'Прычына:',
+	'sudo-submit' => 'Увайсьці',
 );
 
 /** German (Deutsch)
@@ -64,14 +83,14 @@ $messages['qqq'] = array(
  */
 $messages['de'] = array(
 	'sudo' => 'Mit anderem Benutzerkonto anmelden',
-	'unsudo' => 'Zu deinem eigenen Benutzerkonto zurückkehren',
+	'unsudo' => 'Zum eigenen Benutzerkonto zurückkehren',
 	'sudo-desc' => 'Ermöglicht die Anmeldung mit einem anderen Benutzerkonto als dem Eigenen („sudo“)',
-	'sudo-personal-unsudo' => 'Zu deinem eigenen Benutzerkonto zurückkehren',
+	'sudo-personal-unsudo' => 'Zum eigenen Benutzerkonto zurückkehren',
 	'sudo-form' => 'Anmelden als:',
 	'sudo-user' => 'Benutzername:',
 	'sudo-reason' => 'Grund:',
 	'sudo-submit' => 'Anmelden',
-	'sudo-unsudo' => 'Willkommen $1, du bist momentan als Benutzer „$2“ im Wiki angemeldet. Sende einfach das Formular, um zu deinem normalen Benutzerkonto zurückzukehren.',
+	'sudo-unsudo' => 'Willkommen $1, du bist momentan als Benutzer „$2“ im Wiki angemeldet. Klicke auf „{{int:sudo-unsudo-submit}}“, um zu deinem eigenen Benutzerkonto zurückzukehren.',
 	'sudo-unsudo-submit' => 'Zurückkehren',
 	'sudo-success' => 'Willkommen $1, du bist jetzt im Wiki als Benutzer „$2“ angemeldet.',
 	'sudo-error' => 'Sudo-Fehler: $1',
@@ -86,6 +105,35 @@ $messages['de'] = array(
 	'right-sudo' => 'Mit anderem Benutzerkonto anmelden',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'sudo' => 'Ke kontu druheho wužiwarja so přizjewić',
+	'unsudo' => 'Wróćo k twojemu kontu',
+	'sudo-personal-unsudo' => 'Wróćo k twojemu kontu',
+	'sudo-form' => 'Přizjewić so jako:',
+	'sudo-user' => 'Wužiwarske mjeno:',
+	'sudo-reason' => 'Přičina:',
+	'sudo-submit' => 'Přizjewjenje',
+	'sudo-unsudo-submit' => 'Wróćić so',
+	'sudo-error' => 'Sudo-zmylk: $1',
+	'sudo-error-sudo-invaliduser' => 'Njepłaćiwe wužiwarske mjeno',
+	'sudo-error-sudo-nonexistent' => 'Tón wužiwar njeeksistuje',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'sudo' => 'Mat engem anere Benotzerkont aloggen',
+	'unsudo' => 'Zréck op Äre Benotzerkont',
+	'sudo-user' => 'Benotzernumm:',
+	'sudo-reason' => 'Grond:',
+	'sudo-error-sudo-invaliduser' => 'Ongëltege Benotzernumm',
+	'sudo-error-sudo-nonexistent' => 'Dee Benotzer gëtt et net.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -98,7 +146,7 @@ $messages['mk'] = array(
 	'sudo-user' => 'Корисничко име:',
 	'sudo-reason' => 'Причина:',
 	'sudo-submit' => 'Најава',
-	'sudo-unsudo' => 'Добредојдовте, $1. Моментално сте најавени на викито како $2. За да се вратите на вашата редовна сметка, едноставно поднесете го образецот.',
+	'sudo-unsudo' => 'Добредојдовте, $1. Моментално сте најавени на викито како $2. За да се вратите на вашата редовна сметка, кликнете на „{{int:sudo-unsudo-submit}}“.',
 	'sudo-unsudo-submit' => 'Назад',
 	'sudo-success' => 'Добредојдовте, $1. Сега сте најавени на викито како $2.',
 	'sudo-error' => 'Грешка во Sudo: $1',
@@ -111,6 +159,33 @@ $messages['mk'] = array(
 	'sudo-logpagetext' => 'Ова е дневник на сите употреби на Sudo',
 	'sudo-logentry' => 'најава на сметката на $2',
 	'right-sudo' => 'Најавување на туѓа сметка',
+);
+
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'sudo' => 'Zaloguj się jako inny użytkownik',
+	'unsudo' => 'Powrócić do własnego konta',
+	'sudo-desc' => 'Pozwala wybranym użytkownikom logować się na konta innych',
+	'sudo-personal-unsudo' => 'Powrócić do własnego konta',
+	'sudo-form' => 'Zaloguj się jako',
+	'sudo-user' => 'Nazwa użytkownika',
+	'sudo-reason' => 'Powód',
+	'sudo-submit' => 'Zaloguj',
+	'sudo-unsudo' => 'Witaj $1. Jesteś obecnie zalogowany do wiki jako $2. Kliknij „{{int:sudo-unsudo-submit}}”, a wrócisz do swojego własnego konta.',
+	'sudo-unsudo-submit' => 'Wróć',
+	'sudo-success' => 'Witaj $1. Jesteś teraz zalogowany do wiki jako $2.',
+	'sudo-error' => 'Błąd zmiany zalogowania $1',
+	'sudo-error-sudo-invaliduser' => 'Nieprawidłowa nazwa użytkownika',
+	'sudo-error-sudo-ip' => 'Nie można zalogować się jako adres IP',
+	'sudo-error-sudo-nonexistent' => 'Taki użytkownik nie istnieje',
+	'sudo-error-sudo-self' => 'Nie można przelogować się na własne konto',
+	'sudo-error-nosudo' => 'Nie wygląda na to abyś był zalogowany na inne konto',
+	'sudo-logpagename' => 'Rejestr zmian zalogowania się',
+	'sudo-logpagetext' => 'Jest to rejestr wszystkich zdarzeń zmian zalogowania się.',
+	'sudo-logentry' => 'zalogowany jako $2',
+	'right-sudo' => 'Zaloguj się jako inny użytkownik',
 );
 
 /** Telugu (తెలుగు)
