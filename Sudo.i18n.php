@@ -122,14 +122,44 @@ $messages['hsb'] = array(
 	'sudo-error-sudo-nonexistent' => 'Tón wužiwar njeeksistuje',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'sudo' => 'Aperir session in le conto de un altere usator',
+	'unsudo' => 'Retornar al proprie conto',
+	'sudo-desc' => 'Permitte a "transauthenticatores" de aperir session in le conto de altere usatores',
+	'sudo-personal-unsudo' => 'Retornar al proprie conto',
+	'sudo-form' => 'Aperir session como:',
+	'sudo-user' => 'Nomine de usator:',
+	'sudo-reason' => 'Motivo:',
+	'sudo-submit' => 'Aperir session',
+	'sudo-unsudo' => 'Benvenite $1, tu es ora authenticate in le wiki como $2. Clicca super "{{int:sudo-unsudo-submit}}" pro retornar a tu proprie conto de usator.',
+	'sudo-unsudo-submit' => 'Retornar',
+	'sudo-success' => 'Benvenite $1, tu es ora authenticate in le wiki como $2.',
+	'sudo-error' => 'Error de transauthentication: $1',
+	'sudo-error-sudo-invaliduser' => 'Nomine de usator invalide',
+	'sudo-error-sudo-ip' => 'Non es possibile aperir session como un adresse IP',
+	'sudo-error-sudo-nonexistent' => 'Iste usator non existe',
+	'sudo-error-sudo-self' => 'Non es possibile transauthenticar se al proprie conto',
+	'sudo-error-nosudo' => 'Tu non pare esser in un session transauthenticate',
+	'sudo-logpagename' => 'Registro de transauthentication',
+	'sudo-logpagetext' => 'Isto es un registro de tote le usos del facilitate de transauthentication.',
+	'sudo-logentry' => 'aperiva session in le conto de $2',
+	'right-sudo' => 'Aperir session in le conto de un altere usator',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
 	'sudo' => 'Mat engem anere Benotzerkont aloggen',
 	'unsudo' => 'Zréck op Äre Benotzerkont',
+	'sudo-personal-unsudo' => 'Zréck op Äre Benotzerkont',
+	'sudo-form' => 'Aloggen als:',
 	'sudo-user' => 'Benotzernumm:',
 	'sudo-reason' => 'Grond:',
+	'sudo-unsudo-submit' => 'Zréck',
 	'sudo-error-sudo-invaliduser' => 'Ongëltege Benotzernumm',
 	'sudo-error-sudo-nonexistent' => 'Dee Benotzer gëtt et net.',
 );
