@@ -149,6 +149,33 @@ $messages['ia'] = array(
 	'right-sudo' => 'Aperir session in le conto de un altere usator',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
+ */
+$messages['id'] = array(
+	'sudo' => 'Masuk ke akun pengguna lain',
+	'unsudo' => 'Kembali ke akun Anda',
+	'sudo-desc' => 'Mengizinkan seorang pengguna untuk masuk sebagai pengguna lain (sudo)',
+	'sudo-personal-unsudo' => 'Kembali ke akun Anda',
+	'sudo-form' => 'Masuk ke:',
+	'sudo-user' => 'Nama pengguna:',
+	'sudo-reason' => 'Alasan:',
+	'sudo-submit' => 'Masuk',
+	'sudo-unsudo' => 'Selamat datang $1, Anda saat ini masuk ke wiki sebagai $2. Klik "{{int:sudo-unsudo-submit}}" untuk kembali masuk dengan akun Anda sendiri.',
+	'sudo-unsudo-submit' => 'Kembali',
+	'sudo-success' => 'Selamat datang $1, sekarang Anda masuk ke wiki sebagai $2.',
+	'sudo-error' => 'Galat sudo: $1',
+	'sudo-error-sudo-invaliduser' => 'Nama pengguna tidak sah',
+	'sudo-error-sudo-ip' => 'Tidak dapat masuk dengan menggunakan alamat IP',
+	'sudo-error-sudo-nonexistent' => 'Pengguna tidak ada',
+	'sudo-error-sudo-self' => 'Tidak dapat sudo ke akun Anda sendiri',
+	'sudo-error-nosudo' => 'Anda tampaknya tidak sedang menggunakan sudo',
+	'sudo-logpagename' => 'Log sudo',
+	'sudo-logpagetext' => 'Berikut adalah log semua penggunaan sudo.',
+	'sudo-logentry' => 'masuk ke dalam akun $2',
+	'right-sudo' => 'Masuk ke akun pengguna lain',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -191,6 +218,29 @@ $messages['mk'] = array(
 	'right-sudo' => 'Најавување на туѓа сметка',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'sudo-form' => 'Aanmelden als:',
+	'sudo-user' => 'Gebruikersnaam:',
+	'sudo-reason' => 'Reden:',
+	'sudo-submit' => 'Aanmelden',
+	'sudo-unsudo' => 'Welkom, $1. U bent nu aangemeld bij de wiki als $2. Klik op "{{int:sudo-unsudo-submit}}" om terug te keren naar uw eigen gebruiker.',
+	'sudo-unsudo-submit' => 'Terug',
+	'sudo-success' => 'Welkom $1. U bent u bij de wiki aangemeld als $2.',
+	'sudo-error' => 'Sudo-fout: $1',
+	'sudo-error-sudo-invaliduser' => 'Ongeldige gebruikersnaam',
+	'sudo-error-sudo-ip' => 'Het is niet mogelijk aan te melden als een anonieme gebruiker',
+	'sudo-error-sudo-nonexistent' => 'Die gebruiker bestaat niet',
+	'sudo-error-sudo-self' => 'Het is niet mogelijk een sudo naar uzelf uit te voeren',
+	'sudo-error-nosudo' => 'U bevindt zich niet in een sudosessie',
+	'sudo-logpagename' => 'Sudologboek',
+	'sudo-logpagetext' => 'Dit logboek bevat alle keren dat sudo gebruikt is.',
+	'sudo-logentry' => 'heeft aangemeld als $2',
+	'right-sudo' => 'Aanmelden als een andere gebruiker',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  */
@@ -216,6 +266,33 @@ $messages['pl'] = array(
 	'sudo-logpagetext' => 'Jest to rejestr wszystkich zdarzeń zmian zalogowania się.',
 	'sudo-logentry' => 'zalogowany jako $2',
 	'right-sudo' => 'Zaloguj się jako inny użytkownik',
+);
+
+/** Russian (Русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'sudo' => 'Войти в учетную запись другого пользователя',
+	'unsudo' => 'Вернуться к вашей учетной записи',
+	'sudo-desc' => 'Позволяет судоерам войти в качестве другого пользователей',
+	'sudo-personal-unsudo' => 'Вернуться к вашей учетной записи',
+	'sudo-form' => 'Войти:',
+	'sudo-user' => 'Имя участника:',
+	'sudo-reason' => 'Причина:',
+	'sudo-submit' => 'Представиться',
+	'sudo-unsudo' => 'Приветствуем $1, вы вошли как $2. Нажмите "{{int:sudo-unsudo-submit}}" чтобы вернуться в свою учётную запись.',
+	'sudo-unsudo-submit' => 'Вернуться',
+	'sudo-success' => 'Приветствуем $1, вы вошли как $2.',
+	'sudo-error' => 'Судо-ошибка: $1',
+	'sudo-error-sudo-invaliduser' => 'Неправильное имя участника',
+	'sudo-error-sudo-ip' => 'Не удалось войти в IP-адрес',
+	'sudo-error-sudo-nonexistent' => 'Целевой участник не существует.',
+	'sudo-error-sudo-self' => 'Нельзя войти в себя',
+	'sudo-error-nosudo' => 'Вы не представились в Sudo',
+	'sudo-logpagename' => 'Журнал Sudo',
+	'sudo-logpagetext' => 'Это журнал всех использований Sudo.',
+	'sudo-logentry' => 'вошел в учетную запись $2',
+	'right-sudo' => 'Войти в учетную запись другого пользователя',
 );
 
 /** Telugu (తెలుగు)
