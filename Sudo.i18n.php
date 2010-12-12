@@ -105,6 +105,16 @@ $messages['de'] = array(
 	'right-sudo' => 'Mit anderem Benutzerkonto anmelden',
 );
 
+/** French (Français)
+ * @author Otourly
+ */
+$messages['fr'] = array(
+	'sudo-user' => 'Nom d’utilisateur :',
+	'sudo-reason' => 'Raison :',
+	'sudo-submit' => 'Connexion',
+	'sudo-error-sudo-invaliduser' => 'Nom d’utilisateur invalide',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -268,6 +278,33 @@ $messages['pl'] = array(
 	'right-sudo' => 'Zaloguj się jako inny użytkownik',
 );
 
+/** Portuguese (Português)
+ * @author Waldir
+ */
+$messages['pt'] = array(
+	'sudo' => 'Iniciar sessão na conta de outro utilizador',
+	'unsudo' => 'Retornar para a sua conta',
+	'sudo-desc' => 'Permite iniciar sessão como outros utilizadores',
+	'sudo-personal-unsudo' => 'Retornar para a sua conta',
+	'sudo-form' => 'Iniciar sessão em:',
+	'sudo-user' => 'Nome de utilizador:',
+	'sudo-reason' => 'Motivo:',
+	'sudo-submit' => 'Iniciar sessão',
+	'sudo-unsudo' => 'Bem-vindo, $1, você atualmete tem sessão iniciada na wiki como $2. Clique em "{{int:sudo-unsudo-submit}}" para retornar à sua própria conta.',
+	'sudo-unsudo-submit' => 'Voltar',
+	'sudo-success' => 'Bem-vindo, $1, você está agora autenticado na wiki como $2.',
+	'sudo-error' => 'Erro do Sudo: $1',
+	'sudo-error-sudo-invaliduser' => 'Nome de utilizador inválido',
+	'sudo-error-sudo-ip' => 'Não é possível iniciar sessão como um endereço IP',
+	'sudo-error-sudo-nonexistent' => 'Esse utilizador não existe',
+	'sudo-error-sudo-self' => 'Não é possível fazer sudo em si mesmo',
+	'sudo-error-nosudo' => 'Você não parece estar dentro de uma conta sudo',
+	'sudo-logpagename' => 'Registo do Sudo',
+	'sudo-logpagetext' => 'Este é um registo de todas as utilizações do sudo.',
+	'sudo-logentry' => 'Autenticado na conta de $2',
+	'right-sudo' => 'Iniciar sessão na conta de outro utilizador',
+);
+
 /** Russian (Русский)
  * @author DCamer
  */
@@ -301,5 +338,12 @@ $messages['ru'] = array(
 $messages['te'] = array(
 	'sudo-user' => 'వాడుకరిపేరు',
 	'sudo-reason' => 'కారణం:',
+);
+
+/** Ukrainian (Українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'sudo-reason' => 'Причина:',
 );
 
