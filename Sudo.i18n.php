@@ -232,6 +232,10 @@ $messages['mk'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
+	'sudo' => 'Aanmelden als een andere gebruiker',
+	'unsudo' => 'Terugkeren naar uw eigen gebruiker',
+	'sudo-desc' => 'Staat gebruikers met het recht "sudo" toe als andere gebruikers aan te melden',
+	'sudo-personal-unsudo' => 'Terugkeren naar uw eigen gebruiker',
 	'sudo-form' => 'Aanmelden als:',
 	'sudo-user' => 'Gebruikersnaam:',
 	'sudo-reason' => 'Reden:',
