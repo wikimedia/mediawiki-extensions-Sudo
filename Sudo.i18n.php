@@ -127,9 +127,15 @@ $messages['hsb'] = array(
 	'sudo-reason' => 'Přičina:',
 	'sudo-submit' => 'Přizjewjenje',
 	'sudo-unsudo-submit' => 'Wróćić so',
+	'sudo-success' => 'Witaj $1, sy nětko pola wikija $2 přizjewjeny.',
 	'sudo-error' => 'Sudo-zmylk: $1',
 	'sudo-error-sudo-invaliduser' => 'Njepłaćiwe wužiwarske mjeno',
+	'sudo-error-sudo-ip' => 'Přizjewjenje z IP-adresu njeje móžno',
 	'sudo-error-sudo-nonexistent' => 'Tón wužiwar njeeksistuje',
+	'sudo-logpagename' => 'Sudo-protokol',
+	'sudo-logpagetext' => 'To je protokol wšěch wužićow sudo.',
+	'sudo-logentry' => 'je so pola konta $2 přizjewił',
+	'right-sudo' => 'Pola konta druheho wužiwarja so přizjewić',
 );
 
 /** Interlingua (Interlingua)
