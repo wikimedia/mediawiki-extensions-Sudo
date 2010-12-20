@@ -223,6 +223,14 @@ $messages['id'] = array(
 	'right-sudo' => 'Masuk ke akun pengguna lain',
 );
 
+/** Japanese (日本語)
+ * @author Ohgi
+ */
+$messages['ja'] = array(
+	'sudo-user' => '利用者名：',
+	'sudo-reason' => '理由：',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
