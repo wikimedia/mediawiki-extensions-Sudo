@@ -75,6 +75,8 @@ $messages['be-tarask'] = array(
 	'sudo-user' => 'Імя ўдзельніка:',
 	'sudo-reason' => 'Прычына:',
 	'sudo-submit' => 'Увайсьці',
+	'sudo-unsudo' => 'Вітаем, $1! Цяпер Вы ўвайшлі ў {{GRAMMAR:вінавальны|{{SITENAME}}}} як $2. Націсьніце «{{int:sudo-unsudo-submit}}» каб вярнуцца ў свой рахунак.',
+	'sudo-unsudo-submit' => 'Вярнуцца',
 );
 
 /** German (Deutsch)
