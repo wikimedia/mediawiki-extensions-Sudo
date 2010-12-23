@@ -77,6 +77,13 @@ $messages['be-tarask'] = array(
 	'sudo-submit' => 'Увайсьці',
 	'sudo-unsudo' => 'Вітаем, $1! Цяпер Вы ўвайшлі ў {{GRAMMAR:вінавальны|{{SITENAME}}}} як $2. Націсьніце «{{int:sudo-unsudo-submit}}» каб вярнуцца ў свой рахунак.',
 	'sudo-unsudo-submit' => 'Вярнуцца',
+	'sudo-success' => 'Вітаем, $1! Цяпер Вы ўвайшлі ў {{GRAMMAR:вінавальны|{{SITENAME}}}} як $2.',
+	'sudo-error' => 'Памылка уваходу ў сыстэму як іншага ўдзельніка: $1',
+	'sudo-error-sudo-invaliduser' => 'Няслушнае імя ўдзельніка',
+	'sudo-error-sudo-ip' => 'Немагчыма ўвайсьці ў IP-адрас',
+	'sudo-error-sudo-nonexistent' => 'Гэты рахунак не існуе',
+	'sudo-error-sudo-self' => 'Немагчыма пераўвайсьці ва ўласны рахунак',
+	'sudo-error-nosudo' => 'Выглядае, што Вы не ўвайшлі ў рахунак, які дазваляе уваход ў сыстэму як іншага ўдзельніка',
 );
 
 /** German (Deutsch)
