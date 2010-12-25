@@ -84,6 +84,10 @@ $messages['be-tarask'] = array(
 	'sudo-error-sudo-nonexistent' => 'Гэты рахунак не існуе',
 	'sudo-error-sudo-self' => 'Немагчыма пераўвайсьці ва ўласны рахунак',
 	'sudo-error-nosudo' => 'Выглядае, што Вы не ўвайшлі ў рахунак, які дазваляе уваход ў сыстэму як іншага ўдзельніка',
+	'sudo-logpagename' => 'Журнал уваходаў у рахункі іншых удзельнікаў',
+	'sudo-logpagetext' => 'Гэта журнал усіх уваходаў у рахункі іншых удзельнікаў.',
+	'sudo-logentry' => 'увайшоў у рахунак $2',
+	'right-sudo' => 'уваход ў рахункі іншых удзельнікаў',
 );
 
 /** German (Deutsch)
@@ -250,9 +254,11 @@ $messages['lb'] = array(
 	'sudo-form' => 'Aloggen als:',
 	'sudo-user' => 'Benotzernumm:',
 	'sudo-reason' => 'Grond:',
+	'sudo-submit' => 'Umellen',
 	'sudo-unsudo-submit' => 'Zréck',
 	'sudo-error-sudo-invaliduser' => 'Ongëltege Benotzernumm',
 	'sudo-error-sudo-nonexistent' => 'Dee Benotzer gëtt et net.',
+	'sudo-logpagename' => 'Sudo-Logbuch',
 );
 
 /** Macedonian (Македонски)
@@ -307,6 +313,33 @@ $messages['nl'] = array(
 	'sudo-logpagetext' => 'Dit logboek bevat alle keren dat sudo gebruikt is.',
 	'sudo-logentry' => 'heeft aangemeld als $2',
 	'right-sudo' => 'Aanmelden als een andere gebruiker',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'sudo' => 'Logg inn på en annen brukers konto',
+	'unsudo' => 'Gå tilbake til din konto',
+	'sudo-desc' => 'Tillat sudoere å logge inn som andre brukere',
+	'sudo-personal-unsudo' => 'Gå tilbake til din konto',
+	'sudo-form' => 'Logg inn på:',
+	'sudo-user' => 'Brukernavn:',
+	'sudo-reason' => 'Årsak:',
+	'sudo-submit' => 'Logg inn',
+	'sudo-unsudo' => 'Velkommen $1, du er nå logget inn på wikien som $2. Klikk på «{{int:sudo-unsudo-submit}}» for å gå tilbake til din egen pålogging.',
+	'sudo-unsudo-submit' => 'Tilbake',
+	'sudo-success' => 'Velkommen $1, du er nå logget inn på wikien som $2.',
+	'sudo-error' => 'Sudo-feil: $1',
+	'sudo-error-sudo-invaliduser' => 'Ugyldig brukernavn',
+	'sudo-error-sudo-ip' => 'Kan ikke logge inn på en IP-adresse',
+	'sudo-error-sudo-nonexistent' => 'Den brukeren finnes ikke',
+	'sudo-error-sudo-self' => 'Kan ikke sudoe inn i deg selv',
+	'sudo-error-nosudo' => 'Du ser ikke ut til å være inne i en sudo-pålogging',
+	'sudo-logpagename' => 'Sudo-logg',
+	'sudo-logpagetext' => 'Dette er en logg over all bruk av sudo.',
+	'sudo-logentry' => 'logget på $2 sin konto',
+	'right-sudo' => 'Logget inn på en annen brukers konto',
 );
 
 /** Polish (Polski)
