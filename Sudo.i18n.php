@@ -54,12 +54,14 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author The Evil IP address
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'sudo-desc' => '{{desc}}',
 	'sudo-user' => '{{Identical|Username}}',
 	'sudo-reason' => '{{Identical|Reason}}',
 	'sudo-submit' => '{{Identical|Login}}',
+	'right-sudo' => '{{doc-right|sudo}}',
 );
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
@@ -284,9 +286,11 @@ $messages['lb'] = array(
 	'sudo-reason' => 'Grond:',
 	'sudo-submit' => 'Umellen',
 	'sudo-unsudo-submit' => 'Zréck',
+	'sudo-error' => 'Sudo-Feeler: $1',
 	'sudo-error-sudo-invaliduser' => 'Ongëltege Benotzernumm',
 	'sudo-error-sudo-nonexistent' => 'Dee Benotzer gëtt et net.',
 	'sudo-logpagename' => 'Sudo-Logbuch',
+	'right-sudo' => 'Alogge mat engem anere sengem Benotzerkont',
 );
 
 /** Macedonian (Македонски)
