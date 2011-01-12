@@ -92,6 +92,19 @@ $messages['be-tarask'] = array(
 	'right-sudo' => 'уваход ў рахункі іншых удзельнікаў',
 );
 
+/** Breton (Brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'sudo-personal-unsudo' => "Distreiñ d'ho kont",
+	'sudo-form' => 'Kevreañ da :',
+	'sudo-user' => 'Anv implijer :',
+	'sudo-reason' => 'Abeg :',
+	'sudo-submit' => 'Kevreañ',
+	'sudo-unsudo-submit' => 'Distreiñ',
+	'sudo-error-sudo-invaliduser' => 'Anv implijer direizh',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
