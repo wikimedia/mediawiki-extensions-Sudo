@@ -64,6 +64,21 @@ $messages['qqq'] = array(
 	'right-sudo' => '{{doc-right|sudo}}',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'unsudo' => 'Keer terug na u eie gebruiker',
+	'sudo-personal-unsudo' => 'Keer terug na u eie gebruiker',
+	'sudo-form' => 'Meld aan as:',
+	'sudo-user' => 'Gebruikersnaam:',
+	'sudo-reason' => 'Rede:',
+	'sudo-submit' => 'Aanmeld',
+	'sudo-unsudo-submit' => 'Terug',
+	'sudo-error' => 'Sudo-fout: $1',
+	'sudo-error-sudo-invaliduser' => 'Ongeldige gebruikersnaam',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
