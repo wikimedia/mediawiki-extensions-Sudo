@@ -137,7 +137,7 @@ $messages['bs'] = array(
 $messages['de'] = array(
 	'sudo' => 'Mit anderem Benutzerkonto anmelden',
 	'unsudo' => 'Zum eigenen Benutzerkonto zurückkehren',
-	'sudo-desc' => 'Ermöglicht die Anmeldung mit einem anderen Benutzerkonto als dem Eigenen („sudo“)',
+	'sudo-desc' => 'Ermöglicht die Anmeldung mit einem anderen Benutzerkonto als dem Eigenen',
 	'sudo-personal-unsudo' => 'Zum eigenen Benutzerkonto zurückkehren',
 	'sudo-form' => 'Anmelden als:',
 	'sudo-user' => 'Benutzername:',
@@ -496,5 +496,13 @@ $messages['te'] = array(
  */
 $messages['uk'] = array(
 	'sudo-reason' => 'Причина:',
+);
+
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Mark85296341
+ */
+$messages['zh-hant'] = array(
+	'sudo-user' => '使用者名稱：',
+	'sudo-submit' => '登入',
 );
 
