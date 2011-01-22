@@ -79,7 +79,7 @@ $messages['af'] = array(
 	'sudo-error-sudo-invaliduser' => 'Ongeldige gebruikersnaam',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -156,6 +156,15 @@ $messages['de'] = array(
 	'sudo-logpagetext' => 'Dies ist das Logbuch aller Verwendungen von „sudo“.',
 	'sudo-logentry' => 'hat sich mit dem Benutzerkonto von $2 angemeldet',
 	'right-sudo' => 'Mit anderem Benutzerkonto anmelden',
+);
+
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
+ */
+$messages['de-formal'] = array(
+	'sudo-unsudo' => 'Willkommen $1, Sie sind momentan als Benutzer „$2“ im Wiki angemeldet. Klicken Sie auf „{{int:sudo-unsudo-submit}}“, um zu Ihrem eigenen Benutzerkonto zurückzukehren.',
+	'sudo-success' => 'Willkommen $1, Sie sind jetzt im Wiki als Benutzer „$2“ angemeldet.',
+	'sudo-error-nosudo' => 'Sie scheinen nicht mit einem anderen Benutzerkonto angemeldet zu sein',
 );
 
 /** French (Français)
