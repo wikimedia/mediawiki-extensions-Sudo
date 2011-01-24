@@ -108,16 +108,22 @@ $messages['be-tarask'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
+	'unsudo' => "Distreiñ d'ho kont",
+	'sudo-desc' => "Talvezout a ra d'ar sudoerien da gevreañ evel implijerien all",
 	'sudo-personal-unsudo' => "Distreiñ d'ho kont",
 	'sudo-form' => 'Kevreañ da :',
 	'sudo-user' => 'Anv implijer :',
 	'sudo-reason' => 'Abeg :',
 	'sudo-submit' => 'Kevreañ',
 	'sudo-unsudo-submit' => 'Distreiñ',
+	'sudo-error' => 'Fazi Sudo : $1',
 	'sudo-error-sudo-invaliduser' => 'Anv implijer direizh',
+	'sudo-error-sudo-ip' => "N'hall ket kevreañ ouzh ur chomlec'h IP",
+	'sudo-error-sudo-nonexistent' => "N'eus ket eus an implijer-mañ",
 );
 
 /** Bosnian (Bosanski)
