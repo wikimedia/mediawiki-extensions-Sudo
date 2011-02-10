@@ -317,6 +317,22 @@ $messages['ja'] = array(
 	'sudo-reason' => '理由：',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'sudo-form' => 'Enlogge als:',
+	'sudo-user' => 'Metmaachername:',
+	'sudo-reason' => 'Aanlass:',
+	'sudo-submit' => 'Lohß jonn!',
+	'sudo-unsudo-submit' => 'Retuur',
+	'sudo-success' => 'Welkumme $1,
+jäz bes De heh em Wiki als {{GENDER:$2|dä|dat|Metmaacher|de|et}} $2 aanjemeldt.',
+	'sudo-error-sudo-invaliduser' => 'Dat es ene onjöltije Metmaachername',
+	'sudo-error-sudo-ip' => 'Mer kann nit als Namelose met ene <i lang="en">IP</i>-Adräß enlogge',
+	'sudo-error-sudo-nonexistent' => 'Esu ene Metmaacher ham_mer nit.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
