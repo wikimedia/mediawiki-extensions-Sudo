@@ -321,16 +321,31 @@ $messages['ja'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'sudo' => 'Onger enem fremde Name enlogge (Sudo)',
+	'unsudo' => 'Jangk retuur op Dinge eije Name als Metmaacher',
+	'sudo-desc' => 'Määt et för berääschteschte Metmaacher müjjelesch, sesch onger främde Name enzelogge.',
+	'sudo-personal-unsudo' => 'Jangk retuur op Dinge eije Name als Metmaacher',
 	'sudo-form' => 'Enlogge als:',
 	'sudo-user' => 'Metmaachername:',
 	'sudo-reason' => 'Aanlass:',
 	'sudo-submit' => 'Lohß jonn!',
+	'sudo-unsudo' => 'Welkumme $1, 
+De bes heh em Wiki em Momang als {{GENDER:$2|dä|dat|Metmaacher|de|et}} $2 enjelogg.
+Donn op „{{int:sudo-unsudo-submit}}“ klecke, öm op Dinge eije Name als Metmaacher retuur ze jonn.',
 	'sudo-unsudo-submit' => 'Retuur',
 	'sudo-success' => 'Welkumme $1,
-jäz bes De heh em Wiki als {{GENDER:$2|dä|dat|Metmaacher|de|et}} $2 aanjemeldt.',
+jäz bes De heh em Wiki als {{GENDER:$2|dä|dat|Metmaacher|de|et}} $2 enjelogg.',
+	'sudo-error' => 'Fähler: Dat Enlogge met enem fremde Name hät nit jeflupp.
+$1',
 	'sudo-error-sudo-invaliduser' => 'Dat es ene onjöltije Metmaachername',
 	'sudo-error-sudo-ip' => 'Mer kann nit als Namelose met ene <i lang="en">IP</i>-Adräß enlogge',
 	'sudo-error-sudo-nonexistent' => 'Esu ene Metmaacher ham_mer nit.',
+	'sudo-error-sudo-self' => 'Do kanns Desch nit mim eije Name enlogge wi wann et ene främde Name wöhr.',
+	'sudo-error-nosudo' => 'Do schingks jaa nit met enem fremde Name enjelogg ze sin.',
+	'sudo-logpagename' => 'Logbooch vum Enlogge onger fremde Name (Sudo)',
+	'sudo-logpagetext' => 'En heh däm Logbooch fengk mer jeedes Enlogge onger enem fremde Name (Sudo)',
+	'sudo-logentry' => 'hät sesch als {{GENDER:$2|dä|dat|Metmaacher|de|et}} $2 enjelogg.',
+	'right-sudo' => 'Onger enem fremde Name enlogge (Sudo)',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
