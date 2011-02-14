@@ -112,6 +112,7 @@ $messages['be-tarask'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
+	'sudo' => 'Kevreañ dre gont un implijer all',
 	'unsudo' => "Distreiñ d'ho kont",
 	'sudo-desc' => "Talvezout a ra d'ar sudoerien da gevreañ evel implijerien all",
 	'sudo-personal-unsudo' => "Distreiñ d'ho kont",
@@ -119,11 +120,19 @@ $messages['br'] = array(
 	'sudo-user' => 'Anv implijer :',
 	'sudo-reason' => 'Abeg :',
 	'sudo-submit' => 'Kevreañ',
+	'sudo-unsudo' => 'DEgemer mat $1, evit ar poent emaoc\'h kevreet er wiki evel $2. Klikañ war "{{int:sudo-unsudo-submit}}" evit distreiñ d\'ho kevreadenn deoc\'h-c\'hwi.',
 	'sudo-unsudo-submit' => 'Distreiñ',
+	'sudo-success' => "Demeger mat $1, kevreet oc'h bremañ er wiki evel $2.",
 	'sudo-error' => 'Fazi Sudo : $1',
 	'sudo-error-sudo-invaliduser' => 'Anv implijer direizh',
 	'sudo-error-sudo-ip' => "N'hall ket kevreañ ouzh ur chomlec'h IP",
 	'sudo-error-sudo-nonexistent' => "N'eus ket eus an implijer-mañ",
+	'sudo-error-sudo-self' => "Dibosupl eo sudoañ ennoc'h hoc'h-unan",
+	'sudo-error-nosudo' => "Evit doare n'emaoc'h ket en ur gevreadenn sudo",
+	'sudo-logpagename' => 'Marilh sudo',
+	'sudo-logpagetext' => 'Hemañ zo ur marilh eus holl implijoù sudo.',
+	'sudo-logentry' => 'keveet e kont $2',
+	'right-sudo' => 'Kevreañ dre gont un implijer all.',
 );
 
 /** Bosnian (Bosanski)
@@ -348,6 +357,15 @@ $1',
 	'right-sudo' => 'Onger enem fremde Name enlogge (Sudo)',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'sudo-user' => 'Navê bikarhêner:',
+	'sudo-reason' => 'Sedem:',
+	'sudo-error-sudo-nonexistent' => 'Ev bikarhêner tune ye',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -542,6 +560,13 @@ $messages['te'] = array(
  */
 $messages['uk'] = array(
 	'sudo-reason' => 'Причина:',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'sudo-user' => 'באַניצער נאָמען:',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
