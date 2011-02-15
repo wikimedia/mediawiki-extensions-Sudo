@@ -363,6 +363,7 @@ $1',
 $messages['ku-latn'] = array(
 	'sudo-user' => 'Navê bikarhêner:',
 	'sudo-reason' => 'Sedem:',
+	'sudo-submit' => 'Têketin',
 	'sudo-error-sudo-nonexistent' => 'Ev bikarhêner tune ye',
 );
 
