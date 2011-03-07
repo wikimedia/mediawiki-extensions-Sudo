@@ -210,6 +210,27 @@ $messages['fr'] = array(
 	'right-sudo' => "Connexion au compte d'un autre utilisateur",
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'sudo' => 'Acceder ao sistema coa conta doutro usuario',
+	'unsudo' => 'Volver á súa conta',
+	'sudo-desc' => 'Permite acceder ao sistema como outro usuario',
+	'sudo-personal-unsudo' => 'Volver á súa conta',
+	'sudo-form' => 'Rexistro en:',
+	'sudo-user' => 'Nome de usuario:',
+	'sudo-reason' => 'Motivo:',
+	'sudo-submit' => 'Rexistro',
+	'sudo-unsudo-submit' => 'Volver',
+	'sudo-error' => 'Erro: $1',
+	'sudo-error-sudo-invaliduser' => 'Nome de usuario inválido',
+	'sudo-error-sudo-ip' => 'Non pode acceder ao sistema como un enderezo IP',
+	'sudo-error-sudo-nonexistent' => 'Ese usuario non existe',
+	'sudo-logentry' => 'accedeu ao sistema coa conta de $2',
+	'right-sudo' => 'Acceder ao sistema coa conta doutro usuario',
+);
+
 /** Swiss German (Alemannisch)
  * @author Als-Holder
  */
