@@ -589,6 +589,7 @@ $messages['uk'] = array(
  */
 $messages['yi'] = array(
 	'sudo-user' => 'באַניצער נאָמען:',
+	'sudo-submit' => 'אַרײַנלאגירן',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
