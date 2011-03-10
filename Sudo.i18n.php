@@ -592,6 +592,15 @@ $messages['yi'] = array(
 	'sudo-submit' => 'אַרײַנלאגירן',
 );
 
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'sudo-user' => '用户名：',
+	'sudo-reason' => '原因：',
+	'sudo-submit' => '登入',
+);
+
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Mark85296341
  */
