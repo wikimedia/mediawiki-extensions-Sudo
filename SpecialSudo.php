@@ -34,7 +34,7 @@ class SpecialSudo extends SpecialPage {
 	 */
 	public function __construct() {
 		parent::__construct( 'Sudo', 'sudo' );
-		wfLoadExtensionMessages( 'Sudo' );
+		
 	}
 
 	/**
