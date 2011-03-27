@@ -145,6 +145,13 @@ $messages['bs'] = array(
 	'sudo-unsudo-submit' => 'Nazad',
 );
 
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'sudo-reason' => 'Motiu:',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author The Evil IP address
@@ -222,11 +229,17 @@ $messages['gl'] = array(
 	'sudo-user' => 'Nome de usuario:',
 	'sudo-reason' => 'Motivo:',
 	'sudo-submit' => 'Rexistro',
+	'sudo-unsudo' => 'Benvido $1, está conectado no wiki como $2. Prema en "{{int:sudo-unsudo-submit}}" para regresar á súa conexión anterior.',
 	'sudo-unsudo-submit' => 'Volver',
-	'sudo-error' => 'Erro: $1',
+	'sudo-success' => 'Benvido $1, está conectado no wiki como $2.',
+	'sudo-error' => 'Erro do sudo: $1',
 	'sudo-error-sudo-invaliduser' => 'Nome de usuario inválido',
 	'sudo-error-sudo-ip' => 'Non pode acceder ao sistema como un enderezo IP',
 	'sudo-error-sudo-nonexistent' => 'Ese usuario non existe',
+	'sudo-error-sudo-self' => 'Non se pode identificar como sudo na súa conta',
+	'sudo-error-nosudo' => 'Semella non estar nunha conexión sudo',
+	'sudo-logpagename' => 'Rexistro de sudo',
+	'sudo-logpagetext' => 'Este é un rexistro de todos os usos do sudo.',
 	'sudo-logentry' => 'accedeu ao sistema coa conta de $2',
 	'right-sudo' => 'Acceder ao sistema coa conta doutro usuario',
 );
