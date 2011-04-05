@@ -288,6 +288,13 @@ $messages['gsw'] = array(
 	'right-sudo' => 'Mit eme andere Benutzerkonto aamälde',
 );
 
+/** Manx (Gaelg)
+ * @author Shimmin Beg
+ */
+$messages['gv'] = array(
+	'sudo-reason' => 'Fa:',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
