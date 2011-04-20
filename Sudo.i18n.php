@@ -606,6 +606,14 @@ $messages['ru'] = array(
 	'right-sudo' => 'Войти в учетную запись другого пользователя',
 );
 
+/** Swedish (Svenska)
+ * @author Liftarn
+ */
+$messages['sv'] = array(
+	'sudo-user' => 'Användarnamn:',
+	'sudo-reason' => 'Anledning:',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
