@@ -79,6 +79,14 @@ $messages['af'] = array(
 	'sudo-error-sudo-invaliduser' => 'Ongeldige gebruikersnaam',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'sudo-user' => 'اسم المستخدم:',
+	'sudo-reason' => 'السبب:',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
