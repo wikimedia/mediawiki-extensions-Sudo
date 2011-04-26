@@ -701,11 +701,30 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author Liangent
  */
 $messages['zh-hans'] = array(
+	'sudo' => '登录到另一个用户的帐户',
+	'unsudo' => '返回到您的帐户',
+	'sudo-desc' => '允许sudo者以其他用户身份登录',
+	'sudo-personal-unsudo' => '返回到您的帐户',
+	'sudo-form' => '登录到：',
 	'sudo-user' => '用户名：',
 	'sudo-reason' => '原因：',
 	'sudo-submit' => '登入',
+	'sudo-unsudo' => '欢迎$1，您当前以$2的身份登录到wiki。单击“{{int:sudo-unsudo-submit}}”以返回到您自己的登录。',
+	'sudo-unsudo-submit' => '返回',
+	'sudo-success' => '欢迎$1，您当前已经以$2的身份登录到wiki。',
+	'sudo-error' => 'Sudo错误：$1',
+	'sudo-error-sudo-invaliduser' => '无效用户名',
+	'sudo-error-sudo-ip' => '不能登录到IP地址',
+	'sudo-error-sudo-nonexistent' => '该用户不存在',
+	'sudo-error-sudo-self' => '无法sudo到您自己',
+	'sudo-error-nosudo' => '你似乎不在sudo登录中',
+	'sudo-logpagename' => 'Sudo日志',
+	'sudo-logpagetext' => '这是所有使用sudo的日志。',
+	'sudo-logentry' => '登录到$2的帐户',
+	'right-sudo' => '登录到另一个用户的帐户',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
