@@ -587,6 +587,33 @@ $messages['pl'] = array(
 	'right-sudo' => 'Zaloguj się jako inny użytkownik',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'sudo' => "Intra con n'àutr cont utent",
+	'unsudo' => 'Artorna a tò cont',
+	'sudo-desc' => 'A përmëtt a j\'utent "sudo" d\'intré com àutr utent',
+	'sudo-personal-unsudo' => 'Artorna a tò cont',
+	'sudo-form' => 'Intra su:',
+	'sudo-user' => 'Nòm utent:',
+	'sudo-reason' => 'Rason:',
+	'sudo-submit' => 'Intra',
+	'sudo-unsudo' => 'Bin ëvnù $1, it ses al moment intrà ant la wiki com $2. Sgnaca su "{{int:sudo-unsudo-submit}}" për artorné a tò pròpi login.',
+	'sudo-unsudo-submit' => 'Artorna',
+	'sudo-success' => 'Bin ëvnù $1, adess it ses intrà ant la wiki com $2.',
+	'sudo-error' => 'Eror sudo: $1',
+	'sudo-error-sudo-invaliduser' => 'Stranòm pa bon',
+	'sudo-error-sudo-ip' => 'As peul pa intré an un-a adrëssa IP',
+	'sudo-error-sudo-nonexistent' => 'Col utent a esist pa',
+	'sudo-error-sudo-self' => 'It peule pa sudo an ti midem',
+	'sudo-error-nosudo' => 'Ti i-t smije pa an drinta a un login sudo',
+	'sudo-logpagename' => 'Registr ëd sudo',
+	'sudo-logpagetext' => "Cost-sì a l'é un registr ëd tùit j'utent ëd sudo.",
+	'sudo-logentry' => 'intrà ant ël cont ëd $2',
+	'right-sudo' => "Intra con ël cont ëd n'àutr utent",
+);
+
 /** Portuguese (Português)
  * @author Waldir
  */
