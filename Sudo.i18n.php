@@ -357,6 +357,18 @@ $messages['hsb'] = array(
 	'right-sudo' => 'Pola konta druheho wužiwarja so přizjewić',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'sudo-personal-unsudo' => 'Vissza a saját fiókodhoz',
+	'sudo-form' => 'Bejelentkezés ide:',
+	'sudo-user' => 'Felhasználónév:',
+	'sudo-reason' => 'Ok:',
+	'sudo-submit' => 'Bejelentkezés',
+	'sudo-unsudo-submit' => 'Visszatérés',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -682,6 +694,13 @@ $messages['sv'] = array(
 $messages['te'] = array(
 	'sudo-user' => 'వాడుకరిపేరు',
 	'sudo-reason' => 'కారణం:',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'sudo-user' => "Naran uza-na'in:",
 );
 
 /** Tagalog (Tagalog)
