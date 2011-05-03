@@ -87,6 +87,14 @@ $messages['ar'] = array(
 	'sudo-reason' => 'السبب:',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'sudo-user' => 'İstifadəçi adı:',
+	'sudo-reason' => 'Səbəb:',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
