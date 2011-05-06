@@ -121,7 +121,7 @@ class SpecialSudo extends SpecialPage {
 			$wgOut->addHTML(
 				Xml::openElement( 'form', array( 'method' => 'post',
 					'action' => $this->getTitle()->getFullURL( 'mode=unsudo' ) ) ) .
-				Xml::hidden( 'title', $this->getTitle()->getPrefixedText() )
+				Html::Hidden( 'title', $this->getTitle()->getPrefixedText() )
 			);
 			$wgOut->addWikiMsgArray( 'sudo-unsudo', array(
 				$s->makeLinkObj( $suUser->getUserPage(), $suUser->getName() ),
@@ -140,7 +140,7 @@ class SpecialSudo extends SpecialPage {
 		$wgOut->addHTML(
 			Xml::openElement( 'form', array( 'method' => 'post',
 				'action' => $this->getTitle()->getLocalURL() ) ) .
-			Xml::hidden( 'title', $this->getTitle()->getPrefixedText() ) .
+			Html::Hidden( 'title', $this->getTitle()->getPrefixedText() ) .
 			Xml::openElement( 'fieldset' ) .
 			Xml::element( 'legend', array(), wfMsg( 'sudo-form' ) ) .
 			Xml::inputLabel( wfMsg( 'sudo-user' ), 'target', 'sudo-user', 20, $this->target ) . ' ' .
