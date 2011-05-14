@@ -8,11 +8,14 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Daniel Friesen
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'Sudo' => array( 'Sudo' ),
+);
+
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'Sudo' => array( 'سودو' ),
 );
 
 /**
