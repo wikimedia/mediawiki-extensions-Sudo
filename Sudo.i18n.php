@@ -250,6 +250,27 @@ $messages['fr'] = array(
 	'right-sudo' => "Connexion au compte d'un autre utilisateur",
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'unsudo' => 'Retôrn a voutron compto',
+	'sudo-personal-unsudo' => 'Retôrn a voutron compto',
+	'sudo-form' => 'Branchement a :',
+	'sudo-user' => 'Nom d’utilisator :',
+	'sudo-reason' => 'Rêson :',
+	'sudo-submit' => 'Branchement',
+	'sudo-unsudo-submit' => 'Retôrn',
+	'sudo-error' => 'Èrror sudô : $1',
+	'sudo-error-sudo-invaliduser' => 'Nom d’utilisator envalido',
+	'sudo-error-sudo-ip' => 'Sè pôt pas branchiér a una adrèce IP',
+	'sudo-error-sudo-nonexistent' => 'Cél utilisator ègziste pas',
+	'sudo-error-sudo-self' => "Empossiblo de sè branchiér ''per sudô'' sur son prôpro compto",
+	'sudo-logpagename' => 'Historico sudô',
+	'sudo-logpagetext' => "O est un historico de tôs los usâjos de ''sudô''.",
+	'sudo-logentry' => 'branchiê u compto $2',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
