@@ -547,6 +547,14 @@ $messages['mk'] = array(
 	'right-sudo' => 'Најавување на туѓа сметка',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'sudo-reason' => 'Sebab:',
+	'sudo-submit' => 'Log masuk',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
