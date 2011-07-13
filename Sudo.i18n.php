@@ -551,6 +551,8 @@ $messages['mk'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'sudo' => 'Log masuk ke dalam akaun pengguna lain',
+	'unsudo' => 'Kembali ke akaun anda',
 	'sudo-reason' => 'Sebab:',
 	'sudo-submit' => 'Log masuk',
 );
