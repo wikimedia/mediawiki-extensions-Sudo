@@ -94,10 +94,9 @@ class SpecialSudo extends SpecialPage {
 			$this->setHeaders();
 			$s = $wgUser->getSkin();
 			$suUser = User::newFromId( $_SESSION['wsSudoId'] );
-			$wgOut->addWikiMsgArray( 'sudo-success', array(
-				$s->makeLinkObj( $suUser->getUserPage(), htmlspecialchars($suUser->getName()) ),
-				$s->makeLinkObj( $wgUser->getUserPage(), htmlspecialchars($wgUser->getName()) ) ),
-				array( 'replaceafter' )
+			$wgOut->addHTML( wfMsgExt( 'sudo-success', array( 'parse', 'replaceafter' ),
+					$s->makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
+					$s->makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
 			);
 		}
 	}
@@ -123,12 +122,11 @@ class SpecialSudo extends SpecialPage {
 					'action' => $this->getTitle()->getFullURL( 'mode=unsudo' ) ) ) .
 				Html::Hidden( 'title', $this->getTitle()->getPrefixedText() )
 			);
-			$wgOut->addWikiMsgArray( 'sudo-unsudo', array(
-				$s->makeLinkObj( $suUser->getUserPage(), htmlspecialchars($suUser->getName()) ),
-				$s->makeLinkObj( $wgUser->getUserPage(), htmlspecialchars($wgUser->getName()) ) ),
-				array( 'replaceafter' )
-			);
 			$wgOut->addHTML(
+				wfMsgExt( 'sudo-unsudo', array( 'parse', 'replaceafter' ),
+					$s->makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
+					$s->makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
+				) .
 				Xml::submitButton( wfMsg( 'sudo-unsudo-submit' ) ) .
 				Xml::closeElement( 'form' )
 			);
