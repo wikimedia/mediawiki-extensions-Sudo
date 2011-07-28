@@ -553,6 +553,7 @@ $messages['mk'] = array(
 $messages['ms'] = array(
 	'sudo' => 'Log masuk ke dalam akaun pengguna lain',
 	'unsudo' => 'Kembali ke akaun anda',
+	'sudo-user' => 'Nama pengguna:',
 	'sudo-reason' => 'Sebab:',
 	'sudo-submit' => 'Log masuk',
 );
