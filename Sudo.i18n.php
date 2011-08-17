@@ -222,6 +222,30 @@ $messages['de-formal'] = array(
 	'sudo-error-nosudo' => 'Sie scheinen nicht mit einem anderen Benutzerkonto angemeldet zu sein',
 );
 
+/** Spanish (Español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'sudo' => 'Iniciar sesión en la cuenta de otro usuario',
+	'unsudo' => 'Volver a tu cuenta',
+	'sudo-personal-unsudo' => 'Volver a tu cuenta',
+	'sudo-form' => 'Iniciar sesión a:',
+	'sudo-user' => 'Nombre de usuario:',
+	'sudo-reason' => 'Motivo:',
+	'sudo-submit' => 'Iniciar sesión',
+	'sudo-unsudo' => 'Bienvenido $1, has iniciado sesión en el wiki como $2. Pulsa en «{{int:sudo-unsudo-submit}}» para volver a tu cuenta.',
+	'sudo-unsudo-submit' => 'Volver',
+	'sudo-success' => 'Bienvenido $1, ahora has iniciado sesión en el wiki como $2.',
+	'sudo-error' => 'Error de sudo: $1',
+	'sudo-error-sudo-invaliduser' => 'Nombre de usuario no válido',
+	'sudo-error-sudo-ip' => 'No se puede iniciar sesión como una dirección IP',
+	'sudo-error-sudo-nonexistent' => 'Ese usuario no existe',
+	'sudo-error-sudo-self' => 'No se puede usar sudo en la cuenta propia',
+	'sudo-logpagename' => 'Registro de sudo',
+	'sudo-logpagetext' => 'Este es un registro de todos los usos de sudo.',
+	'sudo-logentry' => 'sesión iniciada con la cuenta de $2',
+);
+
 /** French (Français)
  * @author Otourly
  * @author Sherbrooke
