@@ -483,10 +483,30 @@ $messages['id'] = array(
 
 /** Japanese (日本語)
  * @author Ohgi
+ * @author Schu
  */
 $messages['ja'] = array(
-	'sudo-user' => '利用者名：',
-	'sudo-reason' => '理由：',
+	'sudo' => '他の利用者のアカウントにログイン',
+	'unsudo' => '自分のアカウントに戻る',
+	'sudo-desc' => '他の利用者としてログインするための sudoers を可能にします。',
+	'sudo-personal-unsudo' => '自分のアカウントに戻る',
+	'sudo-form' => 'ログイン :',
+	'sudo-user' => '利用者名 :',
+	'sudo-reason' => '理由:',
+	'sudo-submit' => 'ログイン',
+	'sudo-unsudo' => 'ようこそ $1 、あなたは現在 $2 としてウィキにログインしています。自分のログインに戻るには "{{int:sudo-unsudo-submit}}" をクリックしてください。',
+	'sudo-unsudo-submit' => '戻る',
+	'sudo-success' => 'ようこそ $1 、あなたは現在 $2 としてウィキにログインしています。',
+	'sudo-error' => 'Sudo エラー: $1',
+	'sudo-error-sudo-invaliduser' => '無効な利用者名',
+	'sudo-error-sudo-ip' => 'IPアドレスにログインできません',
+	'sudo-error-sudo-nonexistent' => 'その利用者は存在しません',
+	'sudo-error-sudo-self' => '自分自身への sudo をすることはできません',
+	'sudo-error-nosudo' => 'あなたは、sudo のログインの内部に表示されません',
+	'sudo-logpagename' => 'sudo ログ',
+	'sudo-logpagetext' => 'これは sudo 利用のすべてのログです。',
+	'sudo-logentry' => '$2 のアカウントにログインしています',
+	'right-sudo' => '他の利用者のアカウントにログイン',
 );
 
 /** Colognian (Ripoarisch)
