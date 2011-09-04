@@ -689,30 +689,31 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'sudo' => "Intra con n'àutr cont utent",
+	'sudo' => "Ch'a intra ant ël sistema ant ël cont ëd n'àutr utent",
 	'unsudo' => 'Artorna a tò cont',
-	'sudo-desc' => 'A përmëtt a j\'utent "sudo" d\'intré com àutr utent',
+	'sudo-desc' => "A përmët a j'utent \"sudo\" d'intré ant ël sistema coma a fusso d'àutri utent",
 	'sudo-personal-unsudo' => 'Artorna a tò cont',
-	'sudo-form' => 'Intra su:',
-	'sudo-user' => 'Nòm utent:',
+	'sudo-form' => 'Intré ant ël sistema ansima a:',
+	'sudo-user' => 'Stranòm:',
 	'sudo-reason' => 'Rason:',
-	'sudo-submit' => 'Intra',
-	'sudo-unsudo' => 'Bin ëvnù $1, it ses al moment intrà ant la wiki com $2. Sgnaca su "{{int:sudo-unsudo-submit}}" për artorné a tò pròpi login.',
+	'sudo-submit' => 'Intré ant ël sistema',
+	'sudo-unsudo' => 'Bin ëvnù $1, al moment a l\'é intrà ant la wiki com $2. Ch\'a sgnaca su "{{int:sudo-unsudo-submit}}" për artorné a soa conession.',
 	'sudo-unsudo-submit' => 'Artorna',
 	'sudo-success' => 'Bin ëvnù $1, adess it ses intrà ant la wiki com $2.',
 	'sudo-error' => 'Eror sudo: $1',
 	'sudo-error-sudo-invaliduser' => 'Stranòm pa bon',
-	'sudo-error-sudo-ip' => 'As peul pa intré an un-a adrëssa IP',
+	'sudo-error-sudo-ip' => "As peul pa intresse an n'adrëssa IP",
 	'sudo-error-sudo-nonexistent' => 'Col utent a esist pa',
-	'sudo-error-sudo-self' => 'It peule pa sudo an ti midem',
-	'sudo-error-nosudo' => 'Ti i-t smije pa an drinta a un login sudo',
+	'sudo-error-sudo-self' => 'As peul pa intré con sudo ansima a sò cont',
+	'sudo-error-nosudo' => 'Chiel a smija pa esse andrinta a na conession sudo',
 	'sudo-logpagename' => 'Registr ëd sudo',
 	'sudo-logpagetext' => "Cost-sì a l'é un registr ëd tùit j'utent ëd sudo.",
-	'sudo-logentry' => 'intrà ant ël cont ëd $2',
-	'right-sudo' => "Intra con ël cont ëd n'àutr utent",
+	'sudo-logentry' => 'intrà ant el sistema ant ël cont ëd $2',
+	'right-sudo' => "Intré ant ël sistema con ël cont ëd n'àutr utent",
 );
 
 /** Portuguese (Português)
