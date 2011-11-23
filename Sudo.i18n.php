@@ -551,7 +551,7 @@ $1',
 	'right-sudo' => 'Onger enem fremde Name enlogge (Sudo)',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
