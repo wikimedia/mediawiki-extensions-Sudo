@@ -35,7 +35,7 @@ $wgExtensionCredits['other'][] = array(
 	'version' => '0.2.1',
 	'author' => '[http://www.mediawiki.org/wiki/User:Dantman Daniel Friesen] [mailto:Daniel%20Friesen%20%3Cmediawiki@danielfriesen.name%3E <mediawiki@danielfriesen.name>]',
 	'descriptionmsg' => 'sudo-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Sudo',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Sudo',
 );
 
 // Set up i18n and the new special page
