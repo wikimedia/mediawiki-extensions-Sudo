@@ -852,6 +852,7 @@ $messages['tl'] = array(
  */
 $messages['uk'] = array(
 	'sudo-reason' => 'Причина:',
+	'sudo-submit' => 'Увійти',
 );
 
 /** Yiddish (ייִדיש)
@@ -894,7 +895,26 @@ $messages['zh-hans'] = array(
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
+	'sudo' => '登錄到另一個用戶的帳戶',
+	'unsudo' => '返回到您的帳戶',
+	'sudo-desc' => '允許sudo者以其他用戶身份登錄',
+	'sudo-personal-unsudo' => '返回到您的帳戶',
+	'sudo-form' => '登錄到：',
 	'sudo-user' => '使用者名稱：',
+	'sudo-reason' => '原因：',
 	'sudo-submit' => '登入',
+	'sudo-unsudo' => '歡迎$1，您當前以$2的身份登錄到wiki。單擊“{{int:sudo-unsudo-submit}}”以返回到您自己的登錄。',
+	'sudo-unsudo-submit' => '返回',
+	'sudo-success' => '歡迎$1，您當前已經以$2的身份登錄到wiki。',
+	'sudo-error' => 'Sudo錯誤：$1',
+	'sudo-error-sudo-invaliduser' => '無效用戶名',
+	'sudo-error-sudo-ip' => '不能登錄到IP地址',
+	'sudo-error-sudo-nonexistent' => '該用戶不存在',
+	'sudo-error-sudo-self' => '無法sudo到您自己',
+	'sudo-error-nosudo' => '你似乎不在sudo登錄中',
+	'sudo-logpagename' => 'Sudo日誌',
+	'sudo-logpagetext' => '這是所有使用sudo的日誌。',
+	'sudo-logentry' => '登錄到$2的帳戶',
+	'right-sudo' => '登錄到另一個用戶的帳戶',
 );
 
