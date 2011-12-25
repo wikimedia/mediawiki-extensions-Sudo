@@ -664,7 +664,7 @@ $messages['nl'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'sudo' => 'Logg inn på en annen brukers konto',
 	'unsudo' => 'Gå tilbake til din konto',
 	'sudo-desc' => 'Tillat sudoere å logge inn som andre brukere',
