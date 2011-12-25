@@ -41,7 +41,7 @@ $wgExtensionCredits['other'][] = array(
 // Set up i18n and the new special page
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['Sudo'] = $dir . 'Sudo.i18n.php';
-$wgExtensionAliasesFiles['Sudo'] = $dir . 'Sudo.alias.php';
+$wgExtensionMessagesFiles['SudoAlias'] = $dir . 'Sudo.alias.php';
 $wgAutoloadClasses['SpecialSudo'] = $dir . 'SpecialSudo.php';
 $wgSpecialPages['Sudo']           = 'SpecialSudo';
 $wgSpecialPageGroups['Sudo']      = 'users';
