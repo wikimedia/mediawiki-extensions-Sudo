@@ -634,33 +634,6 @@ $messages['ms'] = array(
 	'right-sudo' => 'Log masuk ke dalam akaun pengguna lain',
 );
 
-/** Dutch (Nederlands)
- * @author Siebrand
- */
-$messages['nl'] = array(
-	'sudo' => 'Aanmelden als een andere gebruiker',
-	'unsudo' => 'Terugkeren naar uw eigen gebruiker',
-	'sudo-desc' => 'Staat gebruikers met het recht "sudo" toe als andere gebruikers aan te melden',
-	'sudo-personal-unsudo' => 'Terugkeren naar uw eigen gebruiker',
-	'sudo-form' => 'Aanmelden als:',
-	'sudo-user' => 'Gebruikersnaam:',
-	'sudo-reason' => 'Reden:',
-	'sudo-submit' => 'Aanmelden',
-	'sudo-unsudo' => 'Welkom, $1. U bent nu aangemeld bij de wiki als $2. Klik op "{{int:sudo-unsudo-submit}}" om terug te keren naar uw eigen gebruiker.',
-	'sudo-unsudo-submit' => 'Terug',
-	'sudo-success' => 'Welkom $1. U bent u bij de wiki aangemeld als $2.',
-	'sudo-error' => 'Sudo-fout: $1',
-	'sudo-error-sudo-invaliduser' => 'Ongeldige gebruikersnaam',
-	'sudo-error-sudo-ip' => 'Het is niet mogelijk aan te melden als een anonieme gebruiker',
-	'sudo-error-sudo-nonexistent' => 'Die gebruiker bestaat niet',
-	'sudo-error-sudo-self' => 'Het is niet mogelijk een sudo naar uzelf uit te voeren',
-	'sudo-error-nosudo' => 'U bevindt zich niet in een sudosessie',
-	'sudo-logpagename' => 'Sudologboek',
-	'sudo-logpagetext' => 'Dit logboek bevat alle keren dat sudo gebruikt is.',
-	'sudo-logentry' => 'heeft aangemeld als $2',
-	'right-sudo' => 'Aanmelden als een andere gebruiker',
-);
-
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
  */
@@ -686,6 +659,33 @@ $messages['nb'] = array(
 	'sudo-logpagetext' => 'Dette er en logg over all bruk av sudo.',
 	'sudo-logentry' => 'logget på $2 sin konto',
 	'right-sudo' => 'Logget inn på en annen brukers konto',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'sudo' => 'Aanmelden als een andere gebruiker',
+	'unsudo' => 'Terugkeren naar uw eigen gebruiker',
+	'sudo-desc' => 'Staat gebruikers met het recht "sudo" toe als andere gebruikers aan te melden',
+	'sudo-personal-unsudo' => 'Terugkeren naar uw eigen gebruiker',
+	'sudo-form' => 'Aanmelden als:',
+	'sudo-user' => 'Gebruikersnaam:',
+	'sudo-reason' => 'Reden:',
+	'sudo-submit' => 'Aanmelden',
+	'sudo-unsudo' => 'Welkom, $1. U bent nu aangemeld bij de wiki als $2. Klik op "{{int:sudo-unsudo-submit}}" om terug te keren naar uw eigen gebruiker.',
+	'sudo-unsudo-submit' => 'Terug',
+	'sudo-success' => 'Welkom $1. U bent u bij de wiki aangemeld als $2.',
+	'sudo-error' => 'Sudo-fout: $1',
+	'sudo-error-sudo-invaliduser' => 'Ongeldige gebruikersnaam',
+	'sudo-error-sudo-ip' => 'Het is niet mogelijk aan te melden als een anonieme gebruiker',
+	'sudo-error-sudo-nonexistent' => 'Die gebruiker bestaat niet',
+	'sudo-error-sudo-self' => 'Het is niet mogelijk een sudo naar uzelf uit te voeren',
+	'sudo-error-nosudo' => 'U bevindt zich niet in een sudosessie',
+	'sudo-logpagename' => 'Sudologboek',
+	'sudo-logpagetext' => 'Dit logboek bevat alle keren dat sudo gebruikt is.',
+	'sudo-logentry' => 'heeft aangemeld als $2',
+	'right-sudo' => 'Aanmelden als een andere gebruiker',
 );
 
 /** Polish (Polski)
