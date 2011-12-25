@@ -18,7 +18,7 @@ $specialPageAliases['ar'] = array(
 	'Sudo' => array( 'سودو' ),
 );
 
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
+/** Interlingua (Interlingua) */
+$specialPageAliases['ia'] = array(
+	'Sudo' => array( 'Transidentification' ),
+);
