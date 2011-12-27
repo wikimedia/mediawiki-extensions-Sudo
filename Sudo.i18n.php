@@ -809,7 +809,7 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'sudo-user' => 'వాడుకరిపేరు',
+	'sudo-user' => 'వాడుకరి పేరు:',
 	'sudo-reason' => 'కారణం:',
 );
 
