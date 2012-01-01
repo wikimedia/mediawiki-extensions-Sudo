@@ -257,6 +257,34 @@ $messages['es'] = array(
 	'sudo-logentry' => 'sesión iniciada con la cuenta de $2',
 );
 
+/** Finnish (Suomi)
+ * @author Nike
+ * @author Veikk0.ma
+ */
+$messages['fi'] = array(
+	'sudo' => 'Kirjaudu toisena käyttäjänä',
+	'unsudo' => 'Palaa omalle tunnuksellesi',
+	'sudo-desc' => 'Mahdollistaa sudo-käyttäjien kirjautua toisena käyttäjänä',
+	'sudo-personal-unsudo' => 'Palaa omalle tunnuksellesi',
+	'sudo-form' => 'Kirjaudu:',
+	'sudo-user' => 'Käyttäjätunnus',
+	'sudo-reason' => 'Syy',
+	'sudo-submit' => 'Kirjaudu',
+	'sudo-unsudo' => 'Tervetuloa $1. Olet tällä hetkellä kirjautuneena käyttäjänä $2. Palaa omalle tunnuksellesi napsauttamalla {{int:sudo-unsudo-submit}}.',
+	'sudo-unsudo-submit' => 'Palaa',
+	'sudo-success' => 'Tervetuloa $1. Olet nyt kirjautuneena käyttäjänä $2.',
+	'sudo-error' => 'Sudo-virhe: $1',
+	'sudo-error-sudo-invaliduser' => 'Virheellinen käyttäjätunnus',
+	'sudo-error-sudo-ip' => 'Ei voida kirjautua IP-osoitteeseen',
+	'sudo-error-sudo-nonexistent' => 'Käyttäjää ei ole olemassa',
+	'sudo-error-sudo-self' => 'Et voi käyttää sudoa omalle tunnuksellesi',
+	'sudo-error-nosudo' => 'Et näytä olevan kirjautuneena sudo-tilillä',
+	'sudo-logpagename' => 'Sudoloki',
+	'sudo-logpagetext' => 'Tämä on loki kaikista sudon käytöistä.',
+	'sudo-logentry' => 'kirjautui käyttäjänä $2',
+	'right-sudo' => 'Kirjautua toisen käyttäjän tunnuksella',
+);
+
 /** French (Français)
  * @author Otourly
  * @author Sherbrooke
