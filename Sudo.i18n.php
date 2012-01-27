@@ -100,10 +100,12 @@ $messages['ar'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Wertuose
  */
 $messages['az'] = array(
 	'sudo-user' => 'İstifadəçi adı:',
 	'sudo-reason' => 'Səbəb:',
+	'sudo-submit' => 'Daxil ol',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
