@@ -691,6 +691,13 @@ $messages['nb'] = array(
 	'right-sudo' => 'Logget inn på en annen brukers konto',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'sudo-user' => 'प्रयोगकर्ता नाम:',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
