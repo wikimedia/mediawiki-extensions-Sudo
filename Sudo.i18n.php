@@ -605,6 +605,7 @@ $messages['lb'] = array(
 	'sudo-unsudo-submit' => 'Zréck',
 	'sudo-error' => 'Sudo-Feeler: $1',
 	'sudo-error-sudo-invaliduser' => 'Ongëltege Benotzernumm',
+	'sudo-error-sudo-ip' => 'Däerf sech nat mat enger IP-Adress umellen',
 	'sudo-error-sudo-nonexistent' => 'Dee Benotzer gëtt et net.',
 	'sudo-logpagename' => 'Sudo-Logbuch',
 	'right-sudo' => 'Alogge mat engem anere sengem Benotzerkont',
