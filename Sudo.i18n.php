@@ -236,11 +236,13 @@ $messages['de-formal'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Fitoschido
  */
 $messages['es'] = array(
 	'sudo' => 'Iniciar sesión en la cuenta de otro usuario',
 	'unsudo' => 'Volver a tu cuenta',
+	'sudo-desc' => 'Permite iniciar sesión como otro usuario',
 	'sudo-personal-unsudo' => 'Volver a tu cuenta',
 	'sudo-form' => 'Iniciar sesión a:',
 	'sudo-user' => 'Nombre de usuario:',
@@ -254,9 +256,11 @@ $messages['es'] = array(
 	'sudo-error-sudo-ip' => 'No se puede iniciar sesión como una dirección IP',
 	'sudo-error-sudo-nonexistent' => 'Ese usuario no existe',
 	'sudo-error-sudo-self' => 'No se puede usar sudo en la cuenta propia',
+	'sudo-error-nosudo' => 'No parece que esté conectado a Sudo como otro usuario.',
 	'sudo-logpagename' => 'Registro de sudo',
 	'sudo-logpagetext' => 'Este es un registro de todos los usos de sudo.',
 	'sudo-logentry' => 'sesión iniciada con la cuenta de $2',
+	'right-sudo' => 'Iniciar sesión en la cuenta de otro usuario',
 );
 
 /** Finnish (Suomi)
