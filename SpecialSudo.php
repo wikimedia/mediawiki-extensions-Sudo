@@ -27,14 +27,13 @@ if( !defined( 'MEDIAWIKI' ) ) {
 }
 
 class SpecialSudo extends SpecialPage {
-	protected $mode, $skin, $target, $reason, $errors;
+	protected $mode, $target, $reason, $errors;
 
 	/**
 	 * Constructor -- set up the new special page
 	 */
 	public function __construct() {
 		parent::__construct( 'Sudo', 'sudo' );
-		
 	}
 
 	/**
@@ -47,10 +46,12 @@ class SpecialSudo extends SpecialPage {
 
 		$this->mode = $wgRequest->getText( 'mode' );
 		if( $this->mode == 'success' ) {
-			return $this->showSuccessPage();
+			$this->showSuccessPage();
+			return;
 		}
 		if( $this->mode == 'unsudo' ) {
-			return $this->showUnsudoPage();
+			$this->showUnsudoPage();
+			return;
 		}
 
 		// Check that the user is allowed to access this special page...
@@ -74,7 +75,6 @@ class SpecialSudo extends SpecialPage {
 		// Set page title and other stuff
 		$this->setHeaders();
 
-		$this->skin   = $wgUser->getSkin();
 		$this->target = $wgRequest->getText( 'target', $par );
 		$this->reason = $wgRequest->getText( 'reason', '' );
 		$this->errors = array();
@@ -92,11 +92,10 @@ class SpecialSudo extends SpecialPage {
 			$this->showError( 'sudo-error-nosudo' );
 		} else {
 			$this->setHeaders();
-			$s = $wgUser->getSkin();
 			$suUser = User::newFromId( $_SESSION['wsSudoId'] );
 			$wgOut->addHTML( wfMsgExt( 'sudo-success', array( 'parse', 'replaceafter' ),
-					$s->makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
-					$s->makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
+					Linker::makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
+					Linker::makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
 			);
 		}
 	}
@@ -115,7 +114,6 @@ class SpecialSudo extends SpecialPage {
 			}
 			$this->setHeaders();
 			$wgOut->setPageTitle( wfMsg( 'unsudo' ) );
-			$s = $wgUser->getSkin();
 
 			$wgOut->addHTML(
 				Xml::openElement( 'form', array( 'method' => 'post',
@@ -124,8 +122,8 @@ class SpecialSudo extends SpecialPage {
 			);
 			$wgOut->addHTML(
 				wfMsgExt( 'sudo-unsudo', array( 'parse', 'replaceafter' ),
-					$s->makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
-					$s->makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
+					Linker::makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
+					Linker::makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
 				) .
 				Xml::submitButton( wfMsg( 'sudo-unsudo-submit' ) ) .
 				Xml::closeElement( 'form' )
@@ -151,7 +149,6 @@ class SpecialSudo extends SpecialPage {
 
 	function addError( $error = '' ) {
 		$this->errors[] = $error;
-		return;
 	}
 
 	function showError( $error ) {
@@ -172,22 +169,25 @@ class SpecialSudo extends SpecialPage {
 
 		$u = User::newFromName( $this->target );
 		if( is_null( $u ) ) {
-			return $this->addError( 'sudo-error-sudo-invaliduser' );
+			$this->addError( 'sudo-error-sudo-invaliduser' );
+			return;
 		}
 		if( User::isIP( $u->getName() ) ) {
-			return $this->addError( 'sudo-error-ip' );
+			$this->addError( 'sudo-error-ip' );
+			return;
 		}
 		if( $u->isAnon() ) {
-			return $this->addError( 'sudo-error-sudo-nonexistent' );
+			$this->addError( 'sudo-error-sudo-nonexistent' );
+			return;
 		}
 		if( $u->getName() === $wgUser->getName() ) {
-			return $this->addError( 'sudo-error-sudo-self' );
+			$this->addError( 'sudo-error-sudo-self' );
+			return;
 		}
 
-		$s = $wgUser->getSkin();
 		$log = new LogPage( 'sudo' );
 		$log->addEntry( 'sudo', $wgUser->getUserPage(), $this->reason,
-			array( $s->makeLinkObj( $u->getUserPage(), $u->getName() ) ) );
+			array( Linker::makeLinkObj( $u->getUserPage(), $u->getName() ) ) );
 
 		if( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
 			$_SESSION['wsSudoId'] = $wgUser->getId();
