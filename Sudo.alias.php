@@ -22,3 +22,8 @@ $specialPageAliases['ar'] = array(
 $specialPageAliases['ia'] = array(
 	'Sudo' => array( 'Transidentification' ),
 );
+
+/** Cornish (Kernowek) */
+$specialPageAliases['kw'] = array(
+	'Sudo' => array( 'Sudo' ),
+);
