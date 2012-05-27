@@ -529,6 +529,7 @@ $messages['id'] = array(
 /** Japanese (日本語)
  * @author Ohgi
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'sudo' => '他の利用者のアカウントにログイン',
@@ -536,7 +537,7 @@ $messages['ja'] = array(
 	'sudo-desc' => '他の利用者としてログインするための sudoers を可能にします。',
 	'sudo-personal-unsudo' => '自分のアカウントに戻る',
 	'sudo-form' => 'ログイン :',
-	'sudo-user' => '利用者名 :',
+	'sudo-user' => '利用者名：',
 	'sudo-reason' => '理由:',
 	'sudo-submit' => 'ログイン',
 	'sudo-unsudo' => 'ようこそ $1 、あなたは現在 $2 としてウィキにログインしています。自分のログインに戻るには "{{int:sudo-unsudo-submit}}" をクリックしてください。',
