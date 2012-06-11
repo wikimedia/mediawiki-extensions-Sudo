@@ -18,12 +18,12 @@ $specialPageAliases['ar'] = array(
 	'Sudo' => array( 'سودو' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Sudo' => array( 'Transidentification' ),
 );
 
-/** Cornish (Kernowek) */
+/** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
 	'Sudo' => array( 'Sudo' ),
 );
