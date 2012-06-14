@@ -98,7 +98,7 @@ $messages['ar'] = array(
 	'right-sudo' => 'تسجيل الدخول بحساب مستخدم آخر',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Wertuose
  */
@@ -136,7 +136,7 @@ $messages['be-tarask'] = array(
 	'right-sudo' => 'уваход ў рахункі іншых удзельнікаў',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -164,7 +164,7 @@ $messages['br'] = array(
 	'right-sudo' => 'Kevreañ dre gont un implijer all.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -191,7 +191,7 @@ $messages['bs'] = array(
 	'right-sudo' => 'Prijavljivanje na račun drugog korisnika',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -235,7 +235,7 @@ $messages['de-formal'] = array(
 	'sudo-error-nosudo' => 'Sie scheinen nicht mit einem anderen Benutzerkonto angemeldet zu sein',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Fitoschido
  */
@@ -263,7 +263,7 @@ $messages['es'] = array(
 	'right-sudo' => 'Iniciar sesión en la cuenta de otro usuario',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Veikk0.ma
  */
@@ -291,7 +291,7 @@ $messages['fi'] = array(
 	'right-sudo' => 'Kirjautua toisen käyttäjän tunnuksella',
 );
 
-/** French (Français)
+/** French (français)
  * @author Otourly
  * @author Sherbrooke
  */
@@ -319,7 +319,7 @@ $messages['fr'] = array(
 	'right-sudo' => "Connexion au compte d'un autre utilisateur",
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -460,7 +460,7 @@ $messages['hsb'] = array(
 	'right-sudo' => 'Pola konta druheho wužiwarja so přizjewić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -472,7 +472,7 @@ $messages['hu'] = array(
 	'sudo-unsudo-submit' => 'Visszatérés',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -616,7 +616,7 @@ $messages['lb'] = array(
 	'right-sudo' => 'Alogge mat engem anere sengem Benotzerkont',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -731,7 +731,7 @@ $messages['nl'] = array(
 	'right-sudo' => 'Aanmelden als een andere gebruiker',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -786,7 +786,7 @@ $messages['pms'] = array(
 	'right-sudo' => "Intré ant ël sistema con ël cont ëd n'àutr utent",
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Waldir
  */
 $messages['pt'] = array(
@@ -813,7 +813,7 @@ $messages['pt'] = array(
 	'right-sudo' => 'Iniciar sessão na conta de outro utilizador',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  */
 $messages['ru'] = array(
@@ -840,7 +840,7 @@ $messages['ru'] = array(
 	'right-sudo' => 'Войти в учетную запись другого пользователя',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Liftarn
  */
 $messages['sv'] = array(
@@ -856,7 +856,7 @@ $messages['te'] = array(
 	'sudo-reason' => 'కారణం:',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -890,7 +890,7 @@ $messages['tl'] = array(
 	'right-sudo' => 'Lumagdang papasok sa iba pang akawnt ng tagagamit',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
@@ -906,7 +906,7 @@ $messages['yi'] = array(
 	'sudo-submit' => 'אַרײַנלאגירן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Liangent
  */
@@ -934,7 +934,7 @@ $messages['zh-hans'] = array(
 	'right-sudo' => '登录到另一个用户的帐户',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
