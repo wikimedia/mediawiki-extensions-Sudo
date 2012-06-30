@@ -27,3 +27,8 @@ $specialPageAliases['ia'] = array(
 $specialPageAliases['kw'] = array(
 	'Sudo' => array( 'Sudo' ),
 );
+
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'Sudo' => array( 'Судо' ),
+);
