@@ -108,7 +108,7 @@ $messages['az'] = array(
 	'sudo-submit' => 'Daxil ol',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -345,7 +345,7 @@ $messages['frp'] = array(
 	'right-sudo' => 'Branchement u compto a un ôtro usanciér',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -433,7 +433,7 @@ $messages['he'] = array(
 	'right-sudo' => 'כניסה לחשבון של משתמש אחר',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
