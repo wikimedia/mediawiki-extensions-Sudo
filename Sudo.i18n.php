@@ -526,6 +526,29 @@ $messages['id'] = array(
 	'right-sudo' => 'Masuk ke akun pengguna lain',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'sudo' => 'Entrare con un altro account utente',
+	'unsudo' => 'Ritorna al tuo account',
+	'sudo-personal-unsudo' => 'Ritorna al tuo account',
+	'sudo-form' => 'Accedi a:',
+	'sudo-user' => 'Nome utente:',
+	'sudo-reason' => 'Motivo:',
+	'sudo-submit' => 'Entra',
+	'sudo-unsudo' => 'Benvenuto $1, ora sei entrato in questo wiki come $2. Fai clic su "{{int:sudo-unsudo-submit}}" per tornare al tuo account.',
+	'sudo-unsudo-submit' => 'Ritorna',
+	'sudo-success' => 'Benvenuto $1, ora sei entrato in questo wiki come $2.',
+	'sudo-error' => 'Errore sudo: $1',
+	'sudo-error-sudo-invaliduser' => 'Nome utente non valido',
+	'sudo-error-sudo-ip' => "Non è possibile effettuare l'accesso come indirizzo IP",
+	'sudo-error-sudo-nonexistent' => 'Questo utente non esiste',
+	'sudo-logpagename' => 'Registro sudo',
+	'sudo-logpagetext' => 'Questo è un registro di tutti gli usi di sudo.',
+	'right-sudo' => 'Accede con un altro account utente',
+);
+
 /** Japanese (日本語)
  * @author Ohgi
  * @author Schu
