@@ -693,7 +693,7 @@ $messages['ms'] = array(
 	'right-sudo' => 'Log masuk ke dalam akaun pengguna lain',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
