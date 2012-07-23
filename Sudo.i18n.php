@@ -235,6 +235,16 @@ $messages['de-formal'] = array(
 	'sudo-error-nosudo' => 'Sie scheinen nicht mit einem anderen Benutzerkonto angemeldet zu sein',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'sudo-user' => 'Namey karberi:',
+	'sudo-reason' => 'Sebeb:',
+	'sudo-submit' => 'Dekewtış',
+	'sudo-logpagename' => 'Sudo kewê',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  * @author Fitoschido
