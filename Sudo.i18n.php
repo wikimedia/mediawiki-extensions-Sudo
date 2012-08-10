@@ -538,10 +538,12 @@ $messages['id'] = array(
 
 /** Italian (italiano)
  * @author Beta16
+ * @author Darth Kule
  */
 $messages['it'] = array(
 	'sudo' => 'Entrare con un altro account utente',
 	'unsudo' => 'Ritorna al tuo account',
+	'sudo-desc' => "Permette agli utenti autorizzati a farlo di effettuare l'accesso come altri utenti",
 	'sudo-personal-unsudo' => 'Ritorna al tuo account',
 	'sudo-form' => 'Accedi a:',
 	'sudo-user' => 'Nome utente:',
@@ -554,8 +556,11 @@ $messages['it'] = array(
 	'sudo-error-sudo-invaliduser' => 'Nome utente non valido',
 	'sudo-error-sudo-ip' => "Non è possibile effettuare l'accesso come indirizzo IP",
 	'sudo-error-sudo-nonexistent' => 'Questo utente non esiste',
+	'sudo-error-sudo-self' => 'Impossibile cambiare utente nel proprio',
+	'sudo-error-nosudo' => 'Non risulta che sei entrato come un altro utente usando sudo.',
 	'sudo-logpagename' => 'Registro sudo',
 	'sudo-logpagetext' => 'Questo è un registro di tutti gli usi di sudo.',
+	'sudo-logentry' => "è entrato nell'account di $2",
 	'right-sudo' => 'Accede con un altro account utente',
 );
 
@@ -844,6 +849,20 @@ $messages['pt'] = array(
 	'sudo-logpagetext' => 'Este é um registo de todas as utilizações do sudo.',
 	'sudo-logentry' => 'Autenticado na conta de $2',
 	'right-sudo' => 'Iniciar sessão na conta de outro utilizador',
+);
+
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'sudo' => 'Autentificați-vă în contul de utilizator al altei persoane',
+	'unsudo' => 'Reveniți la contul dumneavoastră',
+	'sudo-personal-unsudo' => 'Reveniți la contul dumneavoastră',
+	'sudo-user' => 'Nume de utilizator:',
+	'sudo-reason' => 'Motiv:',
+	'sudo-submit' => 'Autentificare',
+	'sudo-unsudo' => 'Bine ați venit $1, sunteți în prezent autentificat pe wiki ca $2. Clic pe „{{int:sudo-unsudo-submit}}” pentru a vă întoarce la propriul dumneavoastră cont.',
+	'sudo-unsudo-submit' => 'Înapoi',
 );
 
 /** Russian (русский)
