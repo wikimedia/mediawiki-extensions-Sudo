@@ -593,6 +593,19 @@ $messages['ja'] = array(
 	'right-sudo' => '他の利用者のアカウントにログイン',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'sudo-form' => 'შესვლა:',
+	'sudo-user' => 'მომხმარებლის სახელი:',
+	'sudo-reason' => 'მიზეზი:',
+	'sudo-submit' => 'შესვლა',
+	'sudo-unsudo-submit' => 'დაბრუნება',
+	'sudo-error-sudo-invaliduser' => 'არასწორი მომხმარებლის სახელი',
+	'sudo-error-sudo-nonexistent' => 'ეს მომხმარებელი არ არსებობს',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -890,6 +903,16 @@ $messages['ru'] = array(
 	'sudo-logpagetext' => 'Это журнал всех использований Sudo.',
 	'sudo-logentry' => 'вошел в учетную запись $2',
 	'right-sudo' => 'Войти в учетную запись другого пользователя',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'sudo-user' => 'පරිශීලක නාමය:',
+	'sudo-reason' => 'හේතුව:',
+	'sudo-submit' => 'පිවිසෙන්න',
+	'sudo-error-sudo-invaliduser' => 'වලංගු නොවන පරිශීලක නාමය',
 );
 
 /** Swedish (svenska)
