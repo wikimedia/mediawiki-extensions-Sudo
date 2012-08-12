@@ -721,6 +721,17 @@ $messages['ms'] = array(
 	'right-sudo' => 'Log masuk ke dalam akaun pengguna lain',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'unsudo' => 'Lura għall-kont tiegħek',
+	'sudo-personal-unsudo' => 'Lura għall-kont tiegħek',
+	'sudo-form' => "Idħol f':",
+	'sudo-user' => 'Isem tal-utent:',
+	'sudo-reason' => 'Raġiuni:',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
@@ -921,6 +932,16 @@ $messages['si'] = array(
 $messages['sv'] = array(
 	'sudo-user' => 'Användarnamn:',
 	'sudo-reason' => 'Anledning:',
+);
+
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'sudo-user' => 'பயனர் பெயர்:',
+	'sudo-reason' => 'காரணம்:',
+	'sudo-submit' => 'புகுபதிகை',
+	'sudo-unsudo-submit' => 'திரும்பு',
 );
 
 /** Telugu (తెలుగు)
