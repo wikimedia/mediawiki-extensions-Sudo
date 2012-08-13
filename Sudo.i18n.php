@@ -606,6 +606,13 @@ $messages['ka'] = array(
 	'sudo-error-sudo-nonexistent' => 'ეს მომხმარებელი არ არსებობს',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'sudo-user' => '사용자 이름:',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -936,12 +943,19 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  */
 $messages['ta'] = array(
+	'sudo' => 'மற்றொரு பயனர் கணக்கில் புகுபதிகை செய்யவும்',
+	'unsudo' => 'உங்கள் கணக்கிற்கு திரும்பவும்',
+	'sudo-personal-unsudo' => 'உங்கள் கணக்கிற்கு திரும்பவும்',
 	'sudo-user' => 'பயனர் பெயர்:',
 	'sudo-reason' => 'காரணம்:',
 	'sudo-submit' => 'புகுபதிகை',
 	'sudo-unsudo-submit' => 'திரும்பு',
+	'sudo-error-sudo-invaliduser' => 'செல்லாத பயனர்பெயர்',
+	'sudo-error-sudo-ip' => 'ஐபி முகவரியாக புகுபதிகை செய்ய இயலாது',
+	'sudo-error-sudo-nonexistent' => 'அந்த பயனர் இல்லை',
 );
 
 /** Telugu (తెలుగు)
