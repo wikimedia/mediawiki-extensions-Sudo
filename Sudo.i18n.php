@@ -273,6 +273,15 @@ $messages['es'] = array(
 	'right-sudo' => 'Iniciar sesión en la cuenta de otro usuario',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'sudo-user' => 'Kasutajanimi:',
+	'sudo-reason' => 'Põhjus:',
+	'sudo-submit' => 'Logi sisse',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Veikk0.ma
