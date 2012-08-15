@@ -282,6 +282,15 @@ $messages['et'] = array(
 	'sudo-submit' => 'Logi sisse',
 );
 
+/** Basque (euskara)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['eu'] = array(
+	'sudo-user' => 'Erabiltzaile izena:',
+	'sudo-reason' => 'Arrazoia:',
+	'sudo-submit' => 'Saioa hasi',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Veikk0.ma
