@@ -373,6 +373,15 @@ $messages['frp'] = array(
 	'right-sudo' => 'Branchement u compto a un ôtro usanciér',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'sudo-user' => 'Ainm úsáideora:',
+	'sudo-reason' => 'Fáth:',
+	'sudo-submit' => 'Logáil isteach',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -1024,6 +1033,15 @@ $messages['tl'] = array(
 $messages['uk'] = array(
 	'sudo-reason' => 'Причина:',
 	'sudo-submit' => 'Увійти',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['vi'] = array(
+	'sudo-user' => 'Tên người dùng:',
+	'sudo-reason' => 'Lý do:',
+	'sudo-submit' => 'Đăng nhập',
 );
 
 /** Yiddish (ייִדיש)
