@@ -763,7 +763,7 @@ $messages['mt'] = array(
 	'sudo-personal-unsudo' => 'Lura għall-kont tiegħek',
 	'sudo-form' => "Idħol f':",
 	'sudo-user' => 'Isem tal-utent:',
-	'sudo-reason' => 'Raġiuni:',
+	'sudo-reason' => 'Raġuni:',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
@@ -1033,6 +1033,18 @@ $messages['tl'] = array(
 $messages['uk'] = array(
 	'sudo-reason' => 'Причина:',
 	'sudo-submit' => 'Увійти',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'unsudo' => 'اپنے اکاؤنٹ پر واپس',
+	'sudo-personal-unsudo' => 'اپنے اکاؤنٹ پر واپس',
+	'sudo-user' => 'صارف کا نام:',
+	'sudo-reason' => 'وجہ:',
+	'sudo-submit' => 'لاگ ان کریں',
+	'sudo-unsudo-submit' => 'واپس آ جائیں',
 );
 
 /** Vietnamese (Tiếng Việt)
