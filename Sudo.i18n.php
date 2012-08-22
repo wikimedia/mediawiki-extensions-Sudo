@@ -910,10 +910,11 @@ $messages['pt'] = array(
 );
 
 /** Romanian (română)
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
-	'sudo' => 'Autentificați-vă în contul de utilizator al altei persoane',
+	'sudo' => 'Autentificați-vă în contul de utilizator al altcuiva',
 	'unsudo' => 'Reveniți la contul dumneavoastră',
 	'sudo-personal-unsudo' => 'Reveniți la contul dumneavoastră',
 	'sudo-user' => 'Nume de utilizator:',
