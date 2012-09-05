@@ -882,6 +882,16 @@ $messages['pms'] = array(
 	'right-sudo' => "Intré ant ël sistema con ël cont ëd n'àutr utent",
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'sudo-user' => 'کارن-نوم:',
+	'sudo-reason' => 'سبب:',
+	'sudo-submit' => 'ننوتل',
+	'sudo-error-sudo-invaliduser' => 'ناسم کارن-نوم',
+);
+
 /** Portuguese (português)
  * @author Waldir
  */
