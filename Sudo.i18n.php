@@ -919,6 +919,14 @@ $messages['pt'] = array(
 	'right-sudo' => 'Iniciar sessão na conta de outro utilizador',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas Blade
+ */
+$messages['pt-br'] = array(
+	'sudo-user' => 'Nome de usuário:',
+	'sudo-reason' => 'Motivo:',
+);
+
 /** Romanian (română)
  * @author Minisarm
  * @author Stelistcristi
