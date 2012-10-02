@@ -108,7 +108,7 @@ $messages['az'] = array(
 	'sudo-submit' => 'Daxil ol',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -226,7 +226,7 @@ $messages['de'] = array(
 	'right-sudo' => 'Mit anderem Benutzerkonto anmelden',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -671,7 +671,7 @@ $1',
 	'right-sudo' => 'Onger enem fremde Name enlogge (Sudo)',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -766,7 +766,7 @@ $messages['mt'] = array(
 	'sudo-reason' => 'Raġuni:',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1083,7 +1083,7 @@ $messages['yi'] = array(
 	'sudo-submit' => 'אַרײַנלאגירן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
  */
@@ -1111,7 +1111,7 @@ $messages['zh-hans'] = array(
 	'right-sudo' => '登录到另一个用户的帐户',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
