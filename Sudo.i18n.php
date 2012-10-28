@@ -237,11 +237,12 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'sudo-user' => 'Namey karberi:',
 	'sudo-reason' => 'Sebeb:',
-	'sudo-submit' => 'Dekewtış',
+	'sudo-submit' => 'Cıkewtış',
 	'sudo-logpagename' => 'Sudo kewê',
 );
 
@@ -312,7 +313,7 @@ $messages['fi'] = array(
 	'sudo-error-sudo-ip' => 'Ei voida kirjautua IP-osoitteeseen',
 	'sudo-error-sudo-nonexistent' => 'Käyttäjää ei ole olemassa',
 	'sudo-error-sudo-self' => 'Et voi käyttää sudoa omalle tunnuksellesi',
-	'sudo-error-nosudo' => 'Et näytä olevan kirjautuneena sudo-tilillä',
+	'sudo-error-nosudo' => 'Et näytä olevan kirjautuneena sudo-tilillä', # Fuzzy
 	'sudo-logpagename' => 'Sudoloki',
 	'sudo-logpagetext' => 'Tämä on loki kaikista sudon käytöistä.',
 	'sudo-logentry' => 'kirjautui käyttäjänä $2',
@@ -1137,4 +1138,3 @@ $messages['zh-hant'] = array(
 	'sudo-logentry' => '登錄到$2的帳戶',
 	'right-sudo' => '登錄到另一個用戶的帳戶',
 );
-
