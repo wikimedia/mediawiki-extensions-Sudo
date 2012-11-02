@@ -638,7 +638,10 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'sudo-form' => '로그인:',
 	'sudo-user' => '사용자 이름:',
+	'sudo-reason' => '이유:',
+	'sudo-submit' => '로그인',
 );
 
 /** Colognian (Ripoarisch)
