@@ -638,10 +638,27 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'sudo' => '다른 사용자의 계정에 로그인',
+	'unsudo' => '자신의 계정으로 돌아가기',
+	'sudo-desc' => '다른 사용자로 로그인하기 위해 sudo 허용',
+	'sudo-personal-unsudo' => '자신의 계정으로 돌아가기',
 	'sudo-form' => '로그인:',
 	'sudo-user' => '사용자 이름:',
 	'sudo-reason' => '이유:',
 	'sudo-submit' => '로그인',
+	'sudo-unsudo' => '$1 환영합니다, 현재 $2로 위키에 로그인하고 있습니다. 자신의 계정으로 돌아가려면 "{{int:sudo-unsudo-submit}}"를 클릭하세요.',
+	'sudo-unsudo-submit' => '돌아가기',
+	'sudo-success' => '$1 환영합니다, 지금 $2로 위키에 로그인하고 있습니다.',
+	'sudo-error' => 'Sudo 오류: $1',
+	'sudo-error-sudo-invaliduser' => '잘못된 사용자 이름',
+	'sudo-error-sudo-ip' => 'IP 주소로 로그인할 수 없습니다',
+	'sudo-error-sudo-nonexistent' => '해당 사용자는 존재하지 않습니다',
+	'sudo-error-sudo-self' => '자기 자신이 sudo할 수 없습니다',
+	'sudo-error-nosudo' => 'sudo로 다른 사용자로 로그인하지 않는 것 같습니다.',
+	'sudo-logpagename' => 'Sudo 기록',
+	'sudo-logpagetext' => 'sudo의 모든 사용 기록입니다.',
+	'sudo-logentry' => '$2의 계정으로 로그인함',
+	'right-sudo' => '다른 사용자의 계정에 로그인',
 );
 
 /** Colognian (Ripoarisch)
@@ -994,6 +1011,7 @@ $messages['sv'] = array(
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author Shanmugamp7
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'sudo' => 'மற்றொரு பயனர் கணக்கில் புகுபதிகை செய்யவும்',
@@ -1003,6 +1021,7 @@ $messages['ta'] = array(
 	'sudo-reason' => 'காரணம்:',
 	'sudo-submit' => 'புகுபதிகை',
 	'sudo-unsudo-submit' => 'திரும்பு',
+	'sudo-error' => 'போலிப் பிழை: $1',
 	'sudo-error-sudo-invaliduser' => 'செல்லாத பயனர்பெயர்',
 	'sudo-error-sudo-ip' => 'ஐபி முகவரியாக புகுபதிகை செய்ய இயலாது',
 	'sudo-error-sudo-nonexistent' => 'அந்த பயனர் இல்லை',
