@@ -1136,6 +1136,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'sudo' => '登錄到另一個用戶的帳戶',
@@ -1143,7 +1144,7 @@ $messages['zh-hant'] = array(
 	'sudo-desc' => '允許sudo者以其他用戶身份登錄',
 	'sudo-personal-unsudo' => '返回到您的帳戶',
 	'sudo-form' => '登錄到：',
-	'sudo-user' => '使用者名稱：',
+	'sudo-user' => '用戶名：',
 	'sudo-reason' => '原因：',
 	'sudo-submit' => '登入',
 	'sudo-unsudo' => '歡迎$1，您當前以$2的身份登錄到wiki。單擊“{{int:sudo-unsudo-submit}}”以返回到您自己的登錄。',
