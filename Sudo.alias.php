@@ -32,3 +32,8 @@ $specialPageAliases['kw'] = array(
 $specialPageAliases['mk'] = array(
 	'Sudo' => array( 'Судо' ),
 );
+
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'Sudo' => array( 'ਸੁਡੋ' ),
+);
