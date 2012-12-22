@@ -281,6 +281,8 @@ $messages['et'] = array(
 	'sudo-user' => 'Kasutajanimi:',
 	'sudo-reason' => 'Põhjus:',
 	'sudo-submit' => 'Logi sisse',
+	'sudo-error-sudo-invaliduser' => 'Vigane kasutajanimi',
+	'sudo-error-sudo-nonexistent' => 'Sellist kasutajat ei ole',
 );
 
 /** Basque (euskara)
@@ -290,6 +292,19 @@ $messages['eu'] = array(
 	'sudo-user' => 'Erabiltzaile izena:',
 	'sudo-reason' => 'Arrazoia:',
 	'sudo-submit' => 'Saioa hasi',
+);
+
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'unsudo' => 'بازگشت به حساب شما',
+	'sudo-personal-unsudo' => 'بازگشت به حساب شما',
+	'sudo-form' => 'ورود به:',
+	'sudo-user' => 'نام کاربری:',
+	'sudo-reason' => 'دلیل:',
+	'sudo-submit' => 'ورود به سیستم',
+	'sudo-unsudo-submit' => 'بازگشت',
 );
 
 /** Finnish (suomi)
