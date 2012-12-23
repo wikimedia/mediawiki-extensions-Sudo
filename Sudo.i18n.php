@@ -136,6 +136,14 @@ $messages['be-tarask'] = array(
 	'right-sudo' => 'уваход ў рахункі іншых удзельнікаў',
 );
 
+/** Bulgarian (български)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['bg'] = array(
+	'sudo-user' => 'Потребителско име:',
+	'sudo-reason' => 'Причина:',
+);
+
 /** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
@@ -1017,10 +1025,22 @@ $messages['si'] = array(
 
 /** Swedish (svenska)
  * @author Liftarn
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'sudo' => 'Logga in på en annan användares konto',
+	'unsudo' => 'Gå tillbaka till ditt konto',
+	'sudo-personal-unsudo' => 'Gå tillbaka till ditt konto',
+	'sudo-form' => 'Logga in:',
 	'sudo-user' => 'Användarnamn:',
 	'sudo-reason' => 'Anledning:',
+	'sudo-submit' => 'Logga in',
+	'sudo-unsudo-submit' => 'Gå tillbaka',
+	'sudo-error-sudo-invaliduser' => 'Ogiltigt användarnamn',
+	'sudo-error-sudo-ip' => 'Kan inte logga in som en IP-adress',
+	'sudo-error-sudo-nonexistent' => 'Denna användare finns inte',
+	'sudo-logentry' => 'loggade in på $2s konto',
+	'right-sudo' => 'Logga in på en annan användares konto',
 );
 
 /** Tamil (தமிழ்)
