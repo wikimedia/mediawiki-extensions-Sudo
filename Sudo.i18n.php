@@ -984,6 +984,7 @@ $messages['ro'] = array(
 	'sudo-submit' => 'Autentificare',
 	'sudo-unsudo' => 'Bine ați venit $1, sunteți în prezent autentificat pe wiki ca $2. Clic pe „{{int:sudo-unsudo-submit}}” pentru a vă întoarce la propriul dumneavoastră cont.',
 	'sudo-unsudo-submit' => 'Înapoi',
+	'sudo-error-sudo-invaliduser' => 'Nume de utilizator incorect',
 );
 
 /** Russian (русский)
