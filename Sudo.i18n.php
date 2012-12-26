@@ -1021,6 +1021,7 @@ $messages['si'] = array(
 	'sudo-user' => 'පරිශීලක නාමය:',
 	'sudo-reason' => 'හේතුව:',
 	'sudo-submit' => 'පිවිසෙන්න',
+	'sudo-unsudo-submit' => 'ප්‍රත්‍යාගමනය',
 	'sudo-error-sudo-invaliduser' => 'වලංගු නොවන පරිශීලක නාමය',
 );
 
