@@ -1018,11 +1018,16 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'unsudo' => 'ඔබේ ගිණුම වෙත ප්‍රත්‍යාගමනය කරන්න',
+	'sudo-personal-unsudo' => 'ඔබේ ගිණුම වෙත ප්‍රත්‍යාගමනය කරන්න',
+	'sudo-form' => 'වෙත ප්‍රවිෂ්ට වන්න:',
 	'sudo-user' => 'පරිශීලක නාමය:',
 	'sudo-reason' => 'හේතුව:',
 	'sudo-submit' => 'පිවිසෙන්න',
 	'sudo-unsudo-submit' => 'ප්‍රත්‍යාගමනය',
+	'sudo-error' => 'සුදෝ දෝෂය: $1',
 	'sudo-error-sudo-invaliduser' => 'වලංගු නොවන පරිශීලක නාමය',
+	'sudo-logpagename' => 'සුදෝ ලොගය',
 );
 
 /** Swedish (svenska)
