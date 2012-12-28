@@ -745,6 +745,19 @@ $messages['lb'] = array(
 	'right-sudo' => 'Alogge mat engem anere sengem Benotzerkont',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'sudo-form' => 'Pieslēgties:',
+	'sudo-user' => 'Lietotājvārds:',
+	'sudo-reason' => 'Iemesls:',
+	'sudo-submit' => 'Pieslēgties',
+	'sudo-error-sudo-invaliduser' => 'Nederīgs lietotājvārds',
+	'sudo-error-sudo-ip' => 'Nevar pieslēgties kā IP adrese',
+	'sudo-error-sudo-nonexistent' => 'Šis lietotājs neeksistē',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
