@@ -1040,7 +1040,10 @@ $messages['si'] = array(
 	'sudo-unsudo-submit' => 'ප්‍රත්‍යාගමනය',
 	'sudo-error' => 'සුදෝ දෝෂය: $1',
 	'sudo-error-sudo-invaliduser' => 'වලංගු නොවන පරිශීලක නාමය',
+	'sudo-error-sudo-nonexistent' => 'එම පරිශිලකයා නොපවතියි',
 	'sudo-logpagename' => 'සුදෝ ලොගය',
+	'sudo-logentry' => '$2 ගේ ගිණුමට ප්‍රවිෂ්ට වන්න',
+	'right-sudo' => 'වෙනත් පරිශීලකයෙකුගේ ගිණුමකට ප්‍රවිෂ්ට වන්න',
 );
 
 /** Swedish (svenska)
