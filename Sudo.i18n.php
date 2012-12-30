@@ -206,6 +206,15 @@ $messages['ca'] = array(
 	'sudo-reason' => 'Motiu:',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'sudo-submit' => 'Přihlásit se',
+	'sudo-error-sudo-invaliduser' => 'Neplatné uživatelské jméno',
+	'sudo-logpagename' => 'Sudo log',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author The Evil IP address
