@@ -389,7 +389,7 @@ $messages['frp'] = array(
 	'sudo-desc' => 'Pèrmèt ux usanciérs sudô de sè branchiér coment un ôtro usanciér.',
 	'sudo-personal-unsudo' => 'Retôrn a voutron compto',
 	'sudo-form' => 'Branchement a :',
-	'sudo-user' => 'Nom d’usanciér :',
+	'sudo-user' => 'Nom d’utilisator :',
 	'sudo-reason' => 'Rêson :',
 	'sudo-submit' => 'Branchement',
 	'sudo-unsudo-submit' => 'Retôrn',
@@ -1001,12 +1001,16 @@ $messages['ro'] = array(
 	'sudo' => 'Autentificați-vă în contul de utilizator al altcuiva',
 	'unsudo' => 'Reveniți la contul dumneavoastră',
 	'sudo-personal-unsudo' => 'Reveniți la contul dumneavoastră',
+	'sudo-form' => 'Autentificare la:',
 	'sudo-user' => 'Nume de utilizator:',
 	'sudo-reason' => 'Motiv:',
 	'sudo-submit' => 'Autentificare',
 	'sudo-unsudo' => 'Bine ați venit $1, sunteți în prezent autentificat pe wiki ca $2. Clic pe „{{int:sudo-unsudo-submit}}” pentru a vă întoarce la propriul dumneavoastră cont.',
 	'sudo-unsudo-submit' => 'Înapoi',
+	'sudo-success' => 'Bine ați venit $1, sunteți autentificat în wiki sub numele $2.',
+	'sudo-error' => 'Eroare sudo: $1',
 	'sudo-error-sudo-invaliduser' => 'Nume de utilizator incorect',
+	'sudo-error-sudo-nonexistent' => 'Acel utilizator nu există',
 );
 
 /** Russian (русский)
@@ -1040,7 +1044,9 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'sudo' => 'වෙනත් පරිශීලකයෙකුගේ ගිණුමකට ප්‍රවිෂ්ට වන්න',
 	'unsudo' => 'ඔබේ ගිණුම වෙත ප්‍රත්‍යාගමනය කරන්න',
+	'sudo-desc' => 'sudoers හට වෙනත් පරිශීලකයන් ලෙස ප්‍රවිෂ්ට වීමට ඉඩ දෙන්න',
 	'sudo-personal-unsudo' => 'ඔබේ ගිණුම වෙත ප්‍රත්‍යාගමනය කරන්න',
 	'sudo-form' => 'වෙත ප්‍රවිෂ්ට වන්න:',
 	'sudo-user' => 'පරිශීලක නාමය:',
@@ -1049,8 +1055,11 @@ $messages['si'] = array(
 	'sudo-unsudo-submit' => 'ප්‍රත්‍යාගමනය',
 	'sudo-error' => 'සුදෝ දෝෂය: $1',
 	'sudo-error-sudo-invaliduser' => 'වලංගු නොවන පරිශීලක නාමය',
+	'sudo-error-sudo-ip' => 'IP ලිපිනයක් ලෙස පිවිසිය නොහැක',
 	'sudo-error-sudo-nonexistent' => 'එම පරිශිලකයා නොපවතියි',
+	'sudo-error-sudo-self' => 'ඔබට sudo විය නොහැක',
 	'sudo-logpagename' => 'සුදෝ ලොගය',
+	'sudo-logpagetext' => 'මෙය සියලුම පරිශීලකයන්ගේ sudo හී ලොගයකි.',
 	'sudo-logentry' => '$2 ගේ ගිණුමට ප්‍රවිෂ්ට වන්න',
 	'right-sudo' => 'වෙනත් පරිශීලකයෙකුගේ ගිණුමකට ප්‍රවිෂ්ට වන්න',
 );
