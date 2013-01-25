@@ -641,7 +641,7 @@ $messages['ja'] = array(
 	'sudo-unsudo' => 'ようこそ $1 、あなたは現在 $2 としてウィキにログインしています。自分のアカウントに戻るには「{{int:sudo-unsudo-submit}}」をクリックしてください。',
 	'sudo-unsudo-submit' => '戻る',
 	'sudo-success' => 'ようこそ $1 、あなたは現在 $2 としてウィキにログインしています。',
-	'sudo-error' => 'Sudo エラー：$1',
+	'sudo-error' => 'Sudo エラー: $1',
 	'sudo-error-sudo-invaliduser' => '無効な利用者名',
 	'sudo-error-sudo-ip' => 'IPアドレスにはログインできません',
 	'sudo-error-sudo-nonexistent' => 'その利用者は存在しません',
@@ -689,7 +689,7 @@ $messages['ko'] = array(
 	'sudo-error-nosudo' => 'sudo로 다른 사용자로 로그인하지 않는 것 같습니다.',
 	'sudo-logpagename' => 'Sudo 기록',
 	'sudo-logpagetext' => 'sudo의 모든 사용 기록입니다.',
-	'sudo-logentry' => '$2의 계정으로 로그인함',
+	'sudo-logentry' => '사용자가 $2의 계정으로 로그인했습니다',
 	'right-sudo' => '다른 사용자의 계정에 로그인',
 );
 
