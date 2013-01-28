@@ -33,6 +33,11 @@ $specialPageAliases['mk'] = array(
 	'Sudo' => array( 'Судо' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'Sudo' => array( 'സുഡോ' ),
+);
+
 /** Punjabi (ਪੰਜਾਬੀ) */
 $specialPageAliases['pa'] = array(
 	'Sudo' => array( 'ਸੁਡੋ' ),
