@@ -657,13 +657,17 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'unsudo' => 'თქვენ ანგარიშზე დაბრუნება',
+	'sudo-personal-unsudo' => 'თქვენ ანგარიშზე დაბრუნება',
 	'sudo-form' => 'შესვლა:',
 	'sudo-user' => 'მომხმარებლის სახელი:',
 	'sudo-reason' => 'მიზეზი:',
 	'sudo-submit' => 'შესვლა',
 	'sudo-unsudo-submit' => 'დაბრუნება',
+	'sudo-error' => 'სუდო-შეცდომა: $1',
 	'sudo-error-sudo-invaliduser' => 'არასწორი მომხმარებლის სახელი',
 	'sudo-error-sudo-nonexistent' => 'ეს მომხმარებელი არ არსებობს',
+	'sudo-logpagename' => 'სუდო-ჟურნალი',
 );
 
 /** Korean (한국어)
