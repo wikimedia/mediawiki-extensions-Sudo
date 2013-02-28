@@ -53,11 +53,12 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
+ * @author Shirayuki
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'sudo-desc' => '{{desc}}',
+	'sudo-desc' => '{{desc|name=Sudo|url=http://www.mediawiki.org/wiki/Extension:Sudo}}',
 	'sudo-user' => '{{Identical|Username}}',
 	'sudo-reason' => '{{Identical|Reason}}',
 	'sudo-submit' => '{{Identical|Login}}',
