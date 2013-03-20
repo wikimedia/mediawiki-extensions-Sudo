@@ -62,6 +62,33 @@ $messages['qqq'] = array(
 	'sudo-user' => '{{Identical|Username}}',
 	'sudo-reason' => '{{Identical|Reason}}',
 	'sudo-submit' => '{{Identical|Login}}',
+	'sudo-unsudo' => '{{doc-important|Do not translate <code><nowiki>{{int:sudo-unsudo-submit}}</nowiki></code>.}}
+Used as welcome message. Parameters:
+* $1 - username of super user (with link)
+* $2 - username (with link)
+See also:
+* {{msg-mw|Sudo-success}}',
+	'sudo-unsudo-submit' => 'Used as label for Submit button.
+{{Identical|Return}}',
+	'sudo-success' => 'Used as welcome message. Parameters:
+* $1 - username of super user (with link)
+* $2 - username (with link)
+See also:
+* {{msg-mw|Sudo-unsudo}}',
+	'sudo-error' => 'Used as error message. Parameters:
+* $1 - error message. Any one of the following messages:
+** {{msg-mw|Sudo-error-sudo-invaliduser}}
+** {{msg-mw|Sudo-error-sudo-ip}}
+** {{msg-mw|Sudo-error-sudo-nonexistent}}
+** {{msg-mw|Sudo-error-sudo-self}}
+** {{msg-mw|Sudo-error-nosudo}}',
+	'sudo-error-sudo-invaliduser' => 'Used as <code>$1</code> in {{msg-mw|Sudo-error}}.',
+	'sudo-error-sudo-ip' => 'Used as <code>$1</code> in {{msg-mw|Sudo-error}}.',
+	'sudo-error-sudo-nonexistent' => 'Used as <code>$1</code> in {{msg-mw|Sudo-error}}.',
+	'sudo-error-sudo-self' => 'Used as <code>$1</code> in {{msg-mw|Sudo-error}}.',
+	'sudo-error-nosudo' => 'Used as <code>$1</code> in {{msg-mw|Sudo-error}}.',
+	'sudo-logentry' => 'Parameters
+* $2 - username',
 	'right-sudo' => '{{doc-right|sudo}}',
 );
 
@@ -644,13 +671,13 @@ $messages['ja'] = array(
 	'sudo-success' => 'ようこそ $1 、あなたは現在 $2 としてウィキにログインしています。',
 	'sudo-error' => 'Sudo エラー: $1',
 	'sudo-error-sudo-invaliduser' => '無効な利用者名',
-	'sudo-error-sudo-ip' => 'IPアドレスにはログインできません',
+	'sudo-error-sudo-ip' => 'IP 利用者ではログインできません',
 	'sudo-error-sudo-nonexistent' => 'その利用者は存在しません',
 	'sudo-error-sudo-self' => '自分自身には sudo できません',
 	'sudo-error-nosudo' => 'sudo で他の利用者としてログインしていないようです。',
 	'sudo-logpagename' => 'sudo記録',
 	'sudo-logpagetext' => 'これは sudo 使用のすべての記録です。',
-	'sudo-logentry' => '$2 のアカウントにログインしています',
+	'sudo-logentry' => '$2 のアカウントにログインしました',
 	'right-sudo' => '他の利用者のアカウントにログイン',
 );
 
