@@ -173,7 +173,7 @@ class SpecialSudo extends SpecialPage {
 			return;
 		}
 		if( User::isIP( $u->getName() ) ) {
-			$this->addError( 'sudo-error-ip' );
+			$this->addError( 'sudo-error-sudo-ip' );
 			return;
 		}
 		if( $u->isAnon() ) {
