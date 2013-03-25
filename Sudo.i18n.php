@@ -1045,6 +1045,16 @@ $messages['ro'] = array(
 	'sudo-error-sudo-nonexistent' => 'Acel utilizator nu există',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'sudo-form' => "Tràse jndr'à:",
+	'sudo-reason' => 'Mutive:',
+	'sudo-submit' => 'Tràse',
+	'sudo-unsudo-submit' => 'Tuèrne',
+);
+
 /** Russian (русский)
  * @author DCamer
  */
