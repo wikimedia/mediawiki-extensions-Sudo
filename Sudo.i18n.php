@@ -58,6 +58,7 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'sudo' => '{{doc-special|Sudo}}',
 	'sudo-desc' => '{{desc|name=Sudo|url=http://www.mediawiki.org/wiki/Extension:Sudo}}',
 	'sudo-user' => '{{Identical|Username}}',
 	'sudo-reason' => '{{Identical|Reason}}',
@@ -285,7 +286,7 @@ $messages['de-formal'] = array(
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'sudo-user' => 'Namey karberi:',
+	'sudo-user' => 'Nameyê karberi:',
 	'sudo-reason' => 'Sebeb:',
 	'sudo-submit' => 'Cıkewtış',
 	'sudo-logpagename' => 'Sudo kewê',
