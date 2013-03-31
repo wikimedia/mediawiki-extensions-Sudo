@@ -736,7 +736,7 @@ $messages['ksh'] = array(
 	'sudo-personal-unsudo' => 'Jangk retuur op Dinge eije Name als Metmaacher',
 	'sudo-form' => 'Enlogge als:',
 	'sudo-user' => 'Metmaacher_Naame:',
-	'sudo-reason' => 'Aanlass:',
+	'sudo-reason' => 'Aanlaß:',
 	'sudo-submit' => 'Lohß jonn!',
 	'sudo-unsudo' => 'Welkumme $1, 
 De bes heh em Wiki em Momang als {{GENDER:$2|dä|dat|Metmaacher|de|et}} $2 enjelogg.
