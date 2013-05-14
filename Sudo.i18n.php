@@ -235,6 +235,13 @@ $messages['ca'] = array(
 	'sudo-reason' => 'Motiu:',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'sudo-reason' => 'Бахьан:',
+);
+
 /** Czech (česky)
  * @author Vks
  */
