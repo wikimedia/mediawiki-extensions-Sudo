@@ -239,7 +239,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'sudo-user' => 'Декъашхон цӀе:',
+	'sudo-user' => 'Декъашхочун цӀе:',
 	'sudo-reason' => 'Бахьан:',
 );
 
