@@ -64,12 +64,16 @@ $messages['qqq'] = array(
 	'sudo-reason' => '{{Identical|Reason}}',
 	'sudo-submit' => '{{Identical|Login}}',
 	'sudo-unsudo' => '{{doc-important|Do not translate <code><nowiki>{{int:sudo-unsudo-submit}}</nowiki></code>.}}
+Refers to {{msg-mw|Sudo-unsudo-submit}}.
+
 Used as welcome message. Parameters:
 * $1 - username of super user (with link)
 * $2 - username (with link)
 See also:
 * {{msg-mw|Sudo-success}}',
 	'sudo-unsudo-submit' => 'Used as label for Submit button.
+
+Used in {{msg-mw|Sudo-unsudo}}.
 {{Identical|Return}}',
 	'sudo-success' => 'Used as welcome message. Parameters:
 * $1 - username of super user (with link)
