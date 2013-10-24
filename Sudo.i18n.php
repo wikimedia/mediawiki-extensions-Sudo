@@ -1176,6 +1176,7 @@ $messages['si'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Liftarn
  * @author WikiPhoenix
  */
@@ -1188,9 +1189,11 @@ $messages['sv'] = array(
 	'sudo-reason' => 'Anledning:',
 	'sudo-submit' => 'Logga in',
 	'sudo-unsudo-submit' => 'Gå tillbaka',
+	'sudo-error' => 'Sudo-fel: $1',
 	'sudo-error-sudo-invaliduser' => 'Ogiltigt användarnamn',
 	'sudo-error-sudo-ip' => 'Kan inte logga in som en IP-adress',
 	'sudo-error-sudo-nonexistent' => 'Denna användare finns inte',
+	'sudo-error-sudo-self' => 'Kan inte bli dig själv med sudo',
 	'sudo-logentry' => 'loggade in på $2s konto',
 	'right-sudo' => 'Logga in på en annan användares konto',
 );
