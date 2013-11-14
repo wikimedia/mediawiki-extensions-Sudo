@@ -66,7 +66,7 @@ function wfSudoLogout( &$user, &$inject_html ) {
 	return true;
 }
 
-function wfSudoPersonalUrls( &$personal_urls, &$wgTitle ) {
+function wfSudoPersonalUrls( &$personal_urls, &$title ) {
 	// Replace logout link with a unsudo link while in a sudo login.
 	if( isset( $_SESSION['wsSudoId'] ) && $_SESSION['wsSudoId'] > 0 ) {
 		$personal_urls['logout'] = array(
