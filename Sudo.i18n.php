@@ -247,7 +247,7 @@ $messages['ce'] = array(
 	'sudo-reason' => 'Бахьан:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
