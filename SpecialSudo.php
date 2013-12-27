@@ -109,7 +109,7 @@ class SpecialSudo extends SpecialPage {
 			if( $wgRequest->wasPosted() ) {
 				unset( $_SESSION['wsSudoId'] );
 				$suUser->setCookies();
-				$wgOut->redirect( $this->getTitle()->getFullURL() );
+				$wgOut->redirect( $this->getPageTitle()->getFullURL() );
 				return;
 			}
 			$this->setHeaders();
@@ -117,8 +117,8 @@ class SpecialSudo extends SpecialPage {
 
 			$wgOut->addHTML(
 				Xml::openElement( 'form', array( 'method' => 'post',
-					'action' => $this->getTitle()->getFullURL( 'mode=unsudo' ) ) ) .
-				Html::Hidden( 'title', $this->getTitle()->getPrefixedText() )
+					'action' => $this->getPageTitle()->getFullURL( 'mode=unsudo' ) ) ) .
+				Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() )
 			);
 			$wgOut->addHTML(
 				wfMsgExt( 'sudo-unsudo', array( 'parse', 'replaceafter' ),
@@ -135,8 +135,8 @@ class SpecialSudo extends SpecialPage {
 		global $wgOut;
 		$wgOut->addHTML(
 			Xml::openElement( 'form', array( 'method' => 'post',
-				'action' => $this->getTitle()->getLocalURL() ) ) .
-			Html::Hidden( 'title', $this->getTitle()->getPrefixedText() ) .
+				'action' => $this->getPageTitle()->getLocalURL() ) ) .
+			Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			Xml::openElement( 'fieldset' ) .
 			Xml::element( 'legend', array(), wfMsg( 'sudo-form' ) ) .
 			Xml::inputLabel( wfMsg( 'sudo-user' ), 'target', 'sudo-user', 20, $this->target ) . ' ' .
@@ -194,6 +194,6 @@ class SpecialSudo extends SpecialPage {
 		}
 		$u->setCookies();
 
-		$wgOut->redirect( $this->getTitle()->getFullURL( 'mode=success' ) );
+		$wgOut->redirect( $this->getPageTitle()->getFullURL( 'mode=success' ) );
 	}
 }
