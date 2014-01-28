@@ -353,6 +353,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
@@ -363,6 +364,12 @@ $messages['fa'] = array(
 	'sudo-reason' => 'دلیل:',
 	'sudo-submit' => 'ورود به سیستم',
 	'sudo-unsudo-submit' => 'بازگشت',
+	'sudo-error' => 'خطای سودو: $1',
+	'sudo-error-sudo-invaliduser' => 'نام کاربری نامعتبر',
+	'sudo-error-sudo-ip' => 'نمی‌توان به عنوان یک آدرس آی‌پی وارد شد',
+	'sudo-error-sudo-nonexistent' => 'آن کاربر وجود ندارد',
+	'sudo-logentry' => 'ورود به حساب $2',
+	'right-sudo' => 'ورود به حساب کاربری دیگری',
 );
 
 /** Finnish (suomi)
