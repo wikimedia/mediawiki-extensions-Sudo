@@ -357,6 +357,7 @@ $messages['eu'] = array(
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'sudo' => 'ورود به حساب کاربری دیگری',
 	'unsudo' => 'بازگشت به حساب شما',
 	'sudo-personal-unsudo' => 'بازگشت به حساب شما',
 	'sudo-form' => 'ورود به:',
