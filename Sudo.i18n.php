@@ -354,6 +354,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  * @author Mjbmr
  */
 $messages['fa'] = array(
@@ -364,7 +365,8 @@ $messages['fa'] = array(
 	'sudo-form' => 'ورود به:',
 	'sudo-user' => 'نام کاربری:',
 	'sudo-reason' => 'دلیل:',
-	'sudo-submit' => 'ورود به سیستم',
+	'sudo-submit' => 'ورود به سامانه',
+	'sudo-unsudo' => 'خوش‌ آمدید $1، شما در حال حاضر به عنوان $2 وارد ویکی شده‌اید. بر روی "{{int:sudo-unsudo-submit}}" برای بازگشت به حساب کاربری خود، کلیک کنید.',
 	'sudo-unsudo-submit' => 'بازگشت',
 	'sudo-success' => 'خوش‌آمدید $1 ، شما در حال ورود به ویکی به عنوان $2 هستید.',
 	'sudo-error' => 'خطای سودو: $1',
