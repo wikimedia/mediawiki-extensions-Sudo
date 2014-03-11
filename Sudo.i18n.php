@@ -1336,6 +1336,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
+ * @author Liuxinyu970226
  */
 $messages['zh-hans'] = array(
 	'sudo' => '登录到另一个用户的帐户',
@@ -1345,7 +1346,7 @@ $messages['zh-hans'] = array(
 	'sudo-form' => '登录到：',
 	'sudo-user' => '用户名：',
 	'sudo-reason' => '原因：',
-	'sudo-submit' => '登入',
+	'sudo-submit' => '登录',
 	'sudo-unsudo' => '欢迎$1，您当前以$2的身份登录到wiki。单击“{{int:sudo-unsudo-submit}}”以返回到您自己的登录。',
 	'sudo-unsudo-submit' => '返回',
 	'sudo-success' => '欢迎$1，您当前已经以$2的身份登录到wiki。',
