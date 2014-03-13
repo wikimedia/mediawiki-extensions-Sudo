@@ -1276,6 +1276,13 @@ $messages['tl'] = array(
 	'right-sudo' => 'Lumagdang papasok sa iba pang akawnt ng tagagamit',
 );
 
+/** Tatar (Cyrillic script) (татарча)
+ * @author Ilnur efende
+ */
+$messages['tt-cyrl'] = array(
+	'sudo-form' => 'Керү',
+);
+
 /** Ukrainian (українська)
  * @author Base
  * @author Тест
