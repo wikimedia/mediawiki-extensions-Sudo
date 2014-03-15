@@ -244,7 +244,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'sudo-user' => 'Декъашхочун цӀе:',
-	'sudo-reason' => 'Бахьан:',
+	'sudo-reason' => 'Бахьна:',
 );
 
 /** Czech (čeština)
