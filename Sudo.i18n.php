@@ -1344,12 +1344,13 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Liangent
  * @author Liuxinyu970226
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'sudo' => '登录到另一个用户的帐户',
+	'sudo' => '登录其他用户的账户',
 	'unsudo' => '返回到您的帐户',
 	'sudo-desc' => '允许sudo者以其他用户身份登录',
-	'sudo-personal-unsudo' => '返回到您的帐户',
+	'sudo-personal-unsudo' => '返回你的账户',
 	'sudo-form' => '登录到：',
 	'sudo-user' => '用户名：',
 	'sudo-reason' => '原因：',
@@ -1365,7 +1366,7 @@ $messages['zh-hans'] = array(
 	'sudo-error-nosudo' => '你似乎不在sudo登录中',
 	'sudo-logpagename' => 'Sudo日志',
 	'sudo-logpagetext' => '这是所有使用sudo的日志。',
-	'sudo-logentry' => '登录到$2的帐户',
+	'sudo-logentry' => '登录$2的账户',
 	'right-sudo' => '登录到另一个用户的帐户',
 );
 
