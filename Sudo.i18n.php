@@ -1110,6 +1110,13 @@ Clique em "{{int:sudo-unsudo-submit}}" para voltar à sua conta original.',
 	'right-sudo' => 'Se autenticar em contas de outros usuários',
 );
 
+/** Quechua (Runa Simi)
+ * @author AlimanRuna
+ */
+$messages['qu'] = array(
+	'sudo-submit' => 'Yaykuy',
+);
+
 /** Romanian (română)
  * @author Minisarm
  * @author Stelistcristi
