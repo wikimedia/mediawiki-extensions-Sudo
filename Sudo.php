@@ -7,7 +7,6 @@
  * @author Daniel Friesen (http://danf.ca/mw/)
  * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @link https://www.mediawiki.org/wiki/Extension:Sudo Documentation
- * @version 0.2.1
  */
 
 if( !defined( 'MEDIAWIKI' ) ) {
@@ -18,7 +17,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Sudo',
-	'version' => '0.2.1',
+	'version' => '0.3.0',
 	'author' => '[http://danf.ca/mw/ Daniel Friesen]',
 	'descriptionmsg' => 'sudo-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Sudo',
@@ -26,6 +25,7 @@ $wgExtensionCredits['other'][] = array(
 
 // Set up i18n and the new special page
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['Sudo'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Sudo'] = $dir . 'Sudo.i18n.php';
 $wgExtensionMessagesFiles['SudoAlias'] = $dir . 'Sudo.alias.php';
 $wgAutoloadClasses['SpecialSudo'] = $dir . 'SpecialSudo.php';
