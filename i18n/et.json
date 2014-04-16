@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Avjoska"
-        ]
-    },
-    "sudo-user": "Kasutajanimi:",
-    "sudo-reason": "Põhjus:",
-    "sudo-submit": "Logi sisse",
-    "sudo-error-sudo-invaliduser": "Vigane kasutajanimi",
-    "sudo-error-sudo-nonexistent": "Sellist kasutajat ei ole"
+	"@metadata": {
+		"authors": [
+			"Avjoska"
+		]
+	},
+	"sudo-user": "Kasutajanimi:",
+	"sudo-reason": "Põhjus:",
+	"sudo-submit": "Logi sisse",
+	"sudo-error-sudo-invaliduser": "Vigane kasutajanimi",
+	"sudo-error-sudo-nonexistent": "Sellist kasutajat ei ole"
 }

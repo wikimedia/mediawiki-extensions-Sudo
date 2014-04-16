@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "sudo-user": "Декъашхочун цӀе:",
-    "sudo-reason": "Бахьна:"
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"sudo-user": "Декъашхочун цӀе:",
+	"sudo-reason": "Бахьна:"
 }

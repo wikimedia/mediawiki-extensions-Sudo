@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "SMP"
-        ]
-    },
-    "sudo-reason": "Motiu:"
+	"@metadata": {
+		"authors": [
+			"SMP"
+		]
+	},
+	"sudo-reason": "Motiu:"
 }
