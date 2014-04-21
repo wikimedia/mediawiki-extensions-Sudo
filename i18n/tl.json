@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
-	"sudo": "Lumagdang papasok sa iba pang akawnt ng tagagamit",
-	"unsudo": "Bumalik sa akawnt mo",
+	"sudo": "Maglogin papasok sa iba pang account ng tagagamit",
+	"unsudo": "Bumalik sa account mo",
 	"sudo-desc": "Nagpapahintulot sa mga nagsu-sudo na lumagda bilang ibang mga tagagamit",
-	"sudo-personal-unsudo": "Bumalik sa akawnt mo",
+	"sudo-personal-unsudo": "Bumalik sa account mo",
 	"sudo-form": "Lumagda sa:",
 	"sudo-user": "Pangalan ng tagagamit:",
 	"sudo-reason": "Dahilan:",
@@ -23,6 +24,6 @@
 	"sudo-error-nosudo": "Tila wala ka sa loob ng isang paglagda ng sudo",
 	"sudo-logpagename": "Talaan ng sudo",
 	"sudo-logpagetext": "Isa itong talaan ng lahat ng mga pinaggagamitan ng sudo.",
-	"sudo-logentry": "nakalagda sa akawnt ni $2",
-	"right-sudo": "Lumagdang papasok sa iba pang akawnt ng tagagamit"
+	"sudo-logentry": "nakalagda sa account ni $2",
+	"right-sudo": "Mag-login papasok sa iba pang account ng tagagamit"
 }
