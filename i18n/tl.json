@@ -12,7 +12,7 @@
 	"sudo-form": "Lumagda sa:",
 	"sudo-user": "Pangalan ng tagagamit:",
 	"sudo-reason": "Dahilan:",
-	"sudo-submit": "Lumagda",
+	"sudo-submit": "Mag-login",
 	"sudo-unsudo": "Maligayang pagdating $1, pangkasalukuyang nakalagda ka sa wiki bilang si $2. Pindutin ang  \"{{int:sudo-unsudo-submit}}\" bumalik sa pansarili mong paglagda.",
 	"sudo-unsudo-submit": "Bumalik",
 	"sudo-success": "Maligayang pagdating $1, nakalagda ka na ngayon sa wiki bilang si $2.",
