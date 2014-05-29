@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'Sudo' => array( 'سودو' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'Sudo' => array( 'سودو' ),
+);
+
 /** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Sudo' => array( 'Transidentification' ),
