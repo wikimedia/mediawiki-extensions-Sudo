@@ -4,11 +4,12 @@
 			"Hydra",
 			"Liangent",
 			"Liuxinyu970226",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"Mywood"
 		]
 	},
 	"sudo": "登录其他用户的账户",
-	"unsudo": "返回到您的帐户",
+	"unsudo": "返回你的帐户",
 	"sudo-desc": "允许sudo者以其他用户身份登录",
 	"sudo-personal-unsudo": "返回你的账户",
 	"sudo-form": "登录到：",
