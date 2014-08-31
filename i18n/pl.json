@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe"
+			"Sp5uhe",
+			"Pio387"
 		]
 	},
 	"sudo": "Zaloguj się jako inny użytkownik",
-	"unsudo": "Powrócić do własnego konta",
+	"unsudo": "Powróć do własnego konta",
 	"sudo-desc": "Pozwala wybranym użytkownikom logować się na konta innych",
 	"sudo-personal-unsudo": "Powrócić do własnego konta",
 	"sudo-form": "Zaloguj się jako",
