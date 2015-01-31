@@ -21,6 +21,7 @@ $wgExtensionCredits['other'][] = array(
 	'author' => '[http://danf.ca/mw/ Daniel Friesen]',
 	'descriptionmsg' => 'sudo-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Sudo',
+	'license-name' => 'GPL-2.0+',
 );
 
 // Set up i18n and the new special page
