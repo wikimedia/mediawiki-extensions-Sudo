@@ -8,7 +8,7 @@
 		]
 	},
 	"sudo": "{{doc-special|Sudo}}",
-	"sudo-desc": "{{desc|name=Sudo|url=http://www.mediawiki.org/wiki/Extension:Sudo}}",
+	"sudo-desc": "{{desc|name=Sudo|url=https://www.mediawiki.org/wiki/Extension:Sudo}}",
 	"sudo-user": "{{Identical|Username}}",
 	"sudo-reason": "{{Identical|Reason}}",
 	"sudo-submit": "{{Identical|Login}}",
