@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'Sudo' => array( 'سودو' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Sudo' => array( 'سودو' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'Sudo' => array( 'سودو' ),
