@@ -16,7 +16,7 @@
 	"sudo-unsudo-submit": "Volver",
 	"sudo-success": "Benvido $1, está conectado no wiki como $2.",
 	"sudo-error": "Erro do sudo: $1",
-	"sudo-error-sudo-invaliduser": "Nome de usuario inválido",
+	"sudo-error-sudo-invaliduser": "Nome de usuario non válido",
 	"sudo-error-sudo-ip": "Non pode acceder ao sistema como un enderezo IP",
 	"sudo-error-sudo-nonexistent": "Ese usuario non existe",
 	"sudo-error-sudo-self": "Non se pode identificar como sudo na súa conta",
