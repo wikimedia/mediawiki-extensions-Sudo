@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'Sudo' => array( 'سودو' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Sudo' => array( 'سودو' ),
 );
