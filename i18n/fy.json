@@ -4,5 +4,6 @@
 			"Robin0van0der0vliet"
 		]
 	},
-	"sudo-user": "Brûkersnamme:"
+	"sudo-user": "Brûkersnamme:",
+	"sudo-reason": "Reden:"
 }
