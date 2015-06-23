@@ -196,4 +196,8 @@ class SpecialSudo extends SpecialPage {
 
 		$wgOut->redirect( $this->getPageTitle()->getFullURL( 'mode=success' ) );
 	}
+
+	protected function getGroupName() {
+		return 'users';
+	}
 }

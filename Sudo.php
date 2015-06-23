@@ -31,7 +31,6 @@ $wgExtensionMessagesFiles['Sudo'] = $dir . 'Sudo.i18n.php';
 $wgExtensionMessagesFiles['SudoAlias'] = $dir . 'Sudo.alias.php';
 $wgAutoloadClasses['SpecialSudo'] = $dir . 'SpecialSudo.php';
 $wgSpecialPages['Sudo']           = 'SpecialSudo';
-$wgSpecialPageGroups['Sudo']      = 'users';
 
 // New user right, required to use Special:Sudo
 $wgAvailableRights[] = 'sudo';
