@@ -8,7 +8,7 @@
 			"Cwlin0416"
 		]
 	},
-	"sudo": "登入至另一個使用者的帳戶",
+	"sudo": "登入至另一個使用者的帳號",
 	"unsudo": "返回到您的帳號",
 	"sudo-desc": "允許sudo者以其他使用者身份登入",
 	"sudo-personal-unsudo": "返回到您的帳號",
