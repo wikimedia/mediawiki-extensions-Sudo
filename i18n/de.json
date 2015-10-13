@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kghbln",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Metalhead64"
 		]
 	},
 	"sudo": "Mit anderem Benutzerkonto anmelden",
@@ -25,5 +26,6 @@
 	"sudo-logpagename": "Sudo-Logbuch",
 	"sudo-logpagetext": "Dies ist das Logbuch aller Verwendungen von „sudo“.",
 	"sudo-logentry": "hat sich mit dem Benutzerkonto von $2 angemeldet",
-	"right-sudo": "Mit anderem Benutzerkonto anmelden"
+	"right-sudo": "Mit einem anderen Benutzerkonto anmelden",
+	"action-sudo": "dich mit einem anderen Benutzerkonto anzumelden"
 }
