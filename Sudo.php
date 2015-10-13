@@ -17,20 +17,24 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Sudo',
-	'version' => '0.3.0',
-	'author' => '[http://danf.ca/mw/ Daniel Friesen]',
+	'version' => '0.4.0',
+	'author' => array(
+		'[http://danf.ca/mw/ Daniel Friesen]',
+		'...'
+	),
 	'descriptionmsg' => 'sudo-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Sudo',
 	'license-name' => 'GPL-2.0+',
 );
 
-// Set up i18n and the new special page
-$dir = dirname( __FILE__ ) . '/';
+// Set up i18n
 $wgMessagesDirs['Sudo'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Sudo'] = $dir . 'Sudo.i18n.php';
-$wgExtensionMessagesFiles['SudoAlias'] = $dir . 'Sudo.alias.php';
-$wgAutoloadClasses['SpecialSudo'] = $dir . 'SpecialSudo.php';
-$wgSpecialPages['Sudo']           = 'SpecialSudo';
+$wgExtensionMessagesFiles['Sudo'] = __DIR__ . '/Sudo.i18n.php';
+$wgExtensionMessagesFiles['SudoAlias'] = __DIR__ . '/Sudo.alias.php';
+
+// New sepecial page
+$wgAutoloadClasses['SpecialSudo'] = __DIR__ . '/SpecialSudo.php';
+$wgSpecialPages['Sudo'] = 'SpecialSudo';
 
 // New user right, required to use Special:Sudo
 $wgAvailableRights[] = 'sudo';

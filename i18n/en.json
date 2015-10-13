@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Daniel Friesen"
+			"Daniel Friesen",
+			"Kghbln"
 		]
 	},
 	"sudo": "Log into another user's account",
@@ -24,5 +25,6 @@
 	"sudo-logpagename": "Sudo log",
 	"sudo-logpagetext": "This is a log of all uses of sudo.",
 	"sudo-logentry": "logged into $2's account",
-	"right-sudo": "Login to another user's account"
+	"right-sudo": "Login to another user's account",
+	"action-sudo": "log into another user's account"
 }

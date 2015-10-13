@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
+			"Kghbln",
 			"Shirayuki",
 			"The Evil IP address",
 			"Umherirrender"
@@ -22,5 +23,6 @@
 	"sudo-error-sudo-self": "Used as <code>$1</code> in {{msg-mw|Sudo-error}}.",
 	"sudo-error-nosudo": "Used as <code>$1</code> in {{msg-mw|Sudo-error}}.",
 	"sudo-logentry": "Parameters\n* $2 - username",
-	"right-sudo": "{{doc-right|sudo}}"
+	"right-sudo": "{{doc-right|sudo}}",
+	"action-sudo": "{{doc-action|sudo}}"
 }
