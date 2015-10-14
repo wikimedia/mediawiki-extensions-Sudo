@@ -24,5 +24,6 @@
 	"sudo-logpagename": "Logbooch vum Enlogge onger fremde Name (Sudo)",
 	"sudo-logpagetext": "En heh däm Logbooch fengk mer jeedes Enlogge onger enem fremde Name (Sudo)",
 	"sudo-logentry": "hät sesch als {{GENDER:$2|dä|dat|Metmaacher|de|et}} $2 enjelogg.",
-	"right-sudo": "Onger enem fremde Name enlogge (Sudo)"
+	"right-sudo": "Onger enem fremde Name enlogge (Sudo)",
+	"action-sudo": "onger enem fremde Name enzelogge"
 }

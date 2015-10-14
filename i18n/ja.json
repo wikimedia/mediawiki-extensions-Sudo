@@ -3,7 +3,8 @@
 		"authors": [
 			"Ohgi",
 			"Schu",
-			"Shirayuki"
+			"Shirayuki",
+			"Sujiniku"
 		]
 	},
 	"sudo": "他の利用者のアカウントにログイン",
@@ -26,5 +27,6 @@
 	"sudo-logpagename": "sudo記録",
 	"sudo-logpagetext": "これは sudo 使用のすべての記録です。",
 	"sudo-logentry": "$2 のアカウントにログインしました",
-	"right-sudo": "他の利用者のアカウントにログイン"
+	"right-sudo": "他の利用者のアカウントにログイン",
+	"action-sudo": "他の利用者のアカウントにログイン"
 }

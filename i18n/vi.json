@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Nguyen Quynh Chau"
 		]
 	},
 	"sudo-user": "Tên người dùng:",
 	"sudo-reason": "Lý do:",
-	"sudo-submit": "Đăng nhập"
+	"sudo-submit": "Đăng nhập",
+	"action-sudo": "Đăng nhập vào tài khoản của người sử dụng khác"
 }

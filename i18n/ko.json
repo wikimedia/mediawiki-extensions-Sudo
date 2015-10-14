@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Yearning"
 		]
 	},
 	"sudo": "다른 사용자의 계정에 로그인",
@@ -24,5 +25,6 @@
 	"sudo-logpagename": "Sudo 기록",
 	"sudo-logpagetext": "sudo의 모든 사용 기록입니다.",
 	"sudo-logentry": "사용자가 $2의 계정으로 로그인했습니다",
-	"right-sudo": "다른 사용자의 계정에 로그인"
+	"right-sudo": "다른 사용자의 계정에 로그인",
+	"action-sudo": "다른 사용자의 계정으로 로그인"
 }

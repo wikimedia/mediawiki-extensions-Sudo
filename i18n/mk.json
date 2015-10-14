@@ -24,5 +24,6 @@
 	"sudo-logpagename": "Дневник на Sudo",
 	"sudo-logpagetext": "Ова е дневник на сите употреби на Sudo",
 	"sudo-logentry": "најава на сметката на $2",
-	"right-sudo": "Најавување на туѓа сметка"
+	"right-sudo": "Најавување на туѓа сметка",
+	"action-sudo": "најава со туѓа сметка"
 }
