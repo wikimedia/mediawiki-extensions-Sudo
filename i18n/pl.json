@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sp5uhe",
-			"Pio387"
+			"Pio387",
+			"Chrumps"
 		]
 	},
 	"sudo": "Zaloguj się jako inny użytkownik",
@@ -25,5 +26,6 @@
 	"sudo-logpagename": "Rejestr zmian zalogowania się",
 	"sudo-logpagetext": "Jest to rejestr wszystkich zdarzeń zmian zalogowania się.",
 	"sudo-logentry": "zalogowany jako $2",
-	"right-sudo": "Zaloguj się jako inny użytkownik"
+	"right-sudo": "Zaloguj się jako inny użytkownik",
+	"action-sudo": "zaloguj się jako inny użytkownik"
 }
