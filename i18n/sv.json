@@ -20,5 +20,6 @@
 	"sudo-error-sudo-nonexistent": "Denna användare finns inte",
 	"sudo-error-sudo-self": "Kan inte bli dig själv med sudo",
 	"sudo-logentry": "loggade in på $2s konto",
-	"right-sudo": "Logga in på en annan användares konto"
+	"right-sudo": "Logga in på en annan användares konto",
+	"action-sudo": "logga in på en annan användares konto"
 }
