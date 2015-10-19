@@ -9,7 +9,10 @@
 		]
 	},
 	"sudo": "{{doc-special|Sudo}}",
+	"unsudo": "Used as text of a link",
 	"sudo-desc": "{{desc|name=Sudo|url=https://www.mediawiki.org/wiki/Extension:Sudo}}",
+	"sudo-personal-unsudo": "Used as text of a link",
+	"sudo-form": "Used as text of a legend",
 	"sudo-user": "{{Identical|Username}}",
 	"sudo-reason": "{{Identical|Reason}}",
 	"sudo-submit": "{{Identical|Login}}",
@@ -22,6 +25,8 @@
 	"sudo-error-sudo-nonexistent": "Used as <code>$1</code> in {{msg-mw|Sudo-error}}.",
 	"sudo-error-sudo-self": "Used as <code>$1</code> in {{msg-mw|Sudo-error}}.",
 	"sudo-error-nosudo": "Used as <code>$1</code> in {{msg-mw|Sudo-error}}.",
+	"sudo-logpagename": "Used as log name",
+	"sudo-logpagetext": "Used as log header",
 	"sudo-logentry": "Parameters\n* $2 - username",
 	"right-sudo": "{{doc-right|sudo}}",
 	"action-sudo": "{{doc-action|sudo}}"
