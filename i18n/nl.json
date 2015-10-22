@@ -4,10 +4,10 @@
 			"Siebrand"
 		]
 	},
-	"sudo": "Aanmelden als een andere gebruiker",
-	"unsudo": "Terugkeren naar uw eigen gebruiker",
+	"sudo": "Aanmelden als account van een andere gebruiker",
+	"unsudo": "Terugkeren naar uw account",
 	"sudo-desc": "Staat gebruikers met het recht \"sudo\" toe als andere gebruikers aan te melden",
-	"sudo-personal-unsudo": "Terugkeren naar uw eigen gebruiker",
+	"sudo-personal-unsudo": "Terugkeren naar uw eigen account",
 	"sudo-form": "Aanmelden als:",
 	"sudo-user": "Gebruikersnaam:",
 	"sudo-reason": "Reden:",
@@ -23,6 +23,7 @@
 	"sudo-error-nosudo": "U bevindt zich niet in een sudosessie",
 	"sudo-logpagename": "Sudologboek",
 	"sudo-logpagetext": "Dit logboek bevat alle keren dat sudo gebruikt is.",
-	"sudo-logentry": "heeft aangemeld als $2",
-	"right-sudo": "Aanmelden als een andere gebruiker"
+	"sudo-logentry": "heeft aangemeld als de account van $2",
+	"right-sudo": "Aanmelden als account van een andere gebruiker",
+	"action-sudo": "aan te melden met de account van een andere gebruiker"
 }
