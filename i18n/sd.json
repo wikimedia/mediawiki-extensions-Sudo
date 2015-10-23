@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Aursani"
 		]
 	},
-	"action-sudo": "هڪ ٻئي يوزر جي کاتي ۾ داخل ٿيو"
+	"action-sudo": "ٻئي يوزر جي کاتي ۾ لاگ اِن ٿيو"
 }
