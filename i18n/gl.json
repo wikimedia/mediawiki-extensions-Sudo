@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"sudo": "Acceder ao sistema coa conta doutro usuario",
@@ -24,5 +25,6 @@
 	"sudo-logpagename": "Rexistro de sudo",
 	"sudo-logpagetext": "Este é un rexistro de todos os usos do sudo.",
 	"sudo-logentry": "accedeu ao sistema coa conta de $2",
-	"right-sudo": "Acceder ao sistema coa conta doutro usuario"
+	"right-sudo": "Acceder ao sistema coa conta doutro usuario",
+	"action-sudo": "iniciar sesión na conta doutro usuario"
 }
