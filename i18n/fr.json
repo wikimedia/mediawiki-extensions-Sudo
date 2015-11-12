@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Otourly",
-			"Sherbrooke"
+			"Sherbrooke",
+			"Gomoko"
 		]
 	},
 	"sudo": "Connectez-vous au compte d'un autre utilisateur",
@@ -25,5 +26,6 @@
 	"sudo-logpagename": "Historique de ''sudo''",
 	"sudo-logpagetext": "Ceci est un historique de toutes les utilisations de ''sudo''.",
 	"sudo-logentry": "connecté au compte $2",
-	"right-sudo": "Connexion au compte d'un autre utilisateur"
+	"right-sudo": "Connexion au compte d'un autre utilisateur",
+	"action-sudo": "tracer dans le compte d’un autre utilisateur"
 }
