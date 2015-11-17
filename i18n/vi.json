@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"Nguyen Quynh Chau"
+			"Nguyen Quynh Chau",
+			"Minh Nguyen"
 		]
 	},
 	"sudo-user": "Tên người dùng:",
 	"sudo-reason": "Lý do:",
 	"sudo-submit": "Đăng nhập",
-	"action-sudo": "Đăng nhập vào tài khoản của người sử dụng khác"
+	"action-sudo": "đăng nhập vào tài khoản của người dùng khác"
 }
