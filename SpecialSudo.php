@@ -61,8 +61,7 @@ class SpecialSudo extends SpecialPage {
 
 		// ...and that the user isn't blocked
 		if( $wgUser->isBlocked() ) {
-			$wgOut->blockedPage();
-			return;
+			throw new UserBlockedError( $wgUser->getBlock() );
 		}
 
 		// ...and that the database is not in read-only mode.
