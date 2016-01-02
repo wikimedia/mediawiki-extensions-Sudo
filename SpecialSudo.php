@@ -92,8 +92,8 @@ class SpecialSudo extends SpecialPage {
 			$this->setHeaders();
 			$suUser = User::newFromId( $_SESSION['wsSudoId'] );
 			$wgOut->addHTML( wfMsgExt( 'sudo-success', array( 'parse', 'replaceafter' ),
-					Linker::makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
-					Linker::makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
+					Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
+					Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
 			);
 		}
 	}
@@ -120,8 +120,8 @@ class SpecialSudo extends SpecialPage {
 			);
 			$wgOut->addHTML(
 				wfMsgExt( 'sudo-unsudo', array( 'parse', 'replaceafter' ),
-					Linker::makeLinkObj( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
-					Linker::makeLinkObj( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
+					Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
+					Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
 				) .
 				Xml::submitButton( wfMsg( 'sudo-unsudo-submit' ) ) .
 				Xml::closeElement( 'form' )
@@ -185,7 +185,8 @@ class SpecialSudo extends SpecialPage {
 
 		$log = new LogPage( 'sudo' );
 		$log->addEntry( 'sudo', $wgUser->getUserPage(), $this->reason,
-			array( Linker::makeLinkObj( $u->getUserPage(), $u->getName() ) ) );
+			array( Linker::link( $u->getUserPage(), $u->getName() ) )
+		);
 
 		if( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
 			$_SESSION['wsSudoId'] = $wgUser->getId();
