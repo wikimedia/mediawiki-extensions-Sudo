@@ -56,8 +56,7 @@ class SpecialSudo extends SpecialPage {
 
 		// Check that the user is allowed to access this special page...
 		if( !$wgUser->isAllowed( 'sudo' ) ) {
-			$wgOut->permissionRequired( 'sudo' );
-			return;
+			throw new PermissionsError( 'sudo' );
 		}
 
 		// ...and that the user isn't blocked
