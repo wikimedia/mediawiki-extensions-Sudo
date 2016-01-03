@@ -60,7 +60,7 @@ function wfSudoPersonalUrls( &$personal_urls, &$title ) {
 	// Replace logout link with a unsudo link while in a sudo login.
 	if( isset( $_SESSION['wsSudoId'] ) && $_SESSION['wsSudoId'] > 0 ) {
 		$personal_urls['logout'] = array(
-			'text' => wfMsg( 'sudo-personal-unsudo' ),
+			'text' => wfMessage( 'sudo-personal-unsudo' )->text(),
 			'href' => Skin::makeSpecialUrl( 'Sudo', 'mode=unsudo' ),
 			'active' => false
 		);

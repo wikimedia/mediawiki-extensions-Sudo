@@ -91,9 +91,10 @@ class SpecialSudo extends SpecialPage {
 		} else {
 			$this->setHeaders();
 			$suUser = User::newFromId( $_SESSION['wsSudoId'] );
-			$wgOut->addHTML( wfMsgExt( 'sudo-success', array( 'parse', 'replaceafter' ),
-					Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
-					Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
+			$wgOut->addHTML( $this->msg( 'sudo-success' )
+					->rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
+					->rawParams( Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
+					->parse()
 			);
 		}
 	}
@@ -111,7 +112,7 @@ class SpecialSudo extends SpecialPage {
 				return;
 			}
 			$this->setHeaders();
-			$wgOut->setPageTitle( wfMsg( 'unsudo' ) );
+			$wgOut->setPageTitle( $this->msg( 'unsudo' ) );
 
 			$wgOut->addHTML(
 				Xml::openElement( 'form', array( 'method' => 'post',
@@ -119,11 +120,12 @@ class SpecialSudo extends SpecialPage {
 				Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() )
 			);
 			$wgOut->addHTML(
-				wfMsgExt( 'sudo-unsudo', array( 'parse', 'replaceafter' ),
-					Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ),
-					Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
+				$this->msg( 'sudo-unsudo' )
+					-rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
+					->rawParams (Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
+					->parse()
 				) .
-				Xml::submitButton( wfMsg( 'sudo-unsudo-submit' ) ) .
+				Xml::submitButton( $this->msg( 'sudo-unsudo-submit' )->text() ) .
 				Xml::closeElement( 'form' )
 			);
 		}
@@ -136,10 +138,10 @@ class SpecialSudo extends SpecialPage {
 				'action' => $this->getPageTitle()->getLocalURL() ) ) .
 			Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			Xml::openElement( 'fieldset' ) .
-			Xml::element( 'legend', array(), wfMsg( 'sudo-form' ) ) .
-			Xml::inputLabel( wfMsg( 'sudo-user' ), 'target', 'sudo-user', 20, $this->target ) . ' ' .
-			Xml::inputLabel( wfMsg( 'sudo-reason' ), 'reason', 'sudo-reason', 45, $this->reason ) . ' ' .
-			Xml::submitButton( wfMsg( 'sudo-submit' ) ) .
+			Xml::element( 'legend', array(), $this->msg( 'sudo-form' )->text() ) .
+			Xml::inputLabel( $this->msg( 'sudo-user' )->text(), 'target', 'sudo-user', 20, $this->target ) . ' ' .
+			Xml::inputLabel( $this->msg( 'sudo-reason' )->text(), 'reason', 'sudo-reason', 45, $this->reason ) . ' ' .
+			Xml::submitButton( $this->msg( 'sudo-submit' )->text() ) .
 			Xml::closeElement( 'fieldset' ) .
 			Xml::closeElement( 'form' ) . "\n"
 		);
@@ -152,7 +154,7 @@ class SpecialSudo extends SpecialPage {
 	function showError( $error ) {
 		global $wgOut;
 		$wgOut->addHTML( Xml::openElement( 'div', array( 'class' => 'sudo-error' ) ) );
-		$wgOut->addWikiMsg( 'sudo-error', wfMsg( $error ) );
+		$wgOut->addWikiMsg( 'sudo-error', $this->msg( $error )->text() );
 		$wgOut->addHTML( Xml::closeElement( 'div' ) );
 	}
 
