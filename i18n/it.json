@@ -5,15 +5,15 @@
 			"Darth Kule"
 		]
 	},
-	"sudo": "Entrare con un altro account utente",
-	"unsudo": "Ritorna al tuo account",
-	"sudo-desc": "Permette agli utenti autorizzati a farlo di effettuare l'accesso come altri utenti",
-	"sudo-personal-unsudo": "Ritorna al tuo account",
+	"sudo": "Accedi con un'altra utenza",
+	"unsudo": "Ritorna alla tua utenza",
+	"sudo-desc": "Permette agli utenti autorizzati a farlo, di effettuare l'accesso come altri utenti",
+	"sudo-personal-unsudo": "Ritorna alla tua utenza",
 	"sudo-form": "Accedi a:",
 	"sudo-user": "Nome utente:",
 	"sudo-reason": "Motivo:",
 	"sudo-submit": "Entra",
-	"sudo-unsudo": "Benvenuto $1, ora sei entrato in questo wiki come $2. Fai clic su \"{{int:sudo-unsudo-submit}}\" per tornare al tuo account.",
+	"sudo-unsudo": "Benvenuto $1, ora sei entrato in questo wiki come $2. Fai clic su \"{{int:sudo-unsudo-submit}}\" per tornare alla tua utenza.",
 	"sudo-unsudo-submit": "Ritorna",
 	"sudo-success": "Benvenuto $1, ora sei entrato in questo wiki come $2.",
 	"sudo-error": "Errore sudo: $1",
@@ -25,5 +25,6 @@
 	"sudo-logpagename": "Registro sudo",
 	"sudo-logpagetext": "Questo è un registro di tutti gli usi di sudo.",
 	"sudo-logentry": "è entrato nell'account di $2",
-	"right-sudo": "Accede con un altro account utente"
+	"right-sudo": "Accede con un'altra utenza",
+	"action-sudo": "accedere con un'altra utenza"
 }
