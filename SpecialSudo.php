@@ -36,6 +36,10 @@ class SpecialSudo extends SpecialPage {
 		parent::__construct( 'Sudo', 'sudo' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Show the special page
 	 *
