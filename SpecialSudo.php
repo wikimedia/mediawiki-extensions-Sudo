@@ -98,6 +98,7 @@ class SpecialSudo extends SpecialPage {
 			$wgOut->addHTML( $this->msg( 'sudo-success' )
 					->rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
 					->rawParams( Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
+					->params( $wgUser->getName() )
 					->parse()
 			);
 		}
@@ -125,8 +126,9 @@ class SpecialSudo extends SpecialPage {
 			);
 			$wgOut->addHTML(
 				$this->msg( 'sudo-unsudo' )
-					-rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
+					->rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
 					->rawParams (Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) )
+					->params( $wgUser->getName() )
 					->parse()
 				) .
 				Xml::submitButton( $this->msg( 'sudo-unsudo-submit' )->text() ) .
