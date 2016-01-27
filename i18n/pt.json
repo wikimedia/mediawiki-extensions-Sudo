@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Waldir"
+			"Waldir",
+			"Vitorvicentevalente"
 		]
 	},
 	"sudo": "Iniciar sessão na conta de outro utilizador",
@@ -12,9 +13,9 @@
 	"sudo-user": "Nome de utilizador:",
 	"sudo-reason": "Motivo:",
 	"sudo-submit": "Iniciar sessão",
-	"sudo-unsudo": "Bem-vindo, $1, você atualmete tem sessão iniciada na wiki como $2. Clique em \"{{int:sudo-unsudo-submit}}\" para retornar à sua própria conta.",
+	"sudo-unsudo": "{{GENDER:$3|Bem-vindo|Bem-vinda|Bem-vindo(a)}}, $1, está atualmente autenticado na wiki como $2. Clique em \"{{int:sudo-unsudo-submit}}\" para retornar à sua própria conta.",
 	"sudo-unsudo-submit": "Voltar",
-	"sudo-success": "Bem-vindo, $1, você está agora autenticado na wiki como $2.",
+	"sudo-success": "{{GENDER:$3|Bem-vindo|Bem-vinda|Bem-vindo(a)}}, $1, encontra-se agora autenticado na wiki como $2.",
 	"sudo-error": "Erro do Sudo: $1",
 	"sudo-error-sudo-invaliduser": "Nome de utilizador inválido",
 	"sudo-error-sudo-ip": "Não é possível iniciar sessão como um endereço IP",

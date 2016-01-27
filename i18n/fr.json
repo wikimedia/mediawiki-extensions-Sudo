@@ -3,7 +3,8 @@
 		"authors": [
 			"Otourly",
 			"Sherbrooke",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"sudo": "Connectez-vous au compte d'un autre utilisateur",
@@ -14,9 +15,9 @@
 	"sudo-user": "Nom d’utilisateur :",
 	"sudo-reason": "Raison :",
 	"sudo-submit": "Connexion",
-	"sudo-unsudo": "Bienvenue $1, vous êtes actuellement connecté au wiki en tant que $2. Cliquez sur {{int:sudo-unsudo-submit}} pour revenir à votre connexion précédente.",
+	"sudo-unsudo": "Bienvenue $1, vous êtes actuellement connect{{GENDER:$3|é|ée}}  au wiki en tant que $2. Cliquez sur {{int:sudo-unsudo-submit}} pour revenir sous votre propre compte.",
 	"sudo-unsudo-submit": "Retour",
-	"sudo-success": "Bienvenue $1, vous êtes maintenant connecté au wiki en tant que $2.",
+	"sudo-success": "Bienvenue $1, vous êtes maintenant connect{{GENDER:$3|é|ée}} au wiki en tant que $2.",
 	"sudo-error": "Erreur de ''sudo'': $1",
 	"sudo-error-sudo-invaliduser": "Nom d’utilisateur invalide",
 	"sudo-error-sudo-ip": "Ne peut se connecter à une adresse IP",

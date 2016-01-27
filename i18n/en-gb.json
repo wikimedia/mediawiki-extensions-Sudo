@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tom29739"
+		]
+	},
+	"sudo-unsudo": "{{GENDER:$3|Welcome}} $1, you are currently logged into the wiki as $2. Click on \"{{int:sudo-unsudo-submit}}\" to return to your own account.",
+	"sudo-success": "{{GENDER:$3|Welcome}} $1, you are now logged into the wiki as $2."
+}
