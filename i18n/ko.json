@@ -24,7 +24,7 @@
 	"sudo-error-nosudo": "sudo로 다른 사용자로 로그인하지 않는 것 같습니다.",
 	"sudo-logpagename": "Sudo 기록",
 	"sudo-logpagetext": "sudo의 모든 사용 기록입니다.",
-	"sudo-logentry": "사용자가 $2의 계정으로 로그인했습니다",
+	"sudo-logentry": "님이 $2의 계정으로 로그인했습니다",
 	"right-sudo": "다른 사용자의 계정에 로그인",
 	"action-sudo": "다른 사용자의 계정으로 로그인"
 }
