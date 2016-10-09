@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"sudo": "Logg inn på en annen brukers konto",
@@ -12,9 +13,9 @@
 	"sudo-user": "Brukernavn:",
 	"sudo-reason": "Årsak:",
 	"sudo-submit": "Logg inn",
-	"sudo-unsudo": "Velkommen $1, du er nå logget inn på wikien som $2. Klikk på «{{int:sudo-unsudo-submit}}» for å gå tilbake til din egen pålogging.",
+	"sudo-unsudo": "{{GENDER:$3|Velkommen}} $1, du er nå logget inn på wikien som $2. Klikk på «{{int:sudo-unsudo-submit}}» for å gå tilbake til din egen pålogging.",
 	"sudo-unsudo-submit": "Tilbake",
-	"sudo-success": "Velkommen $1, du er nå logget inn på wikien som $2.",
+	"sudo-success": "{{GENDER:$3|Velkommen}} $1, du er nå logget inn på wikien som $2.",
 	"sudo-error": "Sudo-feil: $1",
 	"sudo-error-sudo-invaliduser": "Ugyldig brukernavn",
 	"sudo-error-sudo-ip": "Kan ikke logge inn på en IP-adresse",
@@ -24,5 +25,6 @@
 	"sudo-logpagename": "Sudo-logg",
 	"sudo-logpagetext": "Dette er en logg over all bruk av sudo.",
 	"sudo-logentry": "logget på $2 sin konto",
-	"right-sudo": "Logget inn på en annen brukers konto"
+	"right-sudo": "Logget inn på en annen brukers konto",
+	"action-sudo": "logg inn med en annen brukerkonto"
 }
