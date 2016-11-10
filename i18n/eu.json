@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Gorkaazk"
 		]
 	},
 	"sudo-user": "Erabiltzaile izena:",
 	"sudo-reason": "Arrazoia:",
-	"sudo-submit": "Saioa hasi"
+	"sudo-submit": "Hasi saioa"
 }
