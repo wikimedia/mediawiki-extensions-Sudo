@@ -12,9 +12,9 @@
 	"sudo-user": "Nom d'utilizaire :",
 	"sudo-reason": "Rason :",
 	"sudo-submit": "Connexion",
-	"sudo-unsudo": "Benvenguda $1, sètz actualament connectat al wiki en tant que $2. Clicatz sus {{int:sudo-unsudo-submit}} per tornar a vòstra connexion precedenta.",
+	"sudo-unsudo": "Benvenguda $1, sètz actualament connect{{GENDER:$3|at|ada}} al wiki en tant que $2. Clicatz sus {{int:sudo-unsudo-submit}} per tornar jos vòstre pròpri compte.",
 	"sudo-unsudo-submit": "Retorn",
-	"sudo-success": "Benvenguda $1, ara sètz connectat al wiki en tant que $2.",
+	"sudo-success": "Benvenguda $1, ara sètz connect{{GENDER:$3|at|ada}} al wiki en tant que $2.",
 	"sudo-error": "Error de ''sudo'': $1",
 	"sudo-error-sudo-invaliduser": "Nom d'utilizaire invalid",
 	"sudo-error-sudo-ip": "Se pòt pas connectar a una adreça IP",
@@ -24,5 +24,6 @@
 	"sudo-logpagename": "Istoric de ''sudo''",
 	"sudo-logpagetext": "Aquò's un istoric de totas las utilizacions de ''sudo''.",
 	"sudo-logentry": "connectat al compte $2",
-	"right-sudo": "Connexion al compte d'un autre utilizaire"
+	"right-sudo": "Connexion al compte d'un autre utilizaire",
+	"action-sudo": "traçar dins lo compte d’un autre utilizaire"
 }
