@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"sudo": "Prijava na račun drugog korisnika",
@@ -12,7 +13,7 @@
 	"sudo-user": "Korisničko ime:",
 	"sudo-reason": "Razlog:",
 	"sudo-submit": "Prijava",
-	"sudo-unsudo": "Dobrodošli $1, trenutno ste prijavljeni na wiki kao $2. Kliknite na \"{{int:sudo-unsudo-submit}}\" da se vratite na vaš vlastiti račun.",
+	"sudo-unsudo": "{{GENDER:$3|Dobro došli}}, $1. Trenutno ste prijavljeni na wiki kao $2. Kliknite na \"{{int:sudo-unsudo-submit}}\" da se vratite na Vaš vlastiti račun.",
 	"sudo-unsudo-submit": "Nazad",
 	"sudo-success": "Dobrodošli $1, sada ste prijavljeni na wiki kao $2.",
 	"sudo-error": "Sudo greška: $1",
