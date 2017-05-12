@@ -5,7 +5,8 @@
 			"Simon Shek",
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Wehwei"
 		]
 	},
 	"sudo": "登入至另一個使用者的帳號",
@@ -16,9 +17,9 @@
 	"sudo-user": "使用者名稱：",
 	"sudo-reason": "原因：",
 	"sudo-submit": "登入",
-	"sudo-unsudo": "歡迎 $1 ，您當前以$2的身份登入到wiki。單擊“{{int:sudo-unsudo-submit}}”以返回到您自己的登入。",
+	"sudo-unsudo": "{{GENDER:$3|歡迎}} $1 ，您當前以$2的身份登入到wiki。單擊“{{int:sudo-unsudo-submit}}”以返回到您自己的登入。",
 	"sudo-unsudo-submit": "返回",
-	"sudo-success": "歡迎$1，您當前已經以$2的身份登錄到wiki。",
+	"sudo-success": "{{GENDER:$3|歡迎}} $1，您當前已經以 $2 的身份登錄到 wiki。",
 	"sudo-error": "Sudo錯誤：$1",
 	"sudo-error-sudo-invaliduser": "無效的使用者名稱",
 	"sudo-error-sudo-ip": "不能登錄到IP地址",
@@ -28,5 +29,6 @@
 	"sudo-logpagename": "Sudo日誌",
 	"sudo-logpagetext": "這是所有使用sudo的日誌。",
 	"sudo-logentry": "登入到 $2 的帳號",
-	"right-sudo": "登入到另一個使用者的帳戶"
+	"right-sudo": "登入到另一個使用者的帳戶",
+	"action-sudo": "登入到另一個使用者的帳戶"
 }
