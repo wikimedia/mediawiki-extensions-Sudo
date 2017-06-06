@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"sudo": "Aniciar sesión na cuenta d'otru usuariu",
+	"unsudo": "Volver a la to cuenta",
+	"sudo-desc": "Permite a los «sudoers» aniciar sesión como otros usuarios",
+	"sudo-personal-unsudo": "Volver a la to cuenta",
+	"sudo-form": "Aniciar sesión en:",
+	"sudo-user": "Nome d'usuariu:",
+	"sudo-reason": "Motivu:",
+	"sudo-submit": "Aniciar sesión",
+	"sudo-unsudo": "{{GENDER:$3|Bienveníu|Bienvenida}}, $1, anguaño aniciasti sesión na wiki como $2. Pulsia en «{{int:sudo-unsudo-submit}}» pa volver a la to propia cuenta.",
+	"sudo-unsudo-submit": "Volver",
+	"sudo-success": "{{GENDER:$3|Bienveníu|Bienvenida}}, $1. Aniciasti sesión na wiki como $2.",
+	"sudo-error": "Error de sudo: $1",
+	"sudo-error-sudo-invaliduser": "Nome d'usuariu inválidu",
+	"sudo-error-sudo-ip": "Nun puedes aniciar sesión como dirección IP",
+	"sudo-error-sudo-nonexistent": "Esi usuariu nun esiste",
+	"sudo-error-sudo-self": "Nun puedes facete sudo tu mesmu",
+	"sudo-error-nosudo": "Nun paez qu'aniciaras sesión como otru usuariu usando sudo.",
+	"sudo-logpagename": "Rexistru de sudo",
+	"sudo-logpagetext": "Esti ye'l rexistru de tolos usos de sudo.",
+	"sudo-logentry": "sesión aniciada na cuenta de $2",
+	"right-sudo": "Aniciar sesión na cuenta d'otru usuariu",
+	"action-sudo": "aniciar sesión na cuenta d'otru usuariu"
+}
