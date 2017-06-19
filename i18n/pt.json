@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Waldir",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
 	"sudo": "Iniciar sessão na conta de outro utilizador",
@@ -25,5 +26,6 @@
 	"sudo-logpagename": "Registo do Sudo",
 	"sudo-logpagetext": "Este é um registo de todas as utilizações do sudo.",
 	"sudo-logentry": "Autenticado na conta de $2",
-	"right-sudo": "Iniciar sessão na conta de outro utilizador"
+	"right-sudo": "Iniciar sessão na conta de outro utilizador",
+	"action-sudo": "iniciar sessão na conta de outro utilizador"
 }
