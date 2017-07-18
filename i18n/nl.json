@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Mainframe98"
 		]
 	},
 	"sudo": "Aanmelden als account van een andere gebruiker",
@@ -12,12 +13,12 @@
 	"sudo-user": "Gebruikersnaam:",
 	"sudo-reason": "Reden:",
 	"sudo-submit": "Aanmelden",
-	"sudo-unsudo": "Welkom, $1. U bent nu aangemeld bij de wiki als $2. Klik op \"{{int:sudo-unsudo-submit}}\" om terug te keren naar uw eigen gebruiker.",
+	"sudo-unsudo": "{{GENDER:$3|Welkom}}, $1. U bent nu aangemeld op de wiki als $2. Klik op \"{{int:sudo-unsudo-submit}}\" om terug te keren naar uw eigen gebruiker.",
 	"sudo-unsudo-submit": "Terug",
-	"sudo-success": "Welkom $1. U bent u bij de wiki aangemeld als $2.",
+	"sudo-success": "{{GENDER:$3|Welkom}} $1. U bent nu op de wiki aangemeld als $2.",
 	"sudo-error": "Sudo-fout: $1",
 	"sudo-error-sudo-invaliduser": "Ongeldige gebruikersnaam",
-	"sudo-error-sudo-ip": "Het is niet mogelijk aan te melden als een anonieme gebruiker",
+	"sudo-error-sudo-ip": "Het is niet mogelijk om aan te melden als een anonieme gebruiker",
 	"sudo-error-sudo-nonexistent": "Die gebruiker bestaat niet",
 	"sudo-error-sudo-self": "Het is niet mogelijk een sudo naar uzelf uit te voeren",
 	"sudo-error-nosudo": "U bevindt zich niet in een sudosessie",
