@@ -9,17 +9,18 @@
  * @link https://www.mediawiki.org/wiki/Extension:Sudo Documentation
  */
 
+// Ensure that the script cannot be executed outside of MediaWiki.
 if( !defined( 'MEDIAWIKI' ) ) {
 	die( 'This is an extension to the MediaWiki package and cannot be run standalone.' );
 }
 
-// Extension credits that will show up on Special:Version
+// Display extension properties on MediaWiki.
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Sudo',
-	'version' => '0.4.0',
+	'version' => '0.5.0',
 	'author' => array(
-		'[http://danf.ca/mw/ Daniel Friesen]',
+		'[https://www.mediawiki.org/wiki/User:Dantman Daniel Friesen]',
 		'...'
 	),
 	'descriptionmsg' => 'sudo-desc',
@@ -27,12 +28,11 @@ $wgExtensionCredits['other'][] = array(
 	'license-name' => 'GPL-2.0+',
 );
 
-// Set up i18n
+// Register extension messages and other localisation.
 $wgMessagesDirs['Sudo'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Sudo'] = __DIR__ . '/Sudo.i18n.php';
 $wgExtensionMessagesFiles['SudoAlias'] = __DIR__ . '/Sudo.alias.php';
 
-// New sepecial page
+// Provide new sepecial page
 $wgAutoloadClasses['SpecialSudo'] = __DIR__ . '/SpecialSudo.php';
 $wgSpecialPages['Sudo'] = 'SpecialSudo';
 
@@ -45,10 +45,11 @@ $wgLogNames['sudo'] = 'sudo-logpagename';
 $wgLogHeaders['sudo'] = 'sudo-logpagetext';
 $wgLogActions['sudo/sudo'] = 'sudo-logentry';
 
-// Hooked functions
+// Register extension hooks.
 $wgHooks['UserLogoutComplete'][] = 'wfSudoLogout';
 $wgHooks['PersonalUrls'][] = 'wfSudoPersonalUrls';
 
+// Do the extension's action.
 function wfSudoLogout( &$user, &$inject_html ) {
 	// Unset wsSudoId when we logout.
 	// We don't want to be in a sudo login while logged out.
