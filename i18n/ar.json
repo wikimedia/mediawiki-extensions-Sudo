@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"OsamaK",
-			"روخو"
+			"روخو",
+			"ديفيد"
 		]
 	},
 	"sudo": "تسجيل الدخول بحساب مستخدم آخر",
@@ -12,7 +13,7 @@
 	"sudo-reason": "السبب:",
 	"sudo-submit": "تسجيل الدخول",
 	"sudo-unsudo-submit": "تراجع",
-	"sudo-success": "مرحبا $1, انت قمت الان بتسجيل الدخول الى الويكي باسم $2.",
+	"sudo-success": "{{GENDER:$3|مرحبا}} $1, لقد قمت الآن بتسجيل الدخول الى الويكي باسم $2.",
 	"sudo-error-sudo-invaliduser": "اسم المستخدم غير صحيح",
 	"sudo-error-sudo-nonexistent": "ذلك المستخدم غير موجود",
 	"sudo-logpagename": "سجل الأمر Sudo",
