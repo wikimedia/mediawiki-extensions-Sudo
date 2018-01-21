@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Veikk0.ma"
+			"Veikk0.ma",
+			"01miki10"
 		]
 	},
 	"sudo": "Kirjaudu toisena käyttäjänä",
@@ -13,9 +14,9 @@
 	"sudo-user": "Käyttäjätunnus",
 	"sudo-reason": "Syy",
 	"sudo-submit": "Kirjaudu",
-	"sudo-unsudo": "Tervetuloa $1. Olet tällä hetkellä kirjautuneena käyttäjänä $2. Palaa omalle tunnuksellesi napsauttamalla {{int:sudo-unsudo-submit}}.",
+	"sudo-unsudo": "{{GENDER:$3|Tervetuloa}} $1. Olet tällä hetkellä kirjautuneena käyttäjänä $2. Palaa omalle tunnuksellesi napsauttamalla \"{{int:sudo-unsudo-submit}}\".",
 	"sudo-unsudo-submit": "Palaa",
-	"sudo-success": "Tervetuloa $1. Olet nyt kirjautuneena käyttäjänä $2.",
+	"sudo-success": "{{GENDER:$3|Tervetuloa}} $1, olet nyt kirjautuneena käyttäjänä $2.",
 	"sudo-error": "Sudo-virhe: $1",
 	"sudo-error-sudo-invaliduser": "Virheellinen käyttäjätunnus",
 	"sudo-error-sudo-ip": "Ei voida kirjautua IP-osoitteeseen",
@@ -25,5 +26,6 @@
 	"sudo-logpagename": "Sudoloki",
 	"sudo-logpagetext": "Tämä on loki kaikista sudon käytöistä.",
 	"sudo-logentry": "kirjautui käyttäjänä $2",
-	"right-sudo": "Kirjautua toisen käyttäjän tunnuksella"
+	"right-sudo": "Kirjautua toisen käyttäjän tunnuksella",
+	"action-sudo": "kirjautua toisena käyttäjänä"
 }
