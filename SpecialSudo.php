@@ -70,8 +70,7 @@ class SpecialSudo extends SpecialPage {
 
 		// ...and that the database is not in read-only mode.
 		if( wfReadOnly() ) {
-			$wgOut->readOnlyPage();
-			return;
+			throw new ReadOnlyError;
 		}
 
 		// Set page title and other stuff
