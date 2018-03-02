@@ -25,7 +25,7 @@ $wgExtensionCredits['other'][] = array(
 	),
 	'descriptionmsg' => 'sudo-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Sudo',
-	'license-name' => 'GPL-2.0+',
+	'license-name' => 'GPL-2.0-or-later',
 );
 
 // Register extension messages and other localisation.
