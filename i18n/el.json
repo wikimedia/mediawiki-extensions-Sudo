@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"sudo-personal-unsudo": "Επιστροφή στο λογαριασμό σας",
+	"sudo-form": "Σύνδεση στο:",
+	"sudo-user": "Όνομα χρήστη:",
+	"sudo-reason": "Αιτία:",
+	"sudo-submit": "Είσοδος",
+	"sudo-unsudo-submit": "Επιστροφή",
+	"sudo-error-sudo-invaliduser": "Μη έγκυρο όνομα χρήστη",
+	"sudo-error-sudo-nonexistent": "Αυτός ο χρήστης δεν υπάρχει"
+}
