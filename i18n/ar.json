@@ -21,6 +21,7 @@
 	"sudo-error-sudo-invaliduser": "اسم المستخدم غير صحيح",
 	"sudo-error-sudo-ip": "لا يمكن تسجيل الدخول كعنوان آيبي",
 	"sudo-error-sudo-nonexistent": "ذلك المستخدم غير موجود",
+	"sudo-error-sudo-self": "لا يمكن أن تقوم بـsudo لنفسك",
 	"sudo-error-nosudo": "لا يبدو أنك قمت بتسجيل الدخول كمستخدم آخر باستخدام سودو.",
 	"sudo-logpagename": "سجل الأمر Sudo",
 	"sudo-logpagetext": "هذا سجل جميع استخدامات سودو.",
