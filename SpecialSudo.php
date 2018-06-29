@@ -140,13 +140,14 @@ class SpecialSudo extends SpecialPage {
 	}
 
 	function showSudoForm() {
+		$this->getOutput()->addModules( 'mediawiki.userSuggest' );
 		$this->getOutput()->addHTML(
 			Xml::openElement( 'form', [ 'method' => 'post',
 				'action' => $this->getPageTitle()->getLocalURL() ] ) .
 			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			Xml::openElement( 'fieldset' ) .
 			Xml::element( 'legend', [], $this->msg( 'sudo-form' )->text() ) .
-			Xml::inputLabel( $this->msg( 'sudo-user' )->text(), 'target', 'sudo-user', 20, $this->target ) . ' ' .
+			Xml::inputLabel( $this->msg( 'sudo-user' )->text(), 'target', 'sudo-user', 20, $this->target, [ 'class' => 'mw-autocomplete-user' ] ) . ' ' .
 			Xml::inputLabel( $this->msg( 'sudo-reason' )->text(), 'reason', 'sudo-reason', 45, $this->reason ) . ' ' .
 			Xml::submitButton( $this->msg( 'sudo-submit' )->text() ) .
 			Xml::closeElement( 'fieldset' ) .
