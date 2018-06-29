@@ -43,91 +43,95 @@ class SpecialSudo extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param $par String: name of the user to sudo into
+	 * @param string|null $par Name of the user to sudo into
 	 */
 	public function execute( $par ) {
-		global $wgOut, $wgRequest, $wgUser;
+		$request = $this->getRequest();
+		$user = $this->getUser();
 
-		$this->mode = $wgRequest->getText( 'mode' );
-		if( $this->mode == 'success' ) {
+		$this->mode = $request->getText( 'mode' );
+		if ( $this->mode == 'success' ) {
 			$this->showSuccessPage();
 			return;
 		}
-		if( $this->mode == 'unsudo' ) {
+		if ( $this->mode == 'unsudo' ) {
 			$this->showUnsudoPage();
 			return;
 		}
 
 		// Check that the user is allowed to access this special page...
-		if( !$wgUser->isAllowed( 'sudo' ) ) {
+		if ( !$user->isAllowed( 'sudo' ) ) {
 			throw new PermissionsError( 'sudo' );
 		}
 
 		// ...and that the user isn't blocked
-		if( $wgUser->isBlocked() ) {
-			throw new UserBlockedError( $wgUser->getBlock() );
+		if ( $user->isBlocked() ) {
+			throw new UserBlockedError( $user->getBlock() );
 		}
 
 		// ...and that the database is not in read-only mode.
-		if( wfReadOnly() ) {
+		if ( wfReadOnly() ) {
 			throw new ReadOnlyError;
 		}
 
 		// Set page title and other stuff
 		$this->setHeaders();
 
-		$this->target = $wgRequest->getText( 'target', $par );
-		$this->reason = $wgRequest->getText( 'reason', '' );
-		$this->errors = array();
+		$this->target = $request->getText( 'target', $par );
+		$this->reason = $request->getText( 'reason', '' );
+		$this->errors = [];
 
 		$this->showSudoForm();
-		if( $this->target != '' && $wgRequest->wasPosted() ) {
+		if ( $this->target != '' && $request->wasPosted() ) {
 			$this->doSudo();
 		}
 		$this->showErrors();
 	}
 
 	function showSuccessPage() {
-		global $wgOut, $wgUser;
-		if( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
+		if ( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
 			$this->showError( 'sudo-error-nosudo' );
 		} else {
 			$this->setHeaders();
 			$suUser = User::newFromId( $_SESSION['wsSudoId'] );
-			$wgOut->addHTML( $this->msg( 'sudo-success' )
+			$originalUser = $this->getUser();
+			$this->getOutput()->addHTML( $this->msg( 'sudo-success' )
 					->rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
-					->rawParams( Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
-					->params( $wgUser->getName() )
+					->rawParams( Linker::link( $originalUser->getUserPage(), htmlspecialchars( $originalUser->getName() ) ) )
+					->params( $originalUser->getName() )
 					->parse()
 			);
 		}
 	}
 
 	function showUnsudoPage() {
-		global $wgOut, $wgUser, $wgRequest;
-		if( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
+		if ( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
 			$this->showError( 'sudo-error-nosudo' );
 		} else {
+			$out = $this->getOutput();
+			$originalUser = $this->getUser();
 			$suUser = User::newFromId( $_SESSION['wsSudoId'] );
-			if( $wgRequest->wasPosted() ) {
+
+			if ( $this->getRequest()->wasPosted() ) {
 				unset( $_SESSION['wsSudoId'] );
 				$suUser->setCookies();
-				$wgOut->redirect( $this->getPageTitle()->getFullURL() );
+				$out->redirect( $this->getPageTitle()->getFullURL() );
 				return;
 			}
-			$this->setHeaders();
-			$wgOut->setPageTitle( $this->msg( 'unsudo' ) );
 
-			$wgOut->addHTML(
-				Xml::openElement( 'form', array( 'method' => 'post',
-					'action' => $this->getPageTitle()->getFullURL( 'mode=unsudo' ) ) ) .
-				Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() )
+			$this->setHeaders();
+			$out->setPageTitle( $this->msg( 'unsudo' ) );
+
+			$out->addHTML(
+				Xml::openElement( 'form', [ 'method' => 'post',
+					'action' => $this->getPageTitle()->getFullURL( 'mode=unsudo' ) ] ) .
+				Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() )
 			);
-			$wgOut->addHTML(
+			$out->addHTML(
 				$this->msg( 'sudo-unsudo' )
 					->rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
-					->rawParams( Linker::link( $wgUser->getUserPage(), htmlspecialchars( $wgUser->getName() ) ) )
-					->params( $wgUser->getName() )
+					->rawParams( Linker::link( $originalUser->getUserPage(), htmlspecialchars( $originalUser->getName() ) ) )
+					->params( $originalUser->getName() )
 					->parse() .
 				Xml::submitButton( $this->msg( 'sudo-unsudo-submit' )->text() ) .
 				Xml::closeElement( 'form' )
@@ -136,13 +140,12 @@ class SpecialSudo extends SpecialPage {
 	}
 
 	function showSudoForm() {
-		global $wgOut;
-		$wgOut->addHTML(
-			Xml::openElement( 'form', array( 'method' => 'post',
-				'action' => $this->getPageTitle()->getLocalURL() ) ) .
-			Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
+		$this->getOutput()->addHTML(
+			Xml::openElement( 'form', [ 'method' => 'post',
+				'action' => $this->getPageTitle()->getLocalURL() ] ) .
+			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			Xml::openElement( 'fieldset' ) .
-			Xml::element( 'legend', array(), $this->msg( 'sudo-form' )->text() ) .
+			Xml::element( 'legend', [], $this->msg( 'sudo-form' )->text() ) .
 			Xml::inputLabel( $this->msg( 'sudo-user' )->text(), 'target', 'sudo-user', 20, $this->target ) . ' ' .
 			Xml::inputLabel( $this->msg( 'sudo-reason' )->text(), 'reason', 'sudo-reason', 45, $this->reason ) . ' ' .
 			Xml::submitButton( $this->msg( 'sudo-submit' )->text() ) .
@@ -156,50 +159,49 @@ class SpecialSudo extends SpecialPage {
 	}
 
 	function showError( $error ) {
-		global $wgOut;
-		$wgOut->addHTML( Xml::openElement( 'div', array( 'class' => 'sudo-error' ) ) );
-		$wgOut->addWikiMsg( 'sudo-error', $this->msg( $error )->text() );
-		$wgOut->addHTML( Xml::closeElement( 'div' ) );
+		$out = $this->getOutput();
+		$out->addHTML( Xml::openElement( 'div', [ 'class' => 'sudo-error' ] ) );
+		$out->addWikiMsg( 'sudo-error', $this->msg( $error )->text() );
+		$out->addHTML( Xml::closeElement( 'div' ) );
 	}
 
 	function showErrors() {
-		foreach( $this->errors as $error ) {
+		foreach ( $this->errors as $error ) {
 			$this->showError( $error );
 		}
 	}
 
 	function doSudo() {
-		global $wgOut, $wgUser;
-
+		$originalUser = $this->getUser();
 		$u = User::newFromName( $this->target );
-		if( is_null( $u ) ) {
+		if ( is_null( $u ) ) {
 			$this->addError( 'sudo-error-sudo-invaliduser' );
 			return;
 		}
-		if( User::isIP( $u->getName() ) ) {
+		if ( User::isIP( $u->getName() ) ) {
 			$this->addError( 'sudo-error-sudo-ip' );
 			return;
 		}
-		if( $u->isAnon() ) {
+		if ( $u->isAnon() ) {
 			$this->addError( 'sudo-error-sudo-nonexistent' );
 			return;
 		}
-		if( $u->getName() === $wgUser->getName() ) {
+		if ( $u->getName() === $originalUser->getName() ) {
 			$this->addError( 'sudo-error-sudo-self' );
 			return;
 		}
 
 		$log = new LogPage( 'sudo' );
-		$log->addEntry( 'sudo', $wgUser->getUserPage(), $this->reason,
-			array( Linker::link( $u->getUserPage(), $u->getName() ) )
+		$log->addEntry( 'sudo', $originalUser->getUserPage(), $this->reason,
+			[ Linker::link( $u->getUserPage(), $u->getName() ) ]
 		);
 
-		if( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
-			$_SESSION['wsSudoId'] = $wgUser->getId();
+		if ( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
+			$_SESSION['wsSudoId'] = $originalUser->getId();
 		}
 		$u->setCookies();
 
-		$wgOut->redirect( $this->getPageTitle()->getFullURL( 'mode=success' ) );
+		$this->getOutput()->redirect( $this->getPageTitle()->getFullURL( 'mode=success' ) );
 	}
 
 	protected function getGroupName() {

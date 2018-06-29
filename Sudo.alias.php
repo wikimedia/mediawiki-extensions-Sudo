@@ -7,54 +7,54 @@
  */
 // @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
-/** English (English) */
-$specialPageAliases['en'] = array(
-	'Sudo' => array( 'Sudo' ),
-);
+/** English */
+$specialPageAliases['en'] = [
+	'Sudo' => [ 'Sudo' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'Sudo' => array( 'سودو' ),
-);
+$specialPageAliases['ar'] = [
+	'Sudo' => [ 'سودو' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'Sudo' => array( 'سودو' ),
-);
+$specialPageAliases['arz'] = [
+	'Sudo' => [ 'سودو' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'Sudo' => array( 'سودو' ),
-);
+$specialPageAliases['bgn'] = [
+	'Sudo' => [ 'سودو' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'Sudo' => array( 'سودو' ),
-);
+$specialPageAliases['fa'] = [
+	'Sudo' => [ 'سودو' ],
+];
 
 /** Interlingua (interlingua) */
-$specialPageAliases['ia'] = array(
-	'Sudo' => array( 'Transidentification' ),
-);
+$specialPageAliases['ia'] = [
+	'Sudo' => [ 'Transidentification' ],
+];
 
 /** Cornish (kernowek) */
-$specialPageAliases['kw'] = array(
-	'Sudo' => array( 'Sudo' ),
-);
+$specialPageAliases['kw'] = [
+	'Sudo' => [ 'Sudo' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'Sudo' => array( 'Судо' ),
-);
+$specialPageAliases['mk'] = [
+	'Sudo' => [ 'Судо' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'Sudo' => array( 'സുഡോ' ),
-);
+$specialPageAliases['ml'] = [
+	'Sudo' => [ 'സുഡോ' ],
+];
 
 /** Punjabi (ਪੰਜਾਬੀ) */
-$specialPageAliases['pa'] = array(
-	'Sudo' => array( 'ਸੁਡੋ' ),
-);
+$specialPageAliases['pa'] = [
+	'Sudo' => [ 'ਸੁਡੋ' ],
+];
