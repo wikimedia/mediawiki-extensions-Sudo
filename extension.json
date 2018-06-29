@@ -1,0 +1,50 @@
+{
+	"name": "Sudo",
+	"version": "0.6.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Dantman Daniel Friesen]",
+		"..."
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:Sudo",
+	"descriptionmsg": "sudo-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AvailableRights": [
+		"sudo"
+	],
+	"SpecialPages": {
+		"Sudo": "SpecialSudo"
+	},
+	"LogTypes": [
+		"sudo"
+	],
+	"LogNames": {
+		"sudo": "sudo-logpagename"
+	},
+	"LogHeaders": {
+		"sudo": "sudo-logpagetext"
+	},
+	"LogActions": {
+		"sudo/sudo": "sudo-logentry"
+	},
+	"MessagesDirs": {
+		"Sudo": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SudoAlias": "Sudo.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialSudo": "SpecialSudo.php",
+		"SudoHooks": "SudoHooks.php"
+	},
+	"Hooks": {
+		"UserLogoutComplete": "SudoHooks::onUserLogoutComplete",
+		"PersonalUrls": "SudoHooks::onPersonalUrls"
+	},
+	"manifest_version": 1
+}
