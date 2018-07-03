@@ -5,12 +5,12 @@
  * @file
  * @ingroup Extensions
  * @author Daniel Friesen (http://danf.ca/mw/)
- * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  * @link https://www.mediawiki.org/wiki/Extension:Sudo Documentation
  */
 
 // Ensure that the script cannot be executed outside of MediaWiki.
-if( !defined( 'MEDIAWIKI' ) ) {
+if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'This is an extension to the MediaWiki package and cannot be run standalone.' );
 }
 
