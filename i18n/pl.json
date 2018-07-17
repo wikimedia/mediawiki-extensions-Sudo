@@ -3,21 +3,22 @@
 		"authors": [
 			"Sp5uhe",
 			"Pio387",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"sudo": "Zaloguj się jako inny użytkownik",
 	"unsudo": "Powróć do własnego konta",
 	"sudo-desc": "Pozwala wybranym użytkownikom logować się na konta innych",
 	"sudo-personal-unsudo": "Powrócić do własnego konta",
-	"sudo-form": "Zaloguj się jako",
+	"sudo-form": "Zaloguj się jako:",
 	"sudo-user": "Nazwa użytkownika",
-	"sudo-reason": "Powód",
+	"sudo-reason": "Powód:",
 	"sudo-submit": "Zaloguj",
 	"sudo-unsudo": "Witaj $1. Jesteś obecnie {{GENDER:$3|zalogowany|zalogowana}} do wiki jako $2. Kliknij „{{int:sudo-unsudo-submit}}”, aby wrócić do swojego konta.",
 	"sudo-unsudo-submit": "Wróć",
 	"sudo-success": "Witaj $1. Jesteś teraz {{GENDER:$3|zalogowany|zalogowana}} do wiki jako $2.",
-	"sudo-error": "Błąd zmiany zalogowania $1",
+	"sudo-error": "Błąd zmiany zalogowania: $1",
 	"sudo-error-sudo-invaliduser": "Nieprawidłowa nazwa użytkownika",
 	"sudo-error-sudo-ip": "Nie można zalogować się jako adres IP",
 	"sudo-error-sudo-nonexistent": "Taki użytkownik nie istnieje",
