@@ -95,9 +95,10 @@ class SpecialSudo extends SpecialPage {
 			$this->setHeaders();
 			$suUser = User::newFromId( $_SESSION['wsSudoId'] );
 			$originalUser = $this->getUser();
+			$linkRenderer = $this->getLinkRenderer();
 			$this->getOutput()->addHTML( $this->msg( 'sudo-success' )
-					->rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
-					->rawParams( Linker::link( $originalUser->getUserPage(), htmlspecialchars( $originalUser->getName() ) ) )
+					->rawParams( $linkRenderer->makeLink( $suUser->getUserPage(), $suUser->getName() ) )
+					->rawParams( $linkRenderer->makeLink( $originalUser->getUserPage(), $originalUser->getName() ) )
 					->params( $originalUser->getName() )
 					->parse()
 			);
@@ -122,6 +123,8 @@ class SpecialSudo extends SpecialPage {
 			$this->setHeaders();
 			$out->setPageTitle( $this->msg( 'unsudo' ) );
 
+			$linkRenderer = $this->getLinkRenderer();
+
 			$out->addHTML(
 				Xml::openElement( 'form', [ 'method' => 'post',
 					'action' => $this->getPageTitle()->getFullURL( 'mode=unsudo' ) ] ) .
@@ -129,8 +132,8 @@ class SpecialSudo extends SpecialPage {
 			);
 			$out->addHTML(
 				$this->msg( 'sudo-unsudo' )
-					->rawParams( Linker::link( $suUser->getUserPage(), htmlspecialchars( $suUser->getName() ) ) )
-					->rawParams( Linker::link( $originalUser->getUserPage(), htmlspecialchars( $originalUser->getName() ) ) )
+					->rawParams( $linkRenderer->makeLink( $suUser->getUserPage(), $suUser->getName() ) )
+					->rawParams( $linkRenderer->makeLink( $originalUser->getUserPage(), $originalUser->getName() ) )
 					->params( $originalUser->getName() )
 					->parse() .
 				Xml::submitButton( $this->msg( 'sudo-unsudo-submit' )->text() ) .
@@ -192,9 +195,10 @@ class SpecialSudo extends SpecialPage {
 			return;
 		}
 
+		$linkRenderer = $this->getLinkRenderer();
 		$log = new LogPage( 'sudo' );
 		$log->addEntry( 'sudo', $originalUser->getUserPage(), $this->reason,
-			[ Linker::link( $u->getUserPage(), $u->getName() ) ]
+			[ $linkRenderer->makeLink( $u->getUserPage(), $u->getName() ) ]
 		);
 
 		if ( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
