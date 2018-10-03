@@ -28,5 +28,5 @@
 	"sudo-logpagetext": "Jest to rejestr wszystkich zdarzeń zmian zalogowania się.",
 	"sudo-logentry": "zalogowany jako $2",
 	"right-sudo": "Zaloguj się jako inny użytkownik",
-	"action-sudo": "zaloguj się jako inny użytkownik"
+	"action-sudo": "logowania się na konta innych użytkowników"
 }
