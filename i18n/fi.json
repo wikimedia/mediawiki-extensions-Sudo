@@ -3,7 +3,8 @@
 		"authors": [
 			"Nike",
 			"Veikk0.ma",
-			"01miki10"
+			"01miki10",
+			"Valtlait"
 		]
 	},
 	"sudo": "Kirjaudu toisena käyttäjänä",
@@ -14,7 +15,7 @@
 	"sudo-user": "Käyttäjätunnus",
 	"sudo-reason": "Syy",
 	"sudo-submit": "Kirjaudu",
-	"sudo-unsudo": "{{GENDER:$3|Tervetuloa}} $1. Olet tällä hetkellä kirjautuneena käyttäjänä $2. Palaa omalle tunnuksellesi napsauttamalla \"{{int:sudo-unsudo-submit}}\".",
+	"sudo-unsudo": "{{GENDER:$3|Tervetuloa}} $1. Olet tällä hetkellä kirjautuneena käyttäjänä $2. Palaa omalle tunnuksellesi napsauttamalla ”{{int:sudo-unsudo-submit}}”.",
 	"sudo-unsudo-submit": "Palaa",
 	"sudo-success": "{{GENDER:$3|Tervetuloa}} $1, olet nyt kirjautuneena käyttäjänä $2.",
 	"sudo-error": "Sudo-virhe: $1",
