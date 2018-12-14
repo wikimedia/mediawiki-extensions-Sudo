@@ -21,7 +21,7 @@
 	"sudo-error-sudo-ip": "Hindi makalagda papunta sa isang tirahan ng IP",
 	"sudo-error-sudo-nonexistent": "Hindi umiiral ang tagagamit na iyan",
 	"sudo-error-sudo-self": "Hindi maaaring magsudo na papasok sa sarili mo",
-	"sudo-error-nosudo": "Tila wala ka sa loob ng isang paglagda ng sudo",
+	"sudo-error-nosudo": "Tila di ka naka-login bilang ibang tagagamit gamit ang sudo.",
 	"sudo-logpagename": "Talaan ng sudo",
 	"sudo-logpagetext": "Isa itong talaan ng lahat ng mga pinaggagamitan ng sudo.",
 	"sudo-logentry": "nakalagda sa account ni $2",
