@@ -8,5 +8,6 @@
 	"sudo-user": "Nameyê karberi:",
 	"sudo-reason": "Sebeb:",
 	"sudo-submit": "Cıkewtış",
+	"sudo-error-sudo-invaliduser": "Nameyê karberiyo nêvêrde",
 	"sudo-logpagename": "Sudo kewê"
 }
