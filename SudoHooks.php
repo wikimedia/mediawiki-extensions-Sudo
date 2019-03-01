@@ -6,7 +6,9 @@ class SudoHooks {
 	public static function onUserLogoutComplete( &$user, &$inject_html ) {
 		// Unset wsSudoId when we logout.
 		// We don't want to be in a sudo login while logged out.
-		unset( $_SESSION['wsSudoId'] );
+		if ( isset( $_SESSION['wsSudoId'] ) && $_SESSION['wsSudoId'] > 0 ) {
+			unset( $_SESSION['wsSudoId'] );
+		}
 		return true;
 	}
 
