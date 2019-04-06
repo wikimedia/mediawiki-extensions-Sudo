@@ -4,7 +4,7 @@
  *
  * @file
  * @ingroup Extensions
- * @author Daniel Friesen (http://mediawiki.org/wiki/User:Dantman) <mediawiki@danielfriesen.name>
+ * @author Daniel Friesen (https://mediawiki.org/wiki/User:Dantman) <mediawiki@danielfriesen.name>
  * @license GPL-2.0-or-later
  *
  * This program is free software; you can redistribute it and/or
