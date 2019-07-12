@@ -4,8 +4,26 @@
 			"Joetaras"
 		]
 	},
+	"sudo": "Tràse cu 'n'otre cunde utende",
+	"unsudo": "Tuèrne a 'u cunde tune",
+	"sudo-desc": "Permette a le utinde sudo de trasè cumme otre utinde",
+	"sudo-personal-unsudo": "Tuèrne a 'u cunde tune",
 	"sudo-form": "Tràse jndr'à:",
+	"sudo-user": "Nome de l'utende:",
 	"sudo-reason": "Mutive:",
 	"sudo-submit": "Tràse",
-	"sudo-unsudo-submit": "Tuèrne"
+	"sudo-unsudo": "{{GENDER:$3|Bovègne}} $1, tu è trasute jndr'à sta uicchi cumme $2. Cazze sus a \"{{int:sudo-unsudo-submit}}\" pe turnà a 'u cunde tune.",
+	"sudo-unsudo-submit": "Tuèrne",
+	"sudo-success": "{{GENDER:$3|Bovègne}} $1, tu è trasute jndr'à sta uicchi cumme $2.",
+	"sudo-error": "Errore de sudo: $1",
+	"sudo-error-sudo-invaliduser": "Nome de l'utende invalide",
+	"sudo-error-sudo-ip": "Non g'è possibbele trasè cumme 'n'indirizze IP",
+	"sudo-error-sudo-nonexistent": "Quidde utende non g'esiste",
+	"sudo-error-sudo-self": "'Mbossibbele cangià utende cu 'u probbie",
+	"sudo-error-nosudo": "Non gre resulte ca è trasute cumme 'n'otre utende ausanne sudo.",
+	"sudo-logpagename": "Archivije de sudo",
+	"sudo-logpagetext": "Quiste jè 'n'archivije de tutte le ause de sudo.",
+	"sudo-logentry": "trasute jndr'à 'u cunde de $2.",
+	"right-sudo": "Tràse cu 'n'otre cunde utende",
+	"action-sudo": "tràse cu 'n'otre cunde utende"
 }
