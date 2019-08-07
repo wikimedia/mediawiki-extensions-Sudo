@@ -22,10 +22,6 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This is an extension to the MediaWiki package and cannot be run standalone.' );
-}
-
 class SpecialSudo extends SpecialPage {
 	protected $mode, $target, $reason, $errors;
 
