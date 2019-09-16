@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"sudo": "Prijava s tudjim računom",
+	"unsudo": "Nazad na svoj račun",
+	"sudo-desc": "Omogućuje Sudo korisnicima da se prijave s tudjim računima",
+	"sudo-personal-unsudo": "Nazad na svoj račun",
+	"sudo-form": "Prijava na:",
+	"sudo-user": "Korisničko ime:",
+	"sudo-reason": "Razlog:",
+	"sudo-submit": "Prijava",
+	"sudo-unsudo-submit": "Nazad"
+}
