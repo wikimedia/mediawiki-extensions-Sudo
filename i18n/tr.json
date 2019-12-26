@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"sudo": "Başka bir kullanıcının hesabına giriş yapın",
+	"unsudo": "Hesabınıza dönün",
+	"sudo-desc": "Sudo kullanıcılarının diğer kullanıcılar gibi oturum açmasına izin verir",
+	"sudo-personal-unsudo": "Hesabınıza dönün",
+	"sudo-form": "Şunu giriş yapın:",
+	"sudo-user": "Kullanıcı adı:",
+	"sudo-reason": "Sebep:",
+	"sudo-submit": "Giriş",
+	"sudo-unsudo": "{{GENDER:$3|Hoş geldiniz}} $1, şu anda wikiye $2 olarak giriş yaptınız. Kendi hesabınıza dönmek için \"{{int:sudo-unsudo-send}}\" düğmesini tıklayın.",
+	"sudo-unsudo-submit": "Geri dön",
+	"sudo-success": "{{GENDER:$3|Hoş geldiniz}} $1, şimdi wikiye $2 olarak giriş yaptınız.",
+	"sudo-error": "Sudo hatası: $1",
+	"sudo-error-sudo-invaliduser": "Geçersiz kullanıcı adı",
+	"sudo-error-sudo-ip": "IP adresi olarak giriş yapılamıyor",
+	"sudo-error-sudo-nonexistent": "Bu kullanıcı mevcut değil",
+	"sudo-error-sudo-self": "Kendinize sudo olamaz",
+	"sudo-error-nosudo": "Sudo kullanarak başka bir kullanıcı olarak oturum açmış görünmüyorsunuz.",
+	"sudo-logpagename": "Sudo günlüğü",
+	"sudo-logpagetext": "Bu sudo'nun tüm kullanımlarının günlüğüdür.",
+	"sudo-logentry": "$2 kullanıcısının hesabına giriş yaptı",
+	"right-sudo": "Başka bir kullanıcının hesabına giriş yapın",
+	"action-sudo": "başka bir kullanıcının hesabına giriş yapın"
+}
