@@ -11,7 +11,7 @@
 	"sudo-form": "Şunu giriş yapın:",
 	"sudo-user": "Kullanıcı adı:",
 	"sudo-reason": "Sebep:",
-	"sudo-submit": "Giriş",
+	"sudo-submit": "Oturum aç",
 	"sudo-unsudo": "{{GENDER:$3|Hoş geldiniz}} $1, şu anda wikiye $2 olarak giriş yaptınız. Kendi hesabınıza dönmek için \"{{int:sudo-unsudo-send}}\" düğmesini tıklayın.",
 	"sudo-unsudo-submit": "Geri dön",
 	"sudo-success": "{{GENDER:$3|Hoş geldiniz}} $1, şimdi wikiye $2 olarak giriş yaptınız.",
