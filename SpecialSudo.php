@@ -174,7 +174,7 @@ class SpecialSudo extends SpecialPage {
 	function doSudo() {
 		$originalUser = $this->getUser();
 		$u = User::newFromName( $this->target );
-		if ( is_null( $u ) ) {
+		if ( $u === null ) {
 			$this->addError( 'sudo-error-sudo-invaliduser' );
 			return;
 		}
