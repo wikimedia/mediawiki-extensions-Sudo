@@ -193,8 +193,12 @@ class SpecialSudo extends SpecialPage {
 
 		$linkRenderer = $this->getLinkRenderer();
 		$log = new LogPage( 'sudo' );
-		$log->addEntry( 'sudo', $originalUser->getUserPage(), $this->reason,
-			[ $linkRenderer->makeLink( $u->getUserPage(), $u->getName() ) ]
+		$log->addEntry(
+			'sudo',
+			$originalUser->getUserPage(),
+			$this->reason,
+			[ $linkRenderer->makeLink( $u->getUserPage(), $u->getName() ) ],
+			$originalUser
 		);
 
 		if ( !isset( $_SESSION['wsSudoId'] ) || $_SESSION['wsSudoId'] < 0 ) {
