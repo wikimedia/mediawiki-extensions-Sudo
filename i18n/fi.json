@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nike",
-			"Veikk0.ma",
 			"01miki10",
-			"Valtlait"
+			"Nike",
+			"Valtlait",
+			"Veikk0.ma"
 		]
 	},
 	"sudo": "Kirjaudu toisena käyttäjänä",
