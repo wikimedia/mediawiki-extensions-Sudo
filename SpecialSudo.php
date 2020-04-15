@@ -66,9 +66,7 @@ class SpecialSudo extends SpecialPage {
 		}
 
 		// ...and that the database is not in read-only mode.
-		if ( wfReadOnly() ) {
-			throw new ReadOnlyError;
-		}
+		$this->checkReadOnly();
 
 		// Set page title and other stuff
 		$this->setHeaders();
