@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daud I.F. Argana",
 			"IvanLanin"
 		]
 	},
@@ -12,9 +13,9 @@
 	"sudo-user": "Nama pengguna:",
 	"sudo-reason": "Alasan:",
 	"sudo-submit": "Masuk",
-	"sudo-unsudo": "Selamat datang $1, Anda saat ini masuk ke wiki sebagai $2. Klik \"{{int:sudo-unsudo-submit}}\" untuk kembali masuk dengan akun Anda sendiri.",
+	"sudo-unsudo": "{{GENDER:$3|Selamat datang}} $1, Anda saat ini masuk ke wiki sebagai $2. Klik \"{{int:sudo-unsudo-submit}}\" untuk kembali masuk dengan akun Anda sendiri.",
 	"sudo-unsudo-submit": "Kembali",
-	"sudo-success": "Selamat datang $1, sekarang Anda masuk ke wiki sebagai $2.",
+	"sudo-success": "{{GENDER:$3|Selamat datang}} $1, sekarang Anda masuk ke wiki sebagai $2.",
 	"sudo-error": "Galat sudo: $1",
 	"sudo-error-sudo-invaliduser": "Nama pengguna tidak sah",
 	"sudo-error-sudo-ip": "Tidak dapat masuk dengan menggunakan alamat IP",
@@ -24,5 +25,6 @@
 	"sudo-logpagename": "Log sudo",
 	"sudo-logpagetext": "Berikut adalah log semua penggunaan sudo.",
 	"sudo-logentry": "masuk ke dalam akun $2",
-	"right-sudo": "Masuk ke akun pengguna lain"
+	"right-sudo": "Masuk ke akun pengguna lain",
+	"action-sudo": "masuk log ke akun pengguna lain"
 }
