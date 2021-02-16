@@ -4,6 +4,7 @@
 			"Gomoko",
 			"Otourly",
 			"Sherbrooke",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
@@ -19,7 +20,7 @@
 	"sudo-unsudo-submit": "Retour",
 	"sudo-success": "Bienvenue $1, vous êtes maintenant connect{{GENDER:$3|é|ée}} au wiki en tant que $2.",
 	"sudo-error": "Erreur de ''sudo'': $1",
-	"sudo-error-sudo-invaliduser": "Nom d’utilisateur invalide",
+	"sudo-error-sudo-invaliduser": "Nom d’utilisateur incorrect",
 	"sudo-error-sudo-ip": "Ne peut se connecter à une adresse IP",
 	"sudo-error-sudo-nonexistent": "Cet utilisateur n'existe pas",
 	"sudo-error-sudo-self": "Impossible de s'identifier ''via sudo'' sur son propre compte",
