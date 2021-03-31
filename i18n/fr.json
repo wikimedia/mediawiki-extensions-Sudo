@@ -15,7 +15,7 @@
 	"sudo-form": "Connexion à:",
 	"sudo-user": "Nom d’utilisateur :",
 	"sudo-reason": "Raison :",
-	"sudo-submit": "Connexion",
+	"sudo-submit": "Se connecter",
 	"sudo-unsudo": "Bienvenue $1, vous êtes actuellement connect{{GENDER:$3|é|ée}}  au wiki en tant que $2. Cliquez sur {{int:sudo-unsudo-submit}} pour revenir sous votre propre compte.",
 	"sudo-unsudo-submit": "Retour",
 	"sudo-success": "Bienvenue $1, vous êtes maintenant connect{{GENDER:$3|é|ée}} au wiki en tant que $2.",
