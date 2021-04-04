@@ -22,6 +22,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialSudo extends SpecialPage {
 	protected $mode, $target, $reason, $errors;
 
@@ -176,7 +178,16 @@ class SpecialSudo extends SpecialPage {
 			$this->addError( 'sudo-error-sudo-invaliduser' );
 			return;
 		}
-		if ( User::isIP( $u->getName() ) ) {
+
+		if ( method_exists( MediaWikiServices::class, 'getUserNameUtils' ) ) {
+			// MW 1.35+
+			$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+			$isIp = $userNameUtils->isIP( $u->getName() );
+		} else {
+			$isIp = User::isIP( $u->getName() );
+		}
+
+		if ( $isIp ) {
 			$this->addError( 'sudo-error-sudo-ip' );
 			return;
 		}
