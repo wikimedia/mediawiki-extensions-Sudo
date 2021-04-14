@@ -25,7 +25,17 @@
 use MediaWiki\MediaWikiServices;
 
 class SpecialSudo extends SpecialPage {
-	protected $mode, $target, $reason, $errors;
+	/** @var string */
+	protected $mode;
+
+	/** @var User */
+	protected $target;
+
+	/** @var string */
+	protected $reason;
+
+	/** @var array */
+	protected $errors;
 
 	/**
 	 * Constructor -- set up the new special page
@@ -146,7 +156,8 @@ class SpecialSudo extends SpecialPage {
 			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			Xml::openElement( 'fieldset' ) .
 			Xml::element( 'legend', [], $this->msg( 'sudo-form' )->text() ) .
-			Xml::inputLabel( $this->msg( 'sudo-user' )->text(), 'target', 'sudo-user', 20, $this->target, [ 'class' => 'mw-autocomplete-user' ] ) . ' ' .
+			Xml::inputLabel( $this->msg( 'sudo-user' )->text(), 'target', 'sudo-user', 20, $this->target,
+				[ 'class' => 'mw-autocomplete-user' ] ) . ' ' .
 			Xml::inputLabel( $this->msg( 'sudo-reason' )->text(), 'reason', 'sudo-reason', 45, $this->reason ) . ' ' .
 			Xml::submitButton( $this->msg( 'sudo-submit' )->text() ) .
 			Xml::closeElement( 'fieldset' ) .
@@ -154,10 +165,16 @@ class SpecialSudo extends SpecialPage {
 		);
 	}
 
+	/**
+	 * @param array|string $error
+	 */
 	function addError( $error = '' ) {
 		$this->errors[] = $error;
 	}
 
+	/**
+	 * @param array|string $error
+	 */
 	function showError( $error ) {
 		$out = $this->getOutput();
 		$out->addHTML( Xml::openElement( 'div', [ 'class' => 'sudo-error' ] ) );
@@ -218,6 +235,7 @@ class SpecialSudo extends SpecialPage {
 		$this->getOutput()->redirect( $this->getPageTitle()->getFullURL( 'mode=success' ) );
 	}
 
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'users';
 	}
