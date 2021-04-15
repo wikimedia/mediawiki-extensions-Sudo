@@ -39,8 +39,8 @@
 		"SudoAlias": "Sudo.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialSudo": "SpecialSudo.php",
-		"SudoHooks": "SudoHooks.php"
+		"SpecialSudo": "includes/specials/SpecialSudo.php",
+		"SudoHooks": "includes/SudoHooks.php"
 	},
 	"Hooks": {
 		"UserLogoutComplete": "SudoHooks::onUserLogoutComplete",
