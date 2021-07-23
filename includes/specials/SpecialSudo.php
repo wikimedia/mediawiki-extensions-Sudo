@@ -73,8 +73,9 @@ class SpecialSudo extends SpecialPage {
 		}
 
 		// ...and that the user isn't blocked
-		if ( $user->isBlocked() ) {
-			throw new UserBlockedError( $user->getBlock() );
+		$block = $user->getBlock();
+		if ( $block ) {
+			throw new UserBlockedError( $block );
 		}
 
 		// ...and that the database is not in read-only mode.
