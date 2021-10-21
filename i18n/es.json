@@ -3,6 +3,7 @@
 		"authors": [
 			"Armando-Martin",
 			"Fitoschido",
+			"Jakeukalane",
 			"Macofe"
 		]
 	},
@@ -14,9 +15,9 @@
 	"sudo-user": "Nombre de usuario:",
 	"sudo-reason": "Motivo:",
 	"sudo-submit": "Acceder",
-	"sudo-unsudo": "{{GENDER:$3|Bienvenido|Bienvenida}}, $1. Has iniciado sesión en el wiki como $2. Pulsa en «{{int:sudo-unsudo-submit}}» para volver a tu propia cuenta.",
+	"sudo-unsudo": "{{GENDER:$3|Bienvenido|Bienvenida}}, $1. Has iniciado sesión en la wiki como $2. Pulsa en «{{int:sudo-unsudo-submit}}» para volver a tu propia cuenta.",
 	"sudo-unsudo-submit": "Volver",
-	"sudo-success": "{{GENDER:$3|Bienvenido|Bienvenida}}, $1. Has iniciado sesión en el wiki como $2.",
+	"sudo-success": "{{GENDER:$3|Bienvenido|Bienvenida}}, $1. Has iniciado sesión en la wiki como $2.",
 	"sudo-error": "Error de sudo: $1",
 	"sudo-error-sudo-invaliduser": "Nombre de usuario no válido",
 	"sudo-error-sudo-ip": "No se puede iniciar sesión como una dirección IP",
