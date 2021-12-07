@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gmelfi"
+			"Gmelfi",
+			"Ajeje Brazorf"
 		]
 	},
-	"sudo-submit": "Trasi"
+	"sudo-form": "Trasi a:",
+	"sudo-user": "Nomu utenti:",
+	"sudo-reason": "Mutivu:",
+	"sudo-submit": "Trasi",
+	"sudo-error": "Erruri sudo: $1",
+	"sudo-error-sudo-invaliduser": "Nomu utenti nun vàlidu"
 }

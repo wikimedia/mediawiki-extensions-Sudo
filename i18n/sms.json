@@ -4,5 +4,8 @@
 			"Yupik"
 		]
 	},
-	"sudo-error": "Sudo-vââʹǩǩ: $1"
+	"sudo-user": "Õõʹnninõmm:",
+	"sudo-submit": "Ǩeeʹrjtõõđ sizz",
+	"sudo-error": "Sudo-vââʹǩǩ: $1",
+	"sudo-error-sudo-invaliduser": "vââǥǥlaž õõʹnninõmm"
 }
