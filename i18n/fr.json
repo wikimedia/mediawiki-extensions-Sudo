@@ -4,7 +4,8 @@
 			"Gomoko",
 			"Otourly",
 			"Sherbrooke",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"sudo": "Connectez-vous au compte d'un autre utilisateur",
@@ -14,12 +15,12 @@
 	"sudo-form": "Connexion à:",
 	"sudo-user": "Nom d’utilisateur :",
 	"sudo-reason": "Raison :",
-	"sudo-submit": "Connexion",
+	"sudo-submit": "Se connecter",
 	"sudo-unsudo": "Bienvenue $1, vous êtes actuellement connect{{GENDER:$3|é|ée}}  au wiki en tant que $2. Cliquez sur {{int:sudo-unsudo-submit}} pour revenir sous votre propre compte.",
 	"sudo-unsudo-submit": "Retour",
 	"sudo-success": "Bienvenue $1, vous êtes maintenant connect{{GENDER:$3|é|ée}} au wiki en tant que $2.",
 	"sudo-error": "Erreur de ''sudo'': $1",
-	"sudo-error-sudo-invaliduser": "Nom d’utilisateur invalide",
+	"sudo-error-sudo-invaliduser": "Nom d’utilisateur incorrect",
 	"sudo-error-sudo-ip": "Ne peut se connecter à une adresse IP",
 	"sudo-error-sudo-nonexistent": "Cet utilisateur n'existe pas",
 	"sudo-error-sudo-self": "Impossible de s'identifier ''via sudo'' sur son propre compte",
