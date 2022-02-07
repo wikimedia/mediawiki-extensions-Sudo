@@ -5,5 +5,6 @@
 		]
 	},
 	"sudo-user": "Nomo dil uzero:",
+	"sudo-reason": "Motivo:",
 	"sudo-submit": "Enirar"
 }
