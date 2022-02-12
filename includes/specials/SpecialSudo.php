@@ -202,6 +202,7 @@ class SpecialSudo extends SpecialPage {
 			$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
 			$isIp = $userNameUtils->isIP( $u->getName() );
 		} else {
+			// @phan-suppress-next-line PhanUndeclaredStaticMethod
 			$isIp = User::isIP( $u->getName() );
 		}
 
