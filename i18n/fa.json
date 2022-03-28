@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
+			"Beginneruser",
 			"Ebraminio",
 			"Mjbmr"
 		]
 	},
-	"sudo": "ورود به حساب کاربری دیگری",
+	"sudo": "ورود به حساب کاربری دیگر",
 	"unsudo": "بازگشت به حساب شما",
 	"sudo-desc": "اجازه به سودوئرها برای ورود به عنوان کاربران دیگر",
 	"sudo-personal-unsudo": "بازگشت به حساب شما",
@@ -26,5 +27,5 @@
 	"sudo-logpagename": "سیاهه سودو",
 	"sudo-logpagetext": "این یک سیاهه همه استفاده‌ها از سودو است.",
 	"sudo-logentry": "ورود به حساب $2",
-	"right-sudo": "ورود به حساب کاربری دیگری"
+	"right-sudo": "ورود به حساب کاربری دیگر"
 }
