@@ -14,7 +14,7 @@
 	"sudo-personal-unsudo": "Retour à votre compte",
 	"sudo-form": "Connexion à:",
 	"sudo-user": "Nom d’utilisateur :",
-	"sudo-reason": "Raison :",
+	"sudo-reason": "Motif :",
 	"sudo-submit": "Se connecter",
 	"sudo-unsudo": "Bienvenue $1, vous êtes actuellement connect{{GENDER:$3|é|ée}}  au wiki en tant que $2. Cliquez sur {{int:sudo-unsudo-submit}} pour revenir sous votre propre compte.",
 	"sudo-unsudo-submit": "Retour",
