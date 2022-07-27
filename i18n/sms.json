@@ -5,6 +5,7 @@
 		]
 	},
 	"sudo-user": "Õõʹnninõmm:",
+	"sudo-reason": "Mäinn:",
 	"sudo-submit": "Ǩeeʹrjtõõđ sizz",
 	"sudo-error": "Sudo-vââʹǩǩ: $1",
 	"sudo-error-sudo-invaliduser": "vââǥǥlaž õõʹnninõmm"
