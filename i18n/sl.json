@@ -4,6 +4,7 @@
 			"Eleassar"
 		]
 	},
+	"sudo-user": "Uporabniško ime:",
 	"sudo-reason": "Razlog:",
 	"sudo-submit": "Prijava"
 }
