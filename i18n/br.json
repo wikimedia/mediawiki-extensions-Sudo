@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fulup",
-			"Y-M D"
+			"Y-M D",
+			"Huñvreüs"
 		]
 	},
 	"sudo": "Kevreañ dre gont un implijer all",
@@ -13,9 +14,9 @@
 	"sudo-user": "Anv implijer :",
 	"sudo-reason": "Abeg :",
 	"sudo-submit": "Kevreañ",
-	"sudo-unsudo": "Degemer mat $1, evit ar poent emaoc'h kevreet er wiki evel $2. Klikañ war \"{{int:sudo-unsudo-submit}}\" evit distreiñ d'ho kont deoc'h-c'hwi.",
+	"sudo-unsudo": "{{GENDER:$3|Degemer mat}} $1, evit ar poent emaoc'h kevreet er wiki evel $2. Klikit war \"{{int:sudo-unsudo-submit}}\" evit distreiñ d'ho kont deoc'h-c'hwi.",
 	"sudo-unsudo-submit": "Distreiñ",
-	"sudo-success": "Degemer mat $1, kevreet oc'h er wiki evel $2 bremañ.",
+	"sudo-success": "{{GENDER:$3|Degemer mat}} $1, kevreet oc'h er wiki evel $2 bremañ.",
 	"sudo-error": "Fazi Sudo : $1",
 	"sudo-error-sudo-invaliduser": "Anv implijer direizh",
 	"sudo-error-sudo-ip": "N'hall ket kevreañ ouzh ur chomlec'h IP",
