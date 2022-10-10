@@ -4,7 +4,7 @@
 			"Vlad5250"
 		]
 	},
-	"sudo": "Prijava s tudjim računom",
+	"sudo": "Prijava na račun drugog korisnika",
 	"unsudo": "Nazad na svoj račun",
 	"sudo-desc": "Omogućuje Sudo korisnicima da se prijave s tudjim računima",
 	"sudo-personal-unsudo": "Nazad na svoj račun",
@@ -12,5 +12,14 @@
 	"sudo-user": "Korisničko ime:",
 	"sudo-reason": "Razlog:",
 	"sudo-submit": "Prijava",
-	"sudo-unsudo-submit": "Nazad"
+	"sudo-unsudo": "{{GENDER:$3|Dobro došli}}, $1. Trenutno ste prijavljeni na wiki kao $2. Kliknite na \"{{int:sudo-unsudo-submit}}\" da se vratite na Vaš vlastiti račun.",
+	"sudo-unsudo-submit": "Nazad",
+	"sudo-success": "{{GENDER:$3|Dobro došli}} $1. Sada ste prijavljeni na wiki kao $2.",
+	"sudo-error": "Sudo greška: $1",
+	"sudo-error-sudo-invaliduser": "Nevaljano korisničko ime",
+	"sudo-error-sudo-ip": "Ne mogu se prijaviti na IP adresu",
+	"sudo-error-sudo-nonexistent": "Korisnik ne postoji.",
+	"sudo-error-sudo-self": "Ne možete prijaviti samog sebe",
+	"right-sudo": "Prijavljivanje na račun drugog korisnika",
+	"action-sudo": "prijavljivanje na račun drugog korisnika"
 }
