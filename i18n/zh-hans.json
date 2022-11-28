@@ -7,11 +7,13 @@
 			"Liuxinyu970226",
 			"Mywood",
 			"Xiaomingyan",
-			"Tranve"
+			"Tranve",
+			"Diskdance",
+			"Lakejason0"
 		]
 	},
 	"sudo": "登录其他用户的账号",
-	"unsudo": "返回您的帐户",
+	"unsudo": "返回您的账号",
 	"sudo-desc": "允许sudo用户以其他用户身份登录",
 	"sudo-personal-unsudo": "返回您的账号",
 	"sudo-form": "登录到：",
@@ -30,6 +32,6 @@
 	"sudo-logpagename": "Sudo日志",
 	"sudo-logpagetext": "这是所有使用sudo的日志。",
 	"sudo-logentry": "登录$2的账号",
-	"right-sudo": "登录到另一个用户的帐户",
-	"action-sudo": "登录到另一个用户的帐户"
+	"right-sudo": "登录到另一个用户的账号",
+	"action-sudo": "登录到另一个用户的账号"
 }
