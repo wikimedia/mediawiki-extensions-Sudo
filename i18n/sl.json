@@ -4,6 +4,7 @@
 			"Eleassar"
 		]
 	},
+	"sudo-form": "Prijava v:",
 	"sudo-user": "Uporabniško ime:",
 	"sudo-reason": "Razlog:",
 	"sudo-submit": "Prijava",
@@ -12,5 +13,6 @@
 	"sudo-error-sudo-ip": "Ni se mogoče prijaviti kot IP-naslov",
 	"sudo-error-sudo-nonexistent": "Ta uporabnik ne obstaja",
 	"sudo-error-sudo-self": "''Sudo'' v vas ni mogoč",
-	"sudo-error-nosudo": "Zdi se, da niste prijavljeni v ''sudo''."
+	"sudo-error-nosudo": "Zdi se, da niste prijavljeni v ''sudo''.",
+	"sudo-logpagename": "Dnevnik sudo"
 }
