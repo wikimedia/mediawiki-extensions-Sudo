@@ -3,7 +3,8 @@
 		"authors": [
 			"Jopparn",
 			"Liftarn",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Jon Harald Søby"
 		]
 	},
 	"sudo": "Logga in på en annan användares konto",
@@ -21,7 +22,7 @@
 	"sudo-error-sudo-ip": "Kan inte logga in som en IP-adress",
 	"sudo-error-sudo-nonexistent": "Denna användare finns inte",
 	"sudo-error-sudo-self": "Kan inte bli dig själv med sudo",
-	"sudo-logentry": "loggade in på $2s konto",
+	"sudo-logentry": "loggade in på {{GRAMMAR:genitive|$2}} konto",
 	"right-sudo": "Logga in på en annan användares konto",
 	"action-sudo": "logga in på en annan användares konto"
 }
