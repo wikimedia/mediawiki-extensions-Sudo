@@ -4,15 +4,26 @@
 			"Eleassar"
 		]
 	},
+	"sudo": "Prijava v račun drugega uporabnika",
+	"unsudo": "Vrnitev v vaš račun",
+	"sudo-desc": "Uporabnikom suda omogoča prijavo kot drugi uporabniki",
+	"sudo-personal-unsudo": "Vrnitev v vaš račun",
 	"sudo-form": "Prijava v:",
 	"sudo-user": "Uporabniško ime:",
 	"sudo-reason": "Razlog:",
 	"sudo-submit": "Prijava",
+	"sudo-unsudo": "{{GENDER:$3|Pozdravljeni}}, $1 , trenutno ste v svoj viki prijavljeni kot $2. Kliknite »{{int:sudo-unsudo-submit}}«, da se vrnete v svoj račun.",
+	"sudo-unsudo-submit": "Vrnitev",
+	"sudo-success": "{{GENDER:$3|Pozdravljeni}}, $1, zdaj ste prijavljeni v viki kot $2.",
 	"sudo-error": "Napaka ''sudo'': $1",
 	"sudo-error-sudo-invaliduser": "Neveljavno uporabniško ime",
 	"sudo-error-sudo-ip": "Ni se mogoče prijaviti kot IP-naslov",
 	"sudo-error-sudo-nonexistent": "Ta uporabnik ne obstaja",
 	"sudo-error-sudo-self": "''Sudo'' v vas ni mogoč",
 	"sudo-error-nosudo": "Zdi se, da niste prijavljeni v ''sudo''.",
-	"sudo-logpagename": "Dnevnik sudo"
+	"sudo-logpagename": "Dnevnik sudo",
+	"sudo-logpagetext": "To je dnevnik vseh uporab suda.",
+	"sudo-logentry": "se je prijavil_a v račun $2",
+	"right-sudo": "Prijava v račun drugega uporabnika",
+	"action-sudo": "prijavo v račun drugega uporabnika"
 }
