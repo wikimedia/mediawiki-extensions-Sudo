@@ -10,7 +10,7 @@
 	"descriptionmsg": "sudo-desc",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"AvailableRights": [
 		"sudo"
@@ -44,7 +44,7 @@
 	},
 	"Hooks": {
 		"UserLogoutComplete": "SudoHooks::onUserLogoutComplete",
-		"PersonalUrls": "SudoHooks::onPersonalUrls"
+		"SkinTemplateNavigation::Universal": "SudoHooks::onSkinTemplateNavigation__Universal"
 	},
 	"manifest_version": 1
 }

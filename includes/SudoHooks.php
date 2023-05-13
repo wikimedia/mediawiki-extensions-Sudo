@@ -1,5 +1,7 @@
 <?php
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 class SudoHooks {
 
 	/**
@@ -17,14 +19,14 @@ class SudoHooks {
 	}
 
 	/**
-	 * @param array &$personal_urls
-	 * @param Title &$title
+	 * @param SkinTemplate $sktemplate
+	 * @param array &$links
 	 */
-	public static function onPersonalUrls( &$personal_urls, &$title ) {
+	public static function onSkinTemplateNavigation__Universal( $sktemplate, &$links ) {
 		// Replace logout link with a unsudo link while in a sudo login.
 		if ( isset( $_SESSION['wsSudoId'] ) && $_SESSION['wsSudoId'] > 0 ) {
-			$personal_urls['logout'] = [
-				'text' => wfMessage( 'sudo-personal-unsudo' )->text(),
+			$links['user-menu']['logout'] = [
+				'text' => $sktemplate->msg( 'sudo-personal-unsudo' )->text(),
 				'href' => Skin::makeSpecialUrl( 'Sudo', 'mode=unsudo' ),
 				'active' => false
 			];
