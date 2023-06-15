@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Seipinne"
+			"Seipinne",
+			"Yupik"
 		]
 	},
 	"sudo-user": "Kevtteenommâ:",
-	"sudo-reason": "Suijâ:"
+	"sudo-reason": "Suijâ:",
+	"sudo-submit": "Čáládât siisâ"
 }
