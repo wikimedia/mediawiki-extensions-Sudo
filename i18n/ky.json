@@ -4,6 +4,7 @@
 			"Bosogo"
 		]
 	},
+	"sudo-user": "Колдонуучунун ысымы:",
 	"sudo-reason": "Себеп:",
 	"sudo-submit": "Кирүү"
 }
