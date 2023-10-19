@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"01miki10",
+			"Jack Phoenix",
 			"Nike",
 			"Valtlai",
 			"Valtlait",
@@ -24,7 +25,7 @@
 	"sudo-error-sudo-ip": "Ei voida kirjautua IP-osoitteeseen",
 	"sudo-error-sudo-nonexistent": "Käyttäjää ei ole olemassa",
 	"sudo-error-sudo-self": "Et voi käyttää sudoa omalle tunnuksellesi",
-	"sudo-error-nosudo": "Et näytä olevan kirjautuneena sudo-tilillä",
+	"sudo-error-nosudo": "Et näytä olevan kirjautuneena toisena käyttäjänä käyttäen sudoa.",
 	"sudo-logpagename": "Sudoloki",
 	"sudo-logpagetext": "Tämä on loki kaikista sudon käytöistä.",
 	"sudo-logentry": "kirjautui käyttäjänä $2",
