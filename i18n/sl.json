@@ -24,7 +24,7 @@
 	"sudo-error-nosudo": "Zdi se, da niste prijavljeni v ''sudo''.",
 	"sudo-logpagename": "Dnevnik sudo",
 	"sudo-logpagetext": "To je dnevnik vseh uporab suda.",
-	"sudo-logentry": "se je prijavil/a v račun $2",
+	"sudo-logentry": "se je prijavil_a v račun $2",
 	"right-sudo": "Prijava v račun drugega uporabnika",
 	"action-sudo": "prijavo v račun drugega uporabnika"
 }
