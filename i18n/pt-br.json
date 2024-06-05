@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"!Silent",
+			555,
 			"Luckas",
-			"Luckas Blade",
-			555
+			"Luckas Blade"
 		]
 	},
 	"sudo": "Autenticar-se na conta de outro usuário",
