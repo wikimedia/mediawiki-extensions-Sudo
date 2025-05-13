@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"sudo": "Mat engem anere Benotzerkont aloggen",
@@ -13,7 +14,7 @@
 	"sudo-submit": "Aloggen",
 	"sudo-unsudo-submit": "Zréck",
 	"sudo-error": "Sudo-Feeler: $1",
-	"sudo-error-sudo-invaliduser": "Ongëltege Benotzernumm",
+	"sudo-error-sudo-invaliduser": "Ongültege Benotzernumm",
 	"sudo-error-sudo-ip": "Däerf sech nat mat enger IP-Adress umellen",
 	"sudo-error-sudo-nonexistent": "Dee Benotzer gëtt et net.",
 	"sudo-logpagename": "Sudo-Logbuch",
