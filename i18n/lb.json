@@ -12,7 +12,7 @@
 	"sudo-user": "Benotzernumm:",
 	"sudo-reason": "Grond:",
 	"sudo-submit": "Aloggen",
-	"sudo-unsudo-submit": "Zréck",
+	"sudo-unsudo-submit": "Zeréck",
 	"sudo-error": "Sudo-Feeler: $1",
 	"sudo-error-sudo-invaliduser": "Ongültege Benotzernumm",
 	"sudo-error-sudo-ip": "Däerf sech nat mat enger IP-Adress umellen",
