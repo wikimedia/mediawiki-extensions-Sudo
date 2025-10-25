@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Skin\SkinComponentUtils;
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
 class SudoHooks {
@@ -27,7 +28,7 @@ class SudoHooks {
 		if ( isset( $_SESSION['wsSudoId'] ) && $_SESSION['wsSudoId'] > 0 ) {
 			$links['user-menu']['logout'] = [
 				'text' => $sktemplate->msg( 'sudo-personal-unsudo' )->text(),
-				'href' => Skin::makeSpecialUrl( 'Sudo', 'mode=unsudo' ),
+				'href' => SkinComponentUtils::makeSpecialUrl( 'Sudo', 'mode=unsudo' ),
 				'active' => false
 			];
 		}
