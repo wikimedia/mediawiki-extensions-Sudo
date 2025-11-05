@@ -129,7 +129,7 @@ class SpecialSudo extends SpecialPage {
 			}
 
 			$this->setHeaders();
-			$out->setPageTitle( $this->msg( 'unsudo' ) );
+			$out->setPageTitle( $this->msg( 'unsudo' )->escaped() );
 
 			$linkRenderer = $this->getLinkRenderer();
 
