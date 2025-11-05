@@ -1,8 +1,8 @@
 <?php
 
 use MediaWiki\Skin\SkinComponentUtils;
-// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 class SudoHooks {
 
 	/**
