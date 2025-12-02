@@ -5,8 +5,26 @@
 			"شاه زمان پټان"
 		]
 	},
+	"sudo": "د بل کارن گڼون ته ورننوتل",
+	"unsudo": "خپل گڼون ته راستنېدل",
+	"sudo-desc": "سودوېر کارنانو ته د نورو کارنانو په توگه د ننوتلو اجازه ورکوي",
+	"sudo-personal-unsudo": "خپل گڼون ته راستنېدل",
+	"sudo-form": "ته ورننوتل:",
 	"sudo-user": "کارن‌نوم:",
-	"sudo-reason": "سبب:",
+	"sudo-reason": "لامل:",
 	"sudo-submit": "ننوتل",
-	"sudo-error-sudo-invaliduser": "ناسم کارن-نوم"
+	"sudo-unsudo": "$1 {{GENDER:$3|ښه راغلاست}}، تاسو اوس ويکي ته د $2 په توگه ورننوتلي ياست. خپل گڼون ته د بېرته ستنېدلو لپاره په \"{{int:sudo-unsudo-submit}}\" کېکاږئ.",
+	"sudo-unsudo-submit": "بېرته ستنېدل",
+	"sudo-success": "$1 {{GENDER:$3|ښه راغلاست}}، تاسو اوس ويکي ته د $2 په توگه ورننوتلي ياست.",
+	"sudo-error": "سودو تېروتنه: $1",
+	"sudo-error-sudo-invaliduser": "ناسم کارن‌نوم",
+	"sudo-error-sudo-ip": "د وېبپتې په توگه نشي ورننوتلی",
+	"sudo-error-sudo-nonexistent": "دا کارن شتون نه لري",
+	"sudo-error-sudo-self": "ځان ته سودو نشئ کولای",
+	"sudo-error-nosudo": "داسې برېښي چې تاسو د سودو په کارولو سره د بل کارن په توگه ننوتي نه ياست.",
+	"sudo-logpagename": "سودو يادښت",
+	"sudo-logpagetext": "دا د سودو د ټولو کارونو يادښت دی.",
+	"sudo-logentry": "$2 گڼون ته ورننوتل",
+	"right-sudo": "د بل کارن گڼون ته ورننوتل",
+	"action-sudo": "د بل کارن گڼون ته ورننوتل"
 }
