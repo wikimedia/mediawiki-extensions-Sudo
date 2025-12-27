@@ -144,7 +144,7 @@ class SpecialSudo extends SpecialPage {
 					->rawParams( $linkRenderer->makeLink( $originalUser->getUserPage(), $originalUser->getName() ) )
 					->params( $originalUser->getName() )
 					->parse() .
-				Xml::submitButton( $this->msg( 'sudo-unsudo-submit' )->text() ) .
+				Html::submitButton( $this->msg( 'sudo-unsudo-submit' )->text(), [] ) .
 				Xml::closeElement( 'form' )
 			);
 		}
@@ -158,10 +158,24 @@ class SpecialSudo extends SpecialPage {
 			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			Xml::openElement( 'fieldset' ) .
 			Xml::element( 'legend', [], $this->msg( 'sudo-form' )->text() ) .
-			Xml::inputLabel( $this->msg( 'sudo-user' )->text(), 'target', 'sudo-user', 20, $this->target,
-				[ 'class' => 'mw-autocomplete-user' ] ) . ' ' .
-			Xml::inputLabel( $this->msg( 'sudo-reason' )->text(), 'reason', 'sudo-reason', 45, $this->reason ) . ' ' .
-			Xml::submitButton( $this->msg( 'sudo-submit' )->text() ) .
+			Html::label(
+				$this->msg( 'sudo-user' )->text(),
+				'sudo-user', [ 'class' => 'mw-autocomplete-user' ]
+			) . "\u{00A0}" . Html::input(
+				'target',
+				$this->target,
+				'text',
+				[ 'id' => 'sudo-user', 'size' => 20, 'class' => 'mw-autocomplete-user' ]
+			) . ' ' . Html::label(
+				$this->msg( 'sudo-reason' )->text(),
+				'sudo-reason'
+			) . "\u{00A0}" . Html::input(
+				'reason',
+				$this->reason,
+				'text',
+				[ 'size' => 45, 'id' => 'sudo-reason' ]
+			) . ' ' .
+			Html::submitButton( $this->msg( 'sudo-submit' )->text(), [] ) .
 			Xml::closeElement( 'fieldset' ) .
 			Xml::closeElement( 'form' ) . "\n"
 		);
