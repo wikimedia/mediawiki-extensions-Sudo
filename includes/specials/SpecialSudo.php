@@ -134,7 +134,7 @@ class SpecialSudo extends SpecialPage {
 			$linkRenderer = $this->getLinkRenderer();
 
 			$out->addHTML(
-				Xml::openElement( 'form', [ 'method' => 'post',
+				Html::openElement( 'form', [ 'method' => 'post',
 					'action' => $this->getPageTitle()->getFullURL( 'mode=unsudo' ) ] ) .
 				Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() )
 			);
@@ -145,7 +145,7 @@ class SpecialSudo extends SpecialPage {
 					->params( $originalUser->getName() )
 					->parse() .
 				Html::submitButton( $this->msg( 'sudo-unsudo-submit' )->text(), [] ) .
-				Xml::closeElement( 'form' )
+				Html::closeElement( 'form' )
 			);
 		}
 	}
@@ -153,11 +153,11 @@ class SpecialSudo extends SpecialPage {
 	function showSudoForm() {
 		$this->getOutput()->addModules( 'mediawiki.userSuggest' );
 		$this->getOutput()->addHTML(
-			Xml::openElement( 'form', [ 'method' => 'post',
+			Html::openElement( 'form', [ 'method' => 'post',
 				'action' => $this->getPageTitle()->getLocalURL() ] ) .
 			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
-			Xml::openElement( 'fieldset' ) .
-			Xml::element( 'legend', [], $this->msg( 'sudo-form' )->text() ) .
+			Html::openElement( 'fieldset' ) .
+			Html::element( 'legend', [], $this->msg( 'sudo-form' )->text() ) .
 			Html::label(
 				$this->msg( 'sudo-user' )->text(),
 				'sudo-user', [ 'class' => 'mw-autocomplete-user' ]
@@ -176,8 +176,8 @@ class SpecialSudo extends SpecialPage {
 				[ 'size' => 45, 'id' => 'sudo-reason' ]
 			) . ' ' .
 			Html::submitButton( $this->msg( 'sudo-submit' )->text(), [] ) .
-			Xml::closeElement( 'fieldset' ) .
-			Xml::closeElement( 'form' ) . "\n"
+			Html::closeElement( 'fieldset' ) .
+			Html::closeElement( 'form' ) . "\n"
 		);
 	}
 
@@ -193,9 +193,9 @@ class SpecialSudo extends SpecialPage {
 	 */
 	function showError( $error ) {
 		$out = $this->getOutput();
-		$out->addHTML( Xml::openElement( 'div', [ 'class' => 'sudo-error' ] ) );
+		$out->addHTML( Html::openElement( 'div', [ 'class' => 'sudo-error' ] ) );
 		$out->addWikiMsg( 'sudo-error', $this->msg( $error )->text() );
-		$out->addHTML( Xml::closeElement( 'div' ) );
+		$out->addHTML( Html::closeElement( 'div' ) );
 	}
 
 	function showErrors() {
