@@ -29,7 +29,7 @@ class SpecialSudo extends SpecialPage {
 	/** @var string */
 	protected $mode;
 
-	/** @var User */
+	/** @var string */
 	protected $target;
 
 	/** @var string */
