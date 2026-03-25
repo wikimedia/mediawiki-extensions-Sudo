@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"sudo": "Prijava na račun drugog korisnika",
@@ -16,8 +17,8 @@
 	"sudo-unsudo-submit": "Nazad",
 	"sudo-success": "{{GENDER:$3|Dobro došli}} $1. Sada ste prijavljeni na wiki kao $2.",
 	"sudo-error": "Sudo greška: $1",
-	"sudo-error-sudo-invaliduser": "Nevaljano korisničko ime",
-	"sudo-error-sudo-ip": "Ne mogu se prijaviti na IP adresu",
+	"sudo-error-sudo-invaliduser": "Neispravno korisničko ime",
+	"sudo-error-sudo-ip": "Nije moguće prijaviti se na IP adresu",
 	"sudo-error-sudo-nonexistent": "Korisnik ne postoji.",
 	"sudo-error-sudo-self": "Ne možete prijaviti samog sebe",
 	"right-sudo": "Prijavljivanje na račun drugog korisnika",
