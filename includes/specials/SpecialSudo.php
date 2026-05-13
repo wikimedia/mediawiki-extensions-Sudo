@@ -23,7 +23,7 @@
  */
 
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\User\UserNameUtils;
 
 class SpecialSudo extends SpecialPage {
 	/** @var string */
@@ -41,7 +41,9 @@ class SpecialSudo extends SpecialPage {
 	/**
 	 * Constructor -- set up the new special page
 	 */
-	public function __construct() {
+	public function __construct(
+		private readonly UserNameUtils $userNameUtils,
+	) {
 		parent::__construct( 'Sudo' );
 	}
 
@@ -217,8 +219,7 @@ class SpecialSudo extends SpecialPage {
 			return;
 		}
 
-		$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
-		$isIp = $userNameUtils->isIP( $u->getName() );
+		$isIp = $this->userNameUtils->isIP( $u->getName() );
 
 		if ( $isIp ) {
 			$this->addError( 'sudo-error-sudo-ip' );

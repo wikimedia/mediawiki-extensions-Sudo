@@ -16,7 +16,12 @@
 		"sudo"
 	],
 	"SpecialPages": {
-		"Sudo": "SpecialSudo"
+		"Sudo": {
+			"class": "SpecialSudo",
+			"services": [
+				"UserNameUtils"
+			]
+		}
 	},
 	"LogTypes": [
 		"sudo"
