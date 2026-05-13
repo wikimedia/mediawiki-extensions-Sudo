@@ -42,7 +42,12 @@ class SpecialSudo extends SpecialPage {
 	 * Constructor -- set up the new special page
 	 */
 	public function __construct() {
-		parent::__construct( 'Sudo', 'sudo' );
+		parent::__construct( 'Sudo' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'sudo';
 	}
 
 	public function doesWrites() {
