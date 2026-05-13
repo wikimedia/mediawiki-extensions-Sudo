@@ -217,14 +217,8 @@ class SpecialSudo extends SpecialPage {
 			return;
 		}
 
-		if ( method_exists( MediaWikiServices::class, 'getUserNameUtils' ) ) {
-			// MW 1.35+
-			$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
-			$isIp = $userNameUtils->isIP( $u->getName() );
-		} else {
-			// @phan-suppress-next-line PhanUndeclaredStaticMethod
-			$isIp = User::isIP( $u->getName() );
-		}
+		$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+		$isIp = $userNameUtils->isIP( $u->getName() );
 
 		if ( $isIp ) {
 			$this->addError( 'sudo-error-sudo-ip' );
