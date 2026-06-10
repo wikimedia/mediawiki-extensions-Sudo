@@ -17,7 +17,7 @@
 	"sudo-unsudo-submit": "Terug",
 	"sudo-success": "{{GENDER:$3|Welkom}} $1. U bent nu op de wiki aangemeld als $2.",
 	"sudo-error": "Sudo-fout: $1",
-	"sudo-error-sudo-invaliduser": "Ongeldige gebruikersnaam",
+	"sudo-error-sudo-invaliduser": "Onjuiste gebruikersnaam",
 	"sudo-error-sudo-ip": "Het is niet mogelijk om aan te melden als een anonieme gebruiker",
 	"sudo-error-sudo-nonexistent": "Die gebruiker bestaat niet",
 	"sudo-error-sudo-self": "Het is niet mogelijk een sudo naar uzelf uit te voeren",
